@@ -1,0 +1,5 @@
+objective,run,label,thresholds,iou_lofo,iou_at_0.50,gain
+overall IoU,baseline-seed2026,Baseline (seed 2026),0.4/0.4/0.4/0.4/0.4,0.81158,0.810349,0.001231
+overall IoU,roift-control-ff,"Fine-tune control, 15 ep",0.4/0.4/0.4/0.4/0.4,0.814899,0.813695,0.001204
+tiny IoU,baseline-seed2026,Baseline (seed 2026),0.5/0.4/0.4/0.3/0.3,0.809122,0.810349,-0.001227
+tiny IoU,roift-control-ff,"Fine-tune control, 15 ep",0.4/0.3/0.4/0.3/0.4,0.813632,0.813695,-6.3e-05

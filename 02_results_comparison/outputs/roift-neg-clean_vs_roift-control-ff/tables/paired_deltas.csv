@@ -1,0 +1,65 @@
+stratum,run,label,metric,n_frames,n_videos,reference,arm_value,delta,median,ci_low,ci_high,p,improved_pct,worsened_pct,verdict
+all tool frames,roift-neg-clean,ROI fine-tune + negatives 0.3,iou,4652,1294,0.813695,0.819022,0.005328,0.000463,0.003117,0.007777,1e-06,47.033534,41.44454,better
+all tool frames,roift-neg-clean,ROI fine-tune + negatives 0.3,recall,4652,1294,0.886761,0.897223,0.010462,0.000516,0.008128,0.01291,0.0,47.33448,38.198624,better
+all tool frames,roift-neg-clean,ROI fine-tune + negatives 0.3,precision,4652,1294,0.907571,0.902813,-0.004382,1.9e-05,-0.005969,-0.002974,0.000287,43.111691,42.807475,worse
+all tool frames,roift-neg-clean,ROI fine-tune + negatives 0.3,hd95,4652,1294,56.087071,57.217322,1.146033,0.0,-0.351437,2.684735,0.805487,45.610604,46.827466,no change
+size tiny,roift-neg-clean,ROI fine-tune + negatives 0.3,iou,600,463,0.649292,0.653616,0.004325,0.0,-0.005019,0.013793,0.754222,45.333333,42.166667,no change
+size tiny,roift-neg-clean,ROI fine-tune + negatives 0.3,recall,600,463,0.772227,0.784486,0.012259,0.000351,0.00173,0.022711,0.000645,47.166667,38.5,better
+size tiny,roift-neg-clean,ROI fine-tune + negatives 0.3,precision,600,463,0.812767,0.799797,-0.009187,0.0,-0.017526,-0.001678,0.095607,44.937833,45.470693,worse
+size tiny,roift-neg-clean,ROI fine-tune + negatives 0.3,hd95,600,463,77.518235,89.332336,11.290702,0.0,5.220455,17.640821,0.246689,47.424512,45.293073,worse
+size small,roift-neg-clean,ROI fine-tune + negatives 0.3,iou,919,663,0.783408,0.788216,0.004808,0.000196,-0.00089,0.01107,0.398669,46.354733,44.504897,no change
+size small,roift-neg-clean,ROI fine-tune + negatives 0.3,recall,919,663,0.876806,0.889563,0.012756,5.3e-05,0.007338,0.018819,0.001586,46.245919,42.219804,better
+size small,roift-neg-clean,ROI fine-tune + negatives 0.3,precision,919,663,0.883319,0.878574,-0.005772,-0.000435,-0.009585,-0.001602,0.001226,42.794279,47.194719,worse
+size small,roift-neg-clean,ROI fine-tune + negatives 0.3,hd95,919,663,70.468146,68.775546,-1.331142,0.0,-5.282171,2.717309,0.392304,47.854785,43.564356,no change
+size med,roift-neg-clean,ROI fine-tune + negatives 0.3,iou,2337,1148,0.851089,0.855416,0.004327,0.000535,0.002114,0.006665,0.000204,47.068892,41.506205,better
+size med,roift-neg-clean,ROI fine-tune + negatives 0.3,recall,2337,1148,0.913343,0.92163,0.008287,0.000481,0.006044,0.010647,0.0,46.598203,38.083012,better
+size med,roift-neg-clean,ROI fine-tune + negatives 0.3,precision,2337,1148,0.926186,0.922943,-0.003243,0.000152,-0.004571,-0.001966,0.132427,44.368308,41.627409,worse
+size med,roift-neg-clean,ROI fine-tune + negatives 0.3,hd95,2337,1148,48.710867,49.430688,0.719821,0.0,-0.963639,2.5148,0.670323,45.353319,46.295503,no change
+size large,roift-neg-clean,ROI fine-tune + negatives 0.3,iou,796,545,0.862797,0.872417,0.009621,0.000869,0.005936,0.013928,4e-06,48.994975,37.18593,better
+size large,roift-neg-clean,ROI fine-tune + negatives 0.3,recall,796,545,0.906546,0.919389,0.012843,0.001107,0.008889,0.017313,0.0,50.879397,33.668342,better
+size large,roift-neg-clean,ROI fine-tune + negatives 0.3,precision,796,545,0.948217,0.945419,-0.002734,5.2e-05,-0.004598,-0.001004,0.168858,38.490566,39.371069,worse
+size large,roift-neg-clean,ROI fine-tune + negatives 0.3,hd95,796,545,46.018212,43.773315,-1.953958,-0.099851,-5.136252,1.153237,0.095475,42.515723,53.207547,no change
+thin tools,roift-neg-clean,ROI fine-tune + negatives 0.3,iou,1163,709,0.716673,0.720646,0.003973,0.0,-0.001413,0.009686,0.188413,45.657782,43.422184,no change
+thin tools,roift-neg-clean,ROI fine-tune + negatives 0.3,recall,1163,709,0.826431,0.835916,0.009485,0.0,0.003613,0.01574,0.001076,45.915735,41.874463,better
+thin tools,roift-neg-clean,ROI fine-tune + negatives 0.3,precision,1163,709,0.847198,0.839713,-0.00543,0.000436,-0.010037,-0.000726,0.321971,47.471162,43.38953,worse
+thin tools,roift-neg-clean,ROI fine-tune + negatives 0.3,hd95,1163,709,70.607584,73.298362,2.219535,0.0,-1.677366,5.8011,0.429494,48.003549,44.720497,no change
+wide tools,roift-neg-clean,ROI fine-tune + negatives 0.3,iou,3489,1245,0.846035,0.851814,0.005779,0.00058,0.003421,0.008041,1e-06,47.492118,40.785325,better
+wide tools,roift-neg-clean,ROI fine-tune + negatives 0.3,recall,3489,1245,0.906872,0.917659,0.010788,0.000609,0.008351,0.01318,0.0,47.807395,36.973345,better
+wide tools,roift-neg-clean,ROI fine-tune + negatives 0.3,precision,3489,1245,0.927209,0.923399,-0.004042,-1.1e-05,-0.005328,-0.002825,0.000131,41.697842,42.618705,worse
+wide tools,roift-neg-clean,ROI fine-tune + negatives 0.3,hd95,3489,1245,51.363832,51.970992,0.797878,0.0,-0.927415,2.599561,0.473366,44.834532,47.510791,no change
+tiny or thin,roift-neg-clean,ROI fine-tune + negatives 0.3,iou,1282,772,0.721384,0.725642,0.004258,0.0,-0.001152,0.009788,0.264313,45.475819,43.213729,no change
+tiny or thin,roift-neg-clean,ROI fine-tune + negatives 0.3,recall,1282,772,0.828959,0.839398,0.010439,3.4e-05,0.004316,0.01651,0.000162,46.099844,41.263651,better
+tiny or thin,roift-neg-clean,ROI fine-tune + negatives 0.3,precision,1282,772,0.850034,0.842387,-0.005775,0.000324,-0.009825,-0.001514,0.136409,47.063556,43.925986,worse
+tiny or thin,roift-neg-clean,ROI fine-tune + negatives 0.3,hd95,1282,772,69.127518,73.364127,3.814529,0.0,0.21635,7.570443,0.22071,47.868061,44.247788,worse
+scene Smoke,roift-neg-clean,ROI fine-tune + negatives 0.3,iou,43,43,0.765243,0.777821,0.012578,0.002578,-0.013757,0.042081,0.256689,55.813953,39.534884,no change
+scene Smoke,roift-neg-clean,ROI fine-tune + negatives 0.3,recall,43,43,0.862119,0.881151,0.019032,0.001895,-0.011883,0.05464,0.17224,51.162791,37.209302,no change
+scene Smoke,roift-neg-clean,ROI fine-tune + negatives 0.3,precision,43,43,0.890269,0.883615,-0.006654,-0.001769,-0.024041,0.006513,0.118621,34.883721,53.488372,no change
+scene Smoke,roift-neg-clean,ROI fine-tune + negatives 0.3,hd95,43,43,56.57406,77.605606,21.031546,-0.094181,-0.543962,50.196559,0.730959,46.511628,51.162791,no change
+scene Blood,roift-neg-clean,ROI fine-tune + negatives 0.3,iou,360,280,0.806051,0.807143,0.001092,0.000817,-0.005918,0.008448,0.032305,48.611111,38.611111,no change
+scene Blood,roift-neg-clean,ROI fine-tune + negatives 0.3,recall,360,280,0.878685,0.881776,0.00309,0.000524,-0.004408,0.010263,0.004985,47.222222,41.111111,no change
+scene Blood,roift-neg-clean,ROI fine-tune + negatives 0.3,precision,360,280,0.911279,0.909928,-0.001352,-7.7e-05,-0.006139,0.003604,0.36185,41.525424,44.067797,no change
+scene Blood,roift-neg-clean,ROI fine-tune + negatives 0.3,hd95,360,280,55.03409,56.757406,1.723317,0.0,-3.116383,7.146923,0.755941,46.610169,47.175141,no change
+scene Motion Blur,roift-neg-clean,ROI fine-tune + negatives 0.3,iou,359,307,0.756613,0.772543,0.01593,0.001606,0.006263,0.025341,0.011374,52.367688,38.16156,better
+scene Motion Blur,roift-neg-clean,ROI fine-tune + negatives 0.3,recall,359,307,0.839452,0.863048,0.023596,0.001534,0.013267,0.035327,3e-06,52.367688,34.261838,better
+scene Motion Blur,roift-neg-clean,ROI fine-tune + negatives 0.3,precision,359,307,0.887069,0.884479,-0.002272,3.3e-05,-0.006776,0.002434,0.429798,44.507042,44.225352,no change
+scene Motion Blur,roift-neg-clean,ROI fine-tune + negatives 0.3,hd95,359,307,76.829852,70.559909,-6.014232,-0.048555,-12.030262,0.311502,0.040967,43.098592,52.112676,no change
+scene Underexposure,roift-neg-clean,ROI fine-tune + negatives 0.3,iou,61,54,0.738614,0.743757,0.005143,0.004338,-0.012776,0.020463,0.027211,57.377049,29.508197,no change
+scene Underexposure,roift-neg-clean,ROI fine-tune + negatives 0.3,recall,61,54,0.838367,0.872484,0.034117,0.003729,0.009948,0.066535,0.002363,65.57377,27.868852,better
+scene Underexposure,roift-neg-clean,ROI fine-tune + negatives 0.3,precision,61,54,0.864294,0.84666,-0.017635,-0.001466,-0.036781,-0.002249,0.299277,38.333333,55.0,worse
+scene Underexposure,roift-neg-clean,ROI fine-tune + negatives 0.3,hd95,61,54,68.221625,72.446524,4.224899,-0.048015,-2.967175,11.806661,0.634415,46.666667,51.666667,no change
+scene Overexposure,roift-neg-clean,ROI fine-tune + negatives 0.3,iou,82,73,0.761885,0.76342,0.001534,0.000351,-0.020775,0.022877,0.666608,47.560976,43.902439,no change
+scene Overexposure,roift-neg-clean,ROI fine-tune + negatives 0.3,recall,82,73,0.84256,0.85013,0.007571,0.001079,-0.019201,0.030978,0.134539,50.0,40.243902,no change
+scene Overexposure,roift-neg-clean,ROI fine-tune + negatives 0.3,precision,82,73,0.884909,0.870652,-0.014258,-0.000347,-0.030405,-0.000278,0.154986,39.506173,46.91358,worse
+scene Overexposure,roift-neg-clean,ROI fine-tune + negatives 0.3,hd95,82,73,76.904834,72.468667,-4.436167,0.0,-16.755216,6.889187,0.41511,45.679012,49.382716,no change
+scene any degradation,roift-neg-clean,ROI fine-tune + negatives 0.3,iou,850,618,0.778693,0.786845,0.008152,0.001043,0.002209,0.01421,0.000554,50.117647,38.823529,better
+scene any degradation,roift-neg-clean,ROI fine-tune + negatives 0.3,recall,850,618,0.859443,0.872526,0.013084,0.000928,0.006766,0.020007,0.0,49.529412,38.470588,better
+scene any degradation,roift-neg-clean,ROI fine-tune + negatives 0.3,precision,850,618,0.89524,0.891991,-0.003124,-3.3e-05,-0.006427,0.000189,0.115954,42.619048,44.880952,no change
+scene any degradation,roift-neg-clean,ROI fine-tune + negatives 0.3,hd95,850,618,67.16304,65.674875,-1.368588,0.0,-5.210296,2.406183,0.21612,45.47619,49.285714,no change
+scene clean,roift-neg-clean,ROI fine-tune + negatives 0.3,iou,2587,1201,0.819135,0.824329,0.005193,0.000306,0.002138,0.008334,0.005746,45.844608,41.979126,better
+scene clean,roift-neg-clean,ROI fine-tune + negatives 0.3,recall,2587,1201,0.892968,0.90313,0.010162,0.000348,0.007106,0.013275,0.0,45.960572,39.041361,better
+scene clean,roift-neg-clean,ROI fine-tune + negatives 0.3,precision,2587,1201,0.90699,0.902863,-0.004153,0.000116,-0.006271,-0.002166,0.041545,43.70602,41.868647,worse
+scene clean,roift-neg-clean,ROI fine-tune + negatives 0.3,hd95,2587,1201,53.218675,55.559767,2.441564,0.0,0.53747,4.52867,0.311825,46.559812,45.621579,worse
+tool-free frames,roift-neg-clean,ROI fine-tune + negatives 0.3,iou,326,274,0.696319,0.659509,-0.03681,0.0,-0.069767,-0.005832,5e-05,2.760736,6.441718,worse
+tool-free frames,roift-neg-clean,ROI fine-tune + negatives 0.3,recall,326,274,,,,,,,,,,n/a
+tool-free frames,roift-neg-clean,ROI fine-tune + negatives 0.3,precision,326,274,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,no change
+tool-free frames,roift-neg-clean,ROI fine-tune + negatives 0.3,hd95,326,274,,,,,,,,,,n/a

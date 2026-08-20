@@ -1,0 +1,4 @@
+stratum,run,label,metric,matched_threshold,n_frames,mean,median,improved_pct,worsened_pct,p
+all tool frames,ft-long-control,"Fine-tune control, 50 ep",recall,0.509963,4652,-0.000203,-0.001907,23.215821,60.296647,0.0
+size tiny,ft-long-control,"Fine-tune control, 50 ep",recall,0.524603,600,-0.004267,-0.003511,23.666667,65.666667,0.0
+thin tools,ft-long-control,"Fine-tune control, 50 ep",recall,0.512146,1163,-0.001806,-0.002503,25.27945,61.650903,0.0

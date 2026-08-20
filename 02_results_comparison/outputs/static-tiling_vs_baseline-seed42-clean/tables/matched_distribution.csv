@@ -1,0 +1,4 @@
+stratum,run,label,metric,matched_threshold,n_frames,mean,median,improved_pct,worsened_pct,p
+all tool frames,static-tiling,Static tiling,recall,0.563828,4652,-0.011485,-0.009179,31.513328,64.230439,0.0
+size tiny,static-tiling,Static tiling,recall,0.583442,600,-0.008268,-0.013378,30.333333,65.0,0.0
+thin tools,static-tiling,Static tiling,recall,0.575124,1163,-0.013564,-0.013845,30.696475,66.122098,0.0

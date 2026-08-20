@@ -1,0 +1,5 @@
+objective,run,label,thresholds,iou_lofo,iou_at_0.50,gain
+overall IoU,baseline-seed2026,Baseline (seed 2026),0.4/0.4/0.4/0.4/0.4,0.81158,0.810349,0.001231
+overall IoU,cascade-redetect-clean,Cascade on baseline weights,0.5/0.5/0.5/0.5/0.5,0.812234,0.812234,0.0
+tiny IoU,baseline-seed2026,Baseline (seed 2026),0.5/0.4/0.4/0.3/0.3,0.809122,0.810349,-0.001227
+tiny IoU,cascade-redetect-clean,Cascade on baseline weights,0.55/0.5/0.5/0.5/0.5,0.811676,0.812234,-0.000558

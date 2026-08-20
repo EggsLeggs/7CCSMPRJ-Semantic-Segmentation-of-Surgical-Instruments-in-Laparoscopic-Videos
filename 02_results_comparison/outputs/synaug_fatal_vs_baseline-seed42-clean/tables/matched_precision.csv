@@ -1,0 +1,31 @@
+convention,stratum,run,label,n_frames,target_precision,matched_threshold,reference_recall,arm_recall_matched,delta_recall_matched,delta_recall_at_0.50,out_of_grid
+per-frame,all tool frames,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",4652,0.901515,0.489849,0.888456,0.891967,0.003511,0.002077,False
+per-frame,size tiny,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",600,0.79139,0.434331,0.78,0.79498,0.01498,0.001002,False
+per-frame,size small,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",919,0.879945,0.518175,0.884734,0.882614,-0.00212,0.001383,False
+per-frame,size med,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",2337,0.921759,0.498912,0.912271,0.914809,0.002539,0.002401,False
+per-frame,size large,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",796,0.94476,0.494955,0.904584,0.90788,0.003296,0.00274,False
+per-frame,thin tools,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",1163,0.83983,0.471955,0.833709,0.840789,0.00708,0.0017,False
+per-frame,wide tools,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",3489,0.921539,0.499257,0.906705,0.909,0.002296,0.002203,False
+per-frame,tiny or thin,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",1282,0.840568,0.468581,0.835496,0.844272,0.008775,0.002848,False
+per-frame,scene Smoke,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",43,0.875564,0.442615,0.879004,0.875292,-0.003712,-0.01104,False
+per-frame,scene Blood,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",360,0.900485,0.479334,0.879418,0.88682,0.007401,0.004232,False
+per-frame,scene Motion Blur,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",359,0.88249,0.536968,0.844804,0.845595,0.000792,0.00797,False
+per-frame,scene Underexposure,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",61,0.867844,0.505094,0.843001,0.85506,0.012059,0.013209,False
+per-frame,scene Overexposure,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",82,0.878892,0.528777,0.845916,0.850268,0.004352,0.009772,False
+per-frame,scene any degradation,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",850,0.888223,0.506028,0.861577,0.868145,0.006568,0.007718,False
+per-frame,scene clean,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",2587,0.901688,0.484763,0.892653,0.897131,0.004478,0.002402,False
+pooled,all tool frames,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",4652,0.91009,0.50442,0.90186,0.904346,0.002486,0.003154,False
+pooled,size tiny,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",600,0.714459,0.449144,0.826454,0.835624,0.00917,-0.000712,False
+pooled,size small,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",919,0.844001,0.555406,0.885693,0.876413,-0.009279,0.001351,False
+pooled,size med,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",2337,0.914296,0.498532,0.912692,0.915169,0.002477,0.002293,False
+pooled,size large,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",796,0.944877,0.50551,0.896684,0.901256,0.004572,0.0053,False
+pooled,thin tools,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",1163,0.827062,0.507596,0.873757,0.873961,0.000204,0.001797,False
+pooled,wide tools,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",3489,0.921875,0.503777,0.905569,0.90836,0.002791,0.003334,False
+pooled,tiny or thin,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",1282,0.824599,0.514752,0.872499,0.872089,-0.00041,0.002662,False
+pooled,scene Smoke,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",43,0.873838,0.443503,0.879444,0.873549,-0.005895,-0.01313,False
+pooled,scene Blood,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",360,0.911434,0.482572,0.89926,0.901607,0.002347,-6e-05,False
+pooled,scene Motion Blur,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",359,0.882443,0.569308,0.846275,0.847629,0.001354,0.014052,False
+pooled,scene Underexposure,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",61,0.87087,0.504754,0.851798,0.857747,0.005948,0.00703,False
+pooled,scene Overexposure,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",82,0.897702,0.576762,0.875977,0.86313,-0.012848,0.00078,False
+pooled,scene any degradation,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",850,0.894572,0.534027,0.874286,0.87537,0.001084,0.007031,False
+pooled,scene clean,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",2587,0.909921,0.493813,0.906564,0.912603,0.00604,0.005295,False

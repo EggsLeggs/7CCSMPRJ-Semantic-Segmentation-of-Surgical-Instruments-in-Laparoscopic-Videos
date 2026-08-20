@@ -1,0 +1,3 @@
+run,"lead-in seconds, median","tracked frames, median",frames with a lock loss pct,template re-inits pct,full redetections pct,zoom capped pct,"regions per frame, mean"
+Cascade on baseline weights,5.0,60.0,0.602652,1.486541,1.888309,3.836882,1.182202
+Cascade on ROI-tuned weights,5.0,60.0,0.703094,1.466452,1.928485,3.676175,1.198272

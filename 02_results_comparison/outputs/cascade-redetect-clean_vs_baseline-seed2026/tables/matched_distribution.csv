@@ -1,0 +1,4 @@
+stratum,run,label,metric,matched_threshold,n_frames,mean,median,improved_pct,worsened_pct,p
+all tool frames,cascade-redetect-clean,Cascade on baseline weights,recall,0.585524,4652,-6e-06,-0.006155,19.411006,74.763543,0.0
+size tiny,cascade-redetect-clean,Cascade on baseline weights,recall,0.624219,600,0.007491,-0.008879,21.166667,69.833333,0.0
+thin tools,cascade-redetect-clean,Cascade on baseline weights,recall,0.607904,1163,0.003981,-0.009478,22.098022,71.539123,0.0

@@ -1,0 +1,4 @@
+stratum,run,label,metric,matched_threshold,n_frames,mean,median,improved_pct,worsened_pct,p
+all tool frames,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",recall,0.489312,4652,-0.000866,0.000736,47.979364,37.145314,0.0
+size tiny,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",recall,0.476051,600,0.003514,0.001363,51.333333,33.333333,1.3e-05
+thin tools,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",recall,0.487121,1163,0.001286,0.001254,51.676698,36.199484,3.9e-05

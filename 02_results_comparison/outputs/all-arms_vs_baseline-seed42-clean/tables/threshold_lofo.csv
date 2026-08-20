@@ -1,0 +1,15 @@
+objective,run,label,thresholds,iou_lofo,iou_at_0.50,gain
+overall IoU,baseline-seed42-clean,Baseline (seed 42),0.4/0.4/0.4/0.4/0.4,0.811231,0.810614,0.000617
+overall IoU,tversky-rescore-hi,BCE-Tversky (grid to 0.95),0.7/0.7/0.7/0.7/0.7,0.81094,0.809838,0.001102
+overall IoU,synaug-fixed,"Synthetic aug, additive",0.4/0.4/0.4/0.4/0.4,0.813347,0.812343,0.001005
+overall IoU,static-tiling,Static tiling,0.4/0.4/0.4/0.4/0.4,0.806996,0.80593,0.001065
+overall IoU,cascade-redetect-clean,Cascade on baseline weights,0.5/0.5/0.5/0.5/0.5,0.812234,0.812234,0.0
+overall IoU,roift-control-ff,"Fine-tune control, 15 ep",0.4/0.4/0.4/0.4/0.4,0.814899,0.813695,0.001204
+overall IoU,roift-long,"ROI fine-tune, 50 ep",0.4/0.4/0.4/0.4/0.4,0.820715,0.819626,0.001089
+tiny IoU,baseline-seed42-clean,Baseline (seed 42),0.5/0.4/0.5/0.4/0.4,0.810286,0.810614,-0.000328
+tiny IoU,tversky-rescore-hi,BCE-Tversky (grid to 0.95),0.7/0.65/0.7/0.65/0.7,0.81092,0.809838,0.001082
+tiny IoU,synaug-fixed,"Synthetic aug, additive",0.5/0.4/0.5/0.4/0.5,0.812303,0.812343,-3.9e-05
+tiny IoU,static-tiling,Static tiling,0.5/0.4/0.5/0.5/0.5,0.805875,0.80593,-5.5e-05
+tiny IoU,cascade-redetect-clean,Cascade on baseline weights,0.55/0.5/0.5/0.5/0.5,0.811676,0.812234,-0.000558
+tiny IoU,roift-control-ff,"Fine-tune control, 15 ep",0.4/0.3/0.4/0.3/0.4,0.813632,0.813695,-6.3e-05
+tiny IoU,roift-long,"ROI fine-tune, 50 ep",0.5/0.4/0.4/0.4/0.4,0.81963,0.819626,4e-06

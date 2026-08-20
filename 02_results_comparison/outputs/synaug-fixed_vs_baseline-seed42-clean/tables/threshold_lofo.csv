@@ -1,0 +1,5 @@
+objective,run,label,thresholds,iou_lofo,iou_at_0.50,gain
+overall IoU,baseline-seed42-clean,Baseline (seed 42),0.4/0.4/0.4/0.4/0.4,0.811231,0.810614,0.000617
+overall IoU,synaug-fixed,"Synthetic aug, additive",0.4/0.4/0.4/0.4/0.4,0.813347,0.812343,0.001005
+tiny IoU,baseline-seed42-clean,Baseline (seed 42),0.5/0.4/0.5/0.4/0.4,0.810286,0.810614,-0.000328
+tiny IoU,synaug-fixed,"Synthetic aug, additive",0.5/0.4/0.5/0.4/0.5,0.812303,0.812343,-3.9e-05

@@ -1,0 +1,65 @@
+stratum,run,label,metric,n_frames,n_videos,reference,arm_value,delta,median,ci_low,ci_high,p,improved_pct,worsened_pct,verdict
+all tool frames,roift-long,"ROI fine-tune, 50 ep",iou,4652,1294,0.814375,0.819626,0.005251,0.000808,0.002691,0.008033,0.0,49.312124,41.401548,better
+all tool frames,roift-long,"ROI fine-tune, 50 ep",recall,4652,1294,0.887937,0.898784,0.010847,0.002079,0.008352,0.013484,0.0,56.212382,31.212382,better
+all tool frames,roift-long,"ROI fine-tune, 50 ep",precision,4652,1294,0.906522,0.902141,-0.004435,-0.000971,-0.006193,-0.002702,0.0,36.64205,49.869679,worse
+all tool frames,roift-long,"ROI fine-tune, 50 ep",hd95,4652,1294,55.849489,57.24608,1.569971,0.0,0.044604,3.127159,0.605264,47.154648,46.133797,worse
+size tiny,roift-long,"ROI fine-tune, 50 ep",iou,600,463,0.649776,0.651608,0.001833,0.0,-0.010062,0.01366,0.507593,43.5,45.166667,no change
+size tiny,roift-long,"ROI fine-tune, 50 ep",recall,600,463,0.773046,0.789149,0.016103,0.002292,0.00518,0.027428,0.0,54.333333,33.5,better
+size tiny,roift-long,"ROI fine-tune, 50 ep",precision,600,463,0.807951,0.793695,-0.013716,-0.002247,-0.024223,-0.003957,1e-06,39.253996,52.930728,worse
+size tiny,roift-long,"ROI fine-tune, 50 ep",hd95,600,463,78.952448,87.546606,9.305793,0.0,2.480464,16.043255,0.034062,48.845471,43.872114,worse
+size small,roift-long,"ROI fine-tune, 50 ep",iou,919,663,0.782096,0.789536,0.00744,0.00036,0.000764,0.014414,0.252413,47.769314,44.069641,better
+size small,roift-long,"ROI fine-tune, 50 ep",recall,919,663,0.877138,0.890074,0.012936,0.001542,0.006519,0.019949,0.0,51.577802,36.01741,better
+size small,roift-long,"ROI fine-tune, 50 ep",precision,919,663,0.88167,0.879995,-0.002723,-0.00096,-0.007174,0.001579,0.000939,39.67033,49.89011,no change
+size small,roift-long,"ROI fine-tune, 50 ep",hd95,919,663,70.330573,68.817624,-0.906689,0.0,-5.37042,3.43086,0.065351,48.791209,42.967033,no change
+size med,roift-long,"ROI fine-tune, 50 ep",iou,2337,1148,0.851825,0.855879,0.004054,0.000879,0.001648,0.006458,2e-05,49.465126,41.634574,better
+size med,roift-long,"ROI fine-tune, 50 ep",recall,2337,1148,0.91439,0.922513,0.008123,0.002094,0.005813,0.010457,0.0,56.996149,30.765939,better
+size med,roift-long,"ROI fine-tune, 50 ep",precision,2337,1148,0.925942,0.92256,-0.003416,-0.000997,-0.00495,-0.001884,0.0,35.546039,49.978587,worse
+size med,roift-long,"ROI fine-tune, 50 ep",hd95,2337,1148,48.367826,49.830804,1.463587,0.0,-0.533037,3.471695,0.606711,46.638116,46.20985,no change
+size large,roift-long,"ROI fine-tune, 50 ep",iou,796,545,0.86576,0.874575,0.008814,0.001845,0.0046,0.013493,0.0,55.025126,34.798995,better
+size large,roift-long,"ROI fine-tune, 50 ep",recall,796,545,0.909345,0.921815,0.01247,0.002452,0.008238,0.01729,0.0,60.678392,25.251256,better
+size large,roift-long,"ROI fine-tune, 50 ep",precision,796,545,0.948365,0.94555,-0.002816,-0.000704,-0.004681,-0.001064,1.3e-05,34.547739,47.361809,worse
+size large,roift-long,"ROI fine-tune, 50 ep",hd95,796,545,44.719408,43.961362,-0.758046,-0.057694,-3.768123,2.190139,0.126067,45.603015,51.130653,no change
+thin tools,roift-long,"ROI fine-tune, 50 ep",iou,1163,709,0.71716,0.721116,0.003956,0.0,-0.002626,0.010903,0.46006,46.087704,44.797936,no change
+thin tools,roift-long,"ROI fine-tune, 50 ep",recall,1163,709,0.826933,0.838127,0.011194,0.002228,0.004791,0.01782,0.0,54.428203,35.16767,better
+thin tools,roift-long,"ROI fine-tune, 50 ep",precision,1163,709,0.845506,0.839147,-0.005894,-0.001398,-0.011355,-0.00074,9e-06,40.159574,51.507092,worse
+thin tools,roift-long,"ROI fine-tune, 50 ep",hd95,1163,709,70.102146,72.83707,3.011977,0.0,-0.749995,6.85532,0.090399,49.024823,43.617021,no change
+wide tools,roift-long,"ROI fine-tune, 50 ep",iou,3489,1245,0.84678,0.852463,0.005683,0.001089,0.003072,0.008267,0.0,50.38693,40.269418,better
+wide tools,roift-long,"ROI fine-tune, 50 ep",recall,3489,1245,0.908272,0.919003,0.010731,0.002034,0.008179,0.013364,0.0,56.807108,29.893952,better
+wide tools,roift-long,"ROI fine-tune, 50 ep",precision,3489,1245,0.926399,0.922723,-0.003961,-0.000891,-0.00541,-0.002511,0.0,35.500575,49.33832,worse
+wide tools,roift-long,"ROI fine-tune, 50 ep",hd95,3489,1245,51.206516,52.152127,1.102024,0.0,-0.630491,2.878289,0.740888,46.547756,46.950518,no change
+tiny or thin,roift-long,"ROI fine-tune, 50 ep",iou,1282,772,0.722274,0.725656,0.003382,0.0,-0.002795,0.009372,0.663919,46.177847,44.773791,no change
+tiny or thin,roift-long,"ROI fine-tune, 50 ep",recall,1282,772,0.830057,0.841743,0.011686,0.002098,0.005431,0.017693,0.0,54.368175,35.023401,better
+tiny or thin,roift-long,"ROI fine-tune, 50 ep",precision,1282,772,0.847976,0.841106,-0.006443,-0.001274,-0.011556,-0.00148,1e-06,40.353698,51.045016,worse
+tiny or thin,roift-long,"ROI fine-tune, 50 ep",hd95,1282,772,68.932221,72.529555,3.85103,0.0,0.275295,7.491472,0.035219,49.196141,43.40836,worse
+scene Smoke,roift-long,"ROI fine-tune, 50 ep",iou,43,43,0.773159,0.785149,0.011991,0.00016,-0.017316,0.047315,0.706477,44.186047,46.511628,no change
+scene Smoke,roift-long,"ROI fine-tune, 50 ep",recall,43,43,0.870445,0.881709,0.011264,0.003101,-0.017783,0.047547,0.146934,55.813953,41.860465,no change
+scene Smoke,roift-long,"ROI fine-tune, 50 ep",precision,43,43,0.890305,0.891503,0.001199,-0.000639,-0.009023,0.014007,0.45429,39.534884,48.837209,no change
+scene Smoke,roift-long,"ROI fine-tune, 50 ep",hd95,43,43,55.449527,73.813919,18.364392,0.11471,-3.315635,47.457105,0.569413,55.813953,41.860465,no change
+scene Blood,roift-long,"ROI fine-tune, 50 ep",iou,360,280,0.806091,0.813268,0.007177,0.00085,0.000301,0.0146,0.087583,48.888889,42.222222,better
+scene Blood,roift-long,"ROI fine-tune, 50 ep",recall,360,280,0.879847,0.890817,0.01097,0.002599,0.005119,0.018283,0.0,57.222222,30.833333,better
+scene Blood,roift-long,"ROI fine-tune, 50 ep",precision,360,280,0.91014,0.906313,-0.003827,-0.001259,-0.009213,0.001327,0.003887,36.723164,51.977401,no change
+scene Blood,roift-long,"ROI fine-tune, 50 ep",hd95,360,280,56.964812,55.27875,-1.686062,0.0,-6.655401,3.489211,0.657913,48.587571,45.762712,no change
+scene Motion Blur,roift-long,"ROI fine-tune, 50 ep",iou,359,307,0.758529,0.772259,0.01373,0.001932,0.002613,0.024056,0.002149,53.481894,38.997214,better
+scene Motion Blur,roift-long,"ROI fine-tune, 50 ep",recall,359,307,0.845429,0.863866,0.018437,0.004005,0.006554,0.029769,0.0,61.83844,27.29805,better
+scene Motion Blur,roift-long,"ROI fine-tune, 50 ep",precision,359,307,0.884361,0.886583,-0.000162,-0.001387,-0.005009,0.005085,0.00283,38.526912,51.84136,no change
+scene Motion Blur,roift-long,"ROI fine-tune, 50 ep",hd95,359,307,75.739721,72.844324,-1.827499,0.0,-8.680276,5.005128,0.333248,47.025496,49.291785,no change
+scene Underexposure,roift-long,"ROI fine-tune, 50 ep",iou,61,54,0.748532,0.742989,-0.005542,0.002848,-0.024343,0.007846,0.611488,50.819672,42.622951,no change
+scene Underexposure,roift-long,"ROI fine-tune, 50 ep",recall,61,54,0.856558,0.865997,0.009439,0.001035,-0.003236,0.025271,0.244775,50.819672,39.344262,no change
+scene Underexposure,roift-long,"ROI fine-tune, 50 ep",precision,61,54,0.863568,0.853509,-0.010058,0.000498,-0.027706,0.001105,0.796672,48.333333,43.333333,no change
+scene Underexposure,roift-long,"ROI fine-tune, 50 ep",hd95,61,54,63.178749,82.77843,19.599682,0.082522,1.911128,40.306035,0.565829,51.666667,48.333333,worse
+scene Overexposure,roift-long,"ROI fine-tune, 50 ep",iou,82,73,0.765567,0.776918,0.011351,0.002851,-0.00858,0.035045,0.319347,52.439024,40.243902,no change
+scene Overexposure,roift-long,"ROI fine-tune, 50 ep",recall,82,73,0.849623,0.872707,0.023084,0.002945,0.001013,0.048966,0.003897,58.536585,28.04878,better
+scene Overexposure,roift-long,"ROI fine-tune, 50 ep",precision,82,73,0.885779,0.869202,-0.016577,-0.002242,-0.033031,-0.001,0.035661,34.567901,54.320988,worse
+scene Overexposure,roift-long,"ROI fine-tune, 50 ep",hd95,82,73,71.385605,71.378847,-0.006758,-0.162278,-12.880033,10.943512,0.784334,44.444444,53.08642,no change
+scene any degradation,roift-long,"ROI fine-tune, 50 ep",iou,850,618,0.780497,0.790466,0.009968,0.001513,0.003876,0.01639,0.000476,51.294118,40.705882,better
+scene any degradation,roift-long,"ROI fine-tune, 50 ep",recall,850,618,0.863432,0.877991,0.01456,0.003038,0.008155,0.021341,0.0,58.352941,30.588235,better
+scene any degradation,roift-long,"ROI fine-tune, 50 ep",precision,850,618,0.894084,0.892147,-0.002958,-0.00115,-0.006585,0.000636,5.8e-05,38.782816,50.954654,no change
+scene any degradation,roift-long,"ROI fine-tune, 50 ep",hd95,850,618,66.678953,66.105013,-0.110515,0.0,-4.037793,3.992512,0.379304,48.090692,47.732697,no change
+scene clean,roift-long,"ROI fine-tune, 50 ep",iou,2587,1201,0.820658,0.824189,0.003532,0.000639,0.000237,0.006918,0.002819,48.279861,41.785852,better
+scene clean,roift-long,"ROI fine-tune, 50 ep",recall,2587,1201,0.894355,0.903878,0.009523,0.001872,0.006302,0.012817,0.0,55.546966,31.465017,better
+scene clean,roift-long,"ROI fine-tune, 50 ep",precision,2587,1201,0.906477,0.902191,-0.004398,-0.000941,-0.006894,-0.002166,0.0,36.938696,49.629051,worse
+scene clean,roift-long,"ROI fine-tune, 50 ep",hd95,2587,1201,53.039263,54.726992,1.787791,0.0,-0.296785,3.815653,0.099426,47.5205,45.021476,no change
+tool-free frames,roift-long,"ROI fine-tune, 50 ep",iou,326,274,0.680982,0.653374,-0.027607,0.0,-0.063638,0.009317,0.026967,3.98773,6.748466,no change
+tool-free frames,roift-long,"ROI fine-tune, 50 ep",recall,326,274,,,,,,,,,,n/a
+tool-free frames,roift-long,"ROI fine-tune, 50 ep",precision,326,274,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,no change
+tool-free frames,roift-long,"ROI fine-tune, 50 ep",hd95,326,274,,,,,,,,,,n/a

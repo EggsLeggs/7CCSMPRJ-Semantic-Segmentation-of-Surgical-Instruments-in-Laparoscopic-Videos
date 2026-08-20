@@ -1,0 +1,385 @@
+stratum,run,label,metric,n_frames,n_videos,reference,arm_value,delta,median,ci_low,ci_high,p,improved_pct,worsened_pct,verdict
+all tool frames,tversky-rescore-hi,BCE-Tversky (grid to 0.95),iou,4652,1294,0.810614,0.809838,-0.000776,-0.000894,-0.004183,0.00265,0.057246,46.216681,49.785039,no change
+all tool frames,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,4652,1294,0.888456,0.909436,0.02098,0.012907,0.017492,0.024322,0.0,77.429063,18.766122,better
+all tool frames,tversky-rescore-hi,BCE-Tversky (grid to 0.95),precision,4652,1294,0.901515,0.881751,-0.02093,-0.013644,-0.023397,-0.018322,0.0,19.921449,77.067423,worse
+all tool frames,tversky-rescore-hi,BCE-Tversky (grid to 0.95),hd95,4652,1294,59.335811,60.117672,1.174828,0.303454,-1.108014,3.302344,0.000124,52.563823,44.970543,no change
+all tool frames,synaug-fixed,"Synthetic aug, additive",iou,4652,1294,0.810614,0.812343,0.001729,0.000225,-0.00158,0.004838,0.06243,48.516767,46.926053,no change
+all tool frames,synaug-fixed,"Synthetic aug, additive",recall,4652,1294,0.888456,0.887874,-0.000581,-0.000593,-0.003985,0.002652,0.198838,44.969905,48.710232,no change
+all tool frames,synaug-fixed,"Synthetic aug, additive",precision,4652,1294,0.901515,0.904553,0.003332,0.001035,0.000865,0.005947,2.7e-05,50.185468,43.814096,better
+all tool frames,synaug-fixed,"Synthetic aug, additive",hd95,4652,1294,59.335811,57.848997,-1.420396,0.0,-3.473611,0.75266,0.59667,48.221689,49.138119,no change
+all tool frames,static-tiling,Static tiling,iou,4652,1294,0.810614,0.80593,-0.004684,-0.001949,-0.008402,-0.001309,0.0,44.604471,51.71969,worse
+all tool frames,static-tiling,Static tiling,recall,4652,1294,0.888456,0.891246,0.002791,-0.000857,-0.000817,0.006299,0.019112,45.356836,49.72055,no change
+all tool frames,static-tiling,Static tiling,precision,4652,1294,0.901515,0.892353,-0.008559,-0.000849,-0.011402,-0.005701,1.1e-05,46.096978,49.619482,worse
+all tool frames,static-tiling,Static tiling,hd95,4652,1294,59.335811,70.699391,11.143339,0.46094,8.645861,13.597989,0.0,53.402914,44.81409,worse
+all tool frames,cascade-redetect-clean,Cascade on baseline weights,iou,4652,1294,0.810614,0.812234,0.00162,0.000372,-0.001681,0.004792,0.132155,48.710232,46.646604,no change
+all tool frames,cascade-redetect-clean,Cascade on baseline weights,recall,4652,1294,0.888456,0.900561,0.012105,0.00286,0.008519,0.015436,0.0,54.471195,39.789338,better
+all tool frames,cascade-redetect-clean,Cascade on baseline weights,precision,4652,1294,0.901515,0.892507,-0.009643,-0.002003,-0.011967,-0.007283,0.0,41.764706,52.679739,worse
+all tool frames,cascade-redetect-clean,Cascade on baseline weights,hd95,4652,1294,59.335811,61.074474,1.853429,0.0,-0.413931,4.067216,0.086926,49.368192,48.169935,no change
+all tool frames,roift-control-ff,"Fine-tune control, 15 ep",iou,4652,1294,0.810614,0.813695,0.003081,0.001477,-5e-05,0.006017,1e-06,51.139295,43.422184,no change
+all tool frames,roift-control-ff,"Fine-tune control, 15 ep",recall,4652,1294,0.888456,0.886761,-0.001694,0.0,-0.005165,0.001437,0.702672,46.496131,46.926053,no change
+all tool frames,roift-control-ff,"Fine-tune control, 15 ep",precision,4652,1294,0.901515,0.907571,0.004889,0.001306,0.002812,0.007218,0.0,51.045752,42.11329,better
+all tool frames,roift-control-ff,"Fine-tune control, 15 ep",hd95,4652,1294,59.335811,56.087071,-3.261722,-0.048156,-5.302782,-1.30133,0.007335,46.64488,50.544662,better
+all tool frames,roift-long,"ROI fine-tune, 50 ep",iou,4652,1294,0.810614,0.819626,0.009012,0.002586,0.005646,0.012217,0.0,53.546862,41.788478,better
+all tool frames,roift-long,"ROI fine-tune, 50 ep",recall,4652,1294,0.888456,0.898784,0.010329,0.000783,0.006752,0.013467,0.0,49.312124,44.453998,better
+all tool frames,roift-long,"ROI fine-tune, 50 ep",precision,4652,1294,0.901515,0.902141,-8.4e-05,0.001474,-0.00248,0.002325,2e-06,51.338411,42.415669,no change
+all tool frames,roift-long,"ROI fine-tune, 50 ep",hd95,4652,1294,59.335811,57.24608,-2.164684,-0.179435,-4.241717,0.010409,2.9e-05,45.440696,51.838955,no change
+size tiny,tversky-rescore-hi,BCE-Tversky (grid to 0.95),iou,600,463,0.643358,0.639515,-0.003844,-0.001735,-0.019819,0.011355,0.109875,41.333333,50.5,no change
+size tiny,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,600,463,0.78,0.805486,0.025486,0.013412,0.009374,0.041776,0.0,70.833333,19.666667,better
+size tiny,tversky-rescore-hi,BCE-Tversky (grid to 0.95),precision,600,463,0.79139,0.771609,-0.028701,-0.016251,-0.041517,-0.015623,0.0,26.373626,70.879121,worse
+size tiny,tversky-rescore-hi,BCE-Tversky (grid to 0.95),hd95,600,463,86.062207,85.575473,0.626926,0.0,-8.011395,8.61618,0.883054,48.717949,47.435897,no change
+size tiny,synaug-fixed,"Synthetic aug, additive",iou,600,463,0.643358,0.650701,0.007343,0.0,-0.007219,0.021968,0.626304,47.666667,46.333333,no change
+size tiny,synaug-fixed,"Synthetic aug, additive",recall,600,463,0.78,0.77815,-0.00185,0.0,-0.017633,0.013372,0.524894,47.166667,44.166667,no change
+size tiny,synaug-fixed,"Synthetic aug, additive",precision,600,463,0.79139,0.805543,0.01663,0.001162,0.004484,0.029212,0.259394,50.274223,45.703839,better
+size tiny,synaug-fixed,"Synthetic aug, additive",hd95,600,463,86.062207,83.357835,-3.335954,0.0,-11.850756,4.893154,0.972235,48.080439,47.349177,no change
+size tiny,static-tiling,Static tiling,iou,600,463,0.643358,0.643243,-0.000115,-0.001224,-0.017067,0.016829,0.158623,44.5,50.333333,no change
+size tiny,static-tiling,Static tiling,recall,600,463,0.78,0.799399,0.019398,-0.000717,0.003112,0.035525,0.793487,43.833333,49.666667,better
+size tiny,static-tiling,Static tiling,precision,600,463,0.79139,0.773336,-0.019238,0.0,-0.035048,-0.001541,0.108418,48.561151,49.100719,worse
+size tiny,static-tiling,Static tiling,hd95,600,463,86.062207,104.326231,17.994347,0.534536,8.122654,27.812635,0.001207,53.956835,43.884892,worse
+size tiny,cascade-redetect-clean,Cascade on baseline weights,iou,600,463,0.643358,0.644554,0.001195,-0.000989,-0.014343,0.017373,0.172735,43.833333,50.0,no change
+size tiny,cascade-redetect-clean,Cascade on baseline weights,recall,600,463,0.78,0.810142,0.030142,0.006258,0.015045,0.046114,0.0,58.833333,31.0,better
+size tiny,cascade-redetect-clean,Cascade on baseline weights,precision,600,463,0.79139,0.771747,-0.027365,-0.005292,-0.04093,-0.014545,1e-06,39.169675,55.595668,worse
+size tiny,cascade-redetect-clean,Cascade on baseline weights,hd95,600,463,86.062207,95.348065,10.886577,0.15513,2.07275,19.916868,0.00881,51.083032,45.126354,worse
+size tiny,roift-control-ff,"Fine-tune control, 15 ep",iou,600,463,0.643358,0.649292,0.005934,0.000315,-0.007446,0.019604,0.273225,49.166667,42.666667,no change
+size tiny,roift-control-ff,"Fine-tune control, 15 ep",recall,600,463,0.78,0.772227,-0.007773,0.0,-0.022449,0.007788,0.499233,44.833333,46.0,no change
+size tiny,roift-control-ff,"Fine-tune control, 15 ep",precision,600,463,0.79139,0.812767,0.011001,0.003688,-0.001291,0.023793,0.00333,54.528986,41.304348,no change
+size tiny,roift-control-ff,"Fine-tune control, 15 ep",hd95,600,463,86.062207,77.518235,-8.19014,-0.236068,-16.649695,-0.291884,0.078443,44.927536,52.355072,better
+size tiny,roift-long,"ROI fine-tune, 50 ep",iou,600,463,0.643358,0.651608,0.00825,0.0,-0.006414,0.023078,0.341939,48.666667,44.333333,no change
+size tiny,roift-long,"ROI fine-tune, 50 ep",recall,600,463,0.78,0.789149,0.009148,0.0,-0.005762,0.024112,0.150652,48.0,42.666667,no change
+size tiny,roift-long,"ROI fine-tune, 50 ep",precision,600,463,0.79139,0.793695,-0.005436,0.001403,-0.019604,0.009119,0.812692,50.361011,44.765343,no change
+size tiny,roift-long,"ROI fine-tune, 50 ep",hd95,600,463,86.062207,87.546606,1.733303,-0.158943,-7.952348,11.473304,0.414344,45.126354,50.902527,no change
+size small,tversky-rescore-hi,BCE-Tversky (grid to 0.95),iou,919,663,0.786197,0.783997,-0.0022,-0.001406,-0.010898,0.006418,0.250352,46.354733,50.272035,no change
+size small,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,919,663,0.884734,0.906606,0.021871,0.013763,0.013475,0.030182,0.0,76.387378,20.457018,better
+size small,tversky-rescore-hi,BCE-Tversky (grid to 0.95),precision,919,663,0.879945,0.855366,-0.024613,-0.016435,-0.03103,-0.018141,0.0,22.258772,74.671053,worse
+size small,tversky-rescore-hi,BCE-Tversky (grid to 0.95),hd95,919,663,72.110538,71.28548,-0.114513,0.210518,-5.775491,6.006663,0.184417,52.52193,44.407895,no change
+size small,synaug-fixed,"Synthetic aug, additive",iou,919,663,0.786197,0.787058,0.000861,0.000272,-0.009559,0.010695,0.182847,48.74864,47.551687,no change
+size small,synaug-fixed,"Synthetic aug, additive",recall,919,663,0.884734,0.886,0.001265,-0.001437,-0.008394,0.010731,0.425249,44.069641,51.25136,no change
+size small,synaug-fixed,"Synthetic aug, additive",precision,919,663,0.879945,0.87894,-0.000562,0.001449,-0.007864,0.007081,0.140612,51.208791,44.615385,no change
+size small,synaug-fixed,"Synthetic aug, additive",hd95,919,663,72.110538,71.23013,-0.461782,0.0,-6.031589,5.197179,0.914651,47.912088,49.56044,no change
+size small,static-tiling,Static tiling,iou,919,663,0.786197,0.777329,-0.008868,-0.00062,-0.018044,-0.00015,0.174079,47.660501,49.292709,worse
+size small,static-tiling,Static tiling,recall,919,663,0.884734,0.880858,-0.003877,-0.001752,-0.012642,0.004887,0.080828,44.178455,50.816104,no change
+size small,static-tiling,Static tiling,precision,919,663,0.879945,0.868171,-0.010435,-0.000119,-0.018056,-0.002958,0.144756,47.316539,48.521358,worse
+size small,static-tiling,Static tiling,hd95,919,663,72.110538,81.217899,8.993619,0.0,2.551217,15.90024,0.056666,49.726177,48.521358,worse
+size small,cascade-redetect-clean,Cascade on baseline weights,iou,919,663,0.786197,0.7804,-0.005797,0.000252,-0.015031,0.002825,0.948469,48.966268,47.442873,no change
+size small,cascade-redetect-clean,Cascade on baseline weights,recall,919,663,0.884734,0.893346,0.008611,0.003716,-0.001017,0.016955,0.0,55.603917,40.587595,no change
+size small,cascade-redetect-clean,Cascade on baseline weights,precision,919,663,0.879945,0.864373,-0.015238,-0.002743,-0.021287,-0.009171,0.0,40.463065,54.024256,worse
+size small,cascade-redetect-clean,Cascade on baseline weights,hd95,919,663,72.110538,73.563077,1.958349,0.0,-3.891152,7.847297,0.862059,48.070562,48.952591,no change
+size small,roift-control-ff,"Fine-tune control, 15 ep",iou,919,663,0.786197,0.783408,-0.002789,0.001929,-0.011481,0.005257,0.038614,52.665941,43.199129,no change
+size small,roift-control-ff,"Fine-tune control, 15 ep",recall,919,663,0.884734,0.876806,-0.007928,-0.000534,-0.016887,0.000181,0.293849,45.919478,49.075082,no change
+size small,roift-control-ff,"Fine-tune control, 15 ep",precision,919,663,0.879945,0.883319,0.003652,0.002613,-0.00203,0.009395,1.2e-05,54.675468,40.484048,no change
+size small,roift-control-ff,"Fine-tune control, 15 ep",hd95,919,663,72.110538,70.468146,-1.56585,-0.043572,-7.298276,3.855681,0.216301,45.984598,50.385039,no change
+size small,roift-long,"ROI fine-tune, 50 ep",iou,919,663,0.786197,0.789536,0.003339,0.001894,-0.006735,0.01318,0.035566,51.468988,43.852013,no change
+size small,roift-long,"ROI fine-tune, 50 ep",recall,919,663,0.884734,0.890074,0.00534,-0.00068,-0.004743,0.01495,0.996546,45.048966,49.619151,no change
+size small,roift-long,"ROI fine-tune, 50 ep",precision,919,663,0.879945,0.879995,0.000261,0.002435,-0.006526,0.006833,0.010919,53.896817,41.822173,no change
+size small,roift-long,"ROI fine-tune, 50 ep",hd95,919,663,72.110538,68.817624,-2.7914,-0.083675,-8.919893,3.215607,0.168591,46.212953,50.493963,no change
+size med,tversky-rescore-hi,BCE-Tversky (grid to 0.95),iou,2337,1148,0.846497,0.846331,-0.000166,-0.001285,-0.003395,0.003175,0.161039,46.469833,50.492084,no change
+size med,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,2337,1148,0.912271,0.933326,0.021056,0.012858,0.017722,0.024503,0.0,80.188276,17.115961,better
+size med,tversky-rescore-hi,BCE-Tversky (grid to 0.95),precision,2337,1148,0.921759,0.901477,-0.020228,-0.013685,-0.022326,-0.017935,0.0,17.975118,79.450879,worse
+size med,tversky-rescore-hi,BCE-Tversky (grid to 0.95),hd95,2337,1148,52.264386,53.753936,1.657382,0.369501,-1.064632,4.4038,0.000262,53.453453,44.358644,no change
+size med,synaug-fixed,"Synthetic aug, additive",iou,2337,1148,0.846497,0.848862,0.002366,0.000335,-0.000824,0.00561,0.108682,48.652118,46.897732,no change
+size med,synaug-fixed,"Synthetic aug, additive",recall,2337,1148,0.912271,0.912778,0.000507,-0.000602,-0.002769,0.003781,0.468704,45.442875,48.609328,no change
+size med,synaug-fixed,"Synthetic aug, additive",precision,2337,1148,0.921759,0.923818,0.001906,0.000894,-0.000235,0.004077,0.004216,49.657241,43.873179,no change
+size med,synaug-fixed,"Synthetic aug, additive",hd95,2337,1148,52.264386,49.696838,-2.419139,0.0,-4.984149,0.329041,0.730786,48.243359,49.185947,no change
+size med,static-tiling,Static tiling,iou,2337,1148,0.846497,0.841443,-0.005054,-0.002246,-0.008633,-0.001522,1.8e-05,43.902439,52.417629,worse
+size med,static-tiling,Static tiling,recall,2337,1148,0.912271,0.913471,0.001201,-0.000474,-0.002087,0.004647,0.220124,46.427043,49.122807,no change
+size med,static-tiling,Static tiling,precision,2337,1148,0.921759,0.914874,-0.006885,-0.001013,-0.009565,-0.004389,0.000498,45.719178,50.171233,worse
+size med,static-tiling,Static tiling,hd95,2337,1148,52.264386,63.923438,11.659053,0.546216,8.453053,14.967145,0.0,55.008562,43.193493,worse
+size med,cascade-redetect-clean,Cascade on baseline weights,iou,2337,1148,0.846497,0.849698,0.003201,0.000941,-0.000198,0.006662,0.023279,49.807445,45.528455,no change
+size med,cascade-redetect-clean,Cascade on baseline weights,recall,2337,1148,0.912271,0.922365,0.010094,0.002689,0.006729,0.013559,0.0,54.771074,39.794608,better
+size med,cascade-redetect-clean,Cascade on baseline weights,precision,2337,1148,0.921759,0.915476,-0.006255,-0.002038,-0.008593,-0.00399,0.0,42.312634,52.847966,worse
+size med,cascade-redetect-clean,Cascade on baseline weights,hd95,2337,1148,52.264386,52.837339,0.60696,0.0,-2.231388,3.117973,0.170448,49.978587,47.837259,no change
+size med,roift-control-ff,"Fine-tune control, 15 ep",iou,2337,1148,0.846497,0.851089,0.004592,0.001451,0.001754,0.0076,9.7e-05,50.962773,43.774069,better
+size med,roift-control-ff,"Fine-tune control, 15 ep",recall,2337,1148,0.912271,0.913343,0.001072,8.6e-05,-0.001809,0.004052,0.998727,47.026102,46.854942,no change
+size med,roift-control-ff,"Fine-tune control, 15 ep",precision,2337,1148,0.921759,0.926186,0.004456,0.000924,0.002523,0.006555,3e-06,49.678801,42.783726,better
+size med,roift-control-ff,"Fine-tune control, 15 ep",hd95,2337,1148,52.264386,48.710867,-3.519513,-0.007312,-6.103067,-1.052616,0.191119,47.194861,50.06424,better
+size med,roift-long,"ROI fine-tune, 50 ep",iou,2337,1148,0.846497,0.855879,0.009383,0.002799,0.006015,0.012648,0.0,54.471545,41.591784,better
+size med,roift-long,"ROI fine-tune, 50 ep",recall,2337,1148,0.912271,0.922513,0.010242,0.000925,0.006991,0.013555,3e-06,49.807445,44.544288,better
+size med,roift-long,"ROI fine-tune, 50 ep",precision,2337,1148,0.921759,0.92256,0.0008,0.001421,-0.00141,0.003024,9.8e-05,51.19863,42.037671,no change
+size med,roift-long,"ROI fine-tune, 50 ep",hd95,2337,1148,52.264386,49.830804,-2.433582,-0.145803,-5.011466,0.220209,0.005996,45.804795,51.626712,no change
+size large,tversky-rescore-hi,BCE-Tversky (grid to 0.95),iou,796,545,0.859526,0.860917,0.001391,0.000531,-0.004084,0.006848,0.39211,48.994975,46.60804,no change
+size large,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,796,545,0.904584,0.920919,0.016335,0.011809,0.010496,0.022358,0.0,75.502513,20.979899,better
+size large,tversky-rescore-hi,BCE-Tversky (grid to 0.95),precision,796,545,0.94476,0.931342,-0.013418,-0.010459,-0.016239,-0.010383,0.0,18.513854,77.078086,worse
+size large,tversky-rescore-hi,BCE-Tversky (grid to 0.95),hd95,796,545,46.50173,48.117614,1.615884,0.346636,-1.897151,4.953561,0.133617,52.644836,45.717884,no change
+size large,synaug-fixed,"Synthetic aug, additive",iou,796,545,0.859526,0.856156,-0.00337,0.000318,-0.009822,0.002931,0.934169,48.492462,46.733668,no change
+size large,synaug-fixed,"Synthetic aug, additive",recall,796,545,0.904584,0.899631,-0.004953,-0.000917,-0.011684,0.001836,0.072337,42.964824,49.497487,no change
+size large,synaug-fixed,"Synthetic aug, additive",precision,796,545,0.94476,0.947852,0.002825,0.001064,0.000277,0.005719,0.002679,50.505051,41.414141,better
+size large,synaug-fixed,"Synthetic aug, additive",hd95,796,545,46.50173,48.279079,1.744426,0.0,-1.731364,5.415577,0.568897,48.611111,49.747475,no change
+size large,static-tiling,Static tiling,iou,796,545,0.859526,0.857318,-0.002208,-0.002699,-0.008138,0.003687,0.00114,43.21608,53.517588,no change
+size large,static-tiling,Static tiling,recall,796,545,0.904584,0.907221,0.002638,-0.001067,-0.003747,0.008782,0.223453,44.723618,50.251256,no change
+size large,static-tiling,Static tiling,precision,796,545,0.94476,0.940987,-0.003847,-0.00079,-0.006869,-0.000878,0.023762,44.080605,49.622166,worse
+size large,static-tiling,Static tiling,hd95,796,545,46.50173,53.928319,7.300552,0.526927,2.59094,11.513156,0.000448,52.518892,45.969773,worse
+size large,cascade-redetect-clean,Cascade on baseline weights,iou,796,545,0.859526,0.86539,0.005864,0.000649,-0.000341,0.012075,0.185894,48.869347,46.482412,no change
+size large,cascade-redetect-clean,Cascade on baseline weights,recall,796,545,0.904584,0.913031,0.008447,0.000592,0.001899,0.014979,0.007321,48.994975,45.477387,better
+size large,cascade-redetect-clean,Cascade on baseline weights,precision,796,545,0.94476,0.944039,-0.000849,-0.000728,-0.003887,0.002449,0.050502,43.450882,48.61461,no change
+size large,cascade-redetect-clean,Cascade on baseline weights,hd95,796,545,46.50173,46.347179,-0.903523,-0.059978,-4.526899,2.662175,0.47051,47.858942,50.377834,no change
+size large,roift-control-ff,"Fine-tune control, 15 ep",iou,796,545,0.859526,0.862797,0.00327,0.001476,-0.003223,0.009712,0.056198,51.38191,43.21608,no change
+size large,roift-control-ff,"Fine-tune control, 15 ep",recall,796,545,0.904584,0.906546,0.001962,-4.7e-05,-0.004946,0.008747,0.41619,46.859296,45.351759,no change
+size large,roift-control-ff,"Fine-tune control, 15 ep",precision,796,545,0.94476,0.948217,0.00333,0.000677,0.000452,0.006737,0.043227,48.488665,42.56927,better
+size large,roift-control-ff,"Fine-tune control, 15 ep",hd95,796,545,46.50173,46.018212,-1.018798,-0.12197,-4.797064,2.805629,0.164098,46.97733,50.881612,no change
+size large,roift-long,"ROI fine-tune, 50 ep",iou,796,545,0.859526,0.874575,0.015048,0.003694,0.009203,0.021091,0.0,56.909548,38.065327,better
+size large,roift-long,"ROI fine-tune, 50 ep",recall,796,545,0.904584,0.921815,0.017232,0.002584,0.011101,0.02356,0.0,53.768844,39.572864,better
+size large,roift-long,"ROI fine-tune, 50 ep",precision,796,545,0.94476,0.94555,0.000653,0.000806,-0.002111,0.003415,0.087845,49.496222,42.56927,no change
+size large,roift-long,"ROI fine-tune, 50 ep",hd95,796,545,46.50173,43.961362,-3.37426,-0.41116,-7.040695,0.403641,0.001016,43.702771,54.65995,no change
+thin tools,tversky-rescore-hi,BCE-Tversky (grid to 0.95),iou,1163,709,0.718308,0.714347,-0.003962,-0.001733,-0.012789,0.004809,0.058855,44.196045,50.902837,no change
+thin tools,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,1163,709,0.833709,0.860061,0.026353,0.01703,0.01728,0.035027,0.0,76.182287,18.486672,better
+thin tools,tversky-rescore-hi,BCE-Tversky (grid to 0.95),precision,1163,709,0.83983,0.814504,-0.0292,-0.019674,-0.036747,-0.021793,0.0,21.813285,76.122083,worse
+thin tools,tversky-rescore-hi,BCE-Tversky (grid to 0.95),hd95,1163,709,72.403328,71.686251,-0.152427,0.286354,-5.007323,5.197996,0.147101,52.692998,44.075404,no change
+thin tools,synaug-fixed,"Synthetic aug, additive",iou,1163,709,0.718308,0.720545,0.002237,2e-06,-0.005641,0.010447,0.227125,48.66724,46.431642,no change
+thin tools,synaug-fixed,"Synthetic aug, additive",recall,1163,709,0.833709,0.832634,-0.001074,0.0,-0.009589,0.007239,0.778837,47.377472,46.861565,no change
+thin tools,synaug-fixed,"Synthetic aug, additive",precision,1163,709,0.83983,0.844739,0.00626,0.001293,-0.001016,0.013886,0.049189,50.58296,45.381166,no change
+thin tools,synaug-fixed,"Synthetic aug, additive",hd95,1163,709,72.403328,70.865646,-1.634349,0.0,-6.609076,3.341344,0.72373,48.96861,47.174888,no change
+thin tools,static-tiling,Static tiling,iou,1163,709,0.718308,0.716157,-0.002151,-0.001133,-0.011878,0.007773,0.349353,46.087704,50.128977,no change
+thin tools,static-tiling,Static tiling,recall,1163,709,0.833709,0.842096,0.008387,-0.000679,-0.001332,0.01783,0.468697,44.625967,49.699054,no change
+thin tools,static-tiling,Static tiling,precision,1163,709,0.83983,0.825332,-0.014029,0.000408,-0.023185,-0.005547,0.162747,48.88691,48.174533,worse
+thin tools,static-tiling,Static tiling,hd95,1163,709,72.403328,80.647768,7.658432,0.079927,2.196368,12.968106,0.055845,50.311665,47.462155,worse
+thin tools,cascade-redetect-clean,Cascade on baseline weights,iou,1163,709,0.718308,0.712478,-0.005831,-0.001201,-0.01436,0.002735,0.031281,45.399828,50.472915,no change
+thin tools,cascade-redetect-clean,Cascade on baseline weights,recall,1163,709,0.833709,0.850981,0.017272,0.003919,0.008676,0.026223,0.0,55.374033,38.005159,better
+thin tools,cascade-redetect-clean,Cascade on baseline weights,precision,1163,709,0.83983,0.818976,-0.02324,-0.005053,-0.030636,-0.016451,0.0,38.839286,55.803571,worse
+thin tools,cascade-redetect-clean,Cascade on baseline weights,hd95,1163,709,72.403328,77.251622,5.464508,0.298127,0.387986,10.724307,0.002895,52.321429,44.821429,worse
+thin tools,roift-control-ff,"Fine-tune control, 15 ep",iou,1163,709,0.718308,0.716673,-0.001635,0.0,-0.009264,0.006235,0.843759,47.635426,46.517627,no change
+thin tools,roift-control-ff,"Fine-tune control, 15 ep",recall,1163,709,0.833709,0.826431,-0.007278,-0.000956,-0.015249,0.00107,0.050606,44.969905,49.957008,no change
+thin tools,roift-control-ff,"Fine-tune control, 15 ep",precision,1163,709,0.83983,0.847198,0.002513,0.002291,-0.00375,0.009409,0.001357,52.641003,43.061773,no change
+thin tools,roift-control-ff,"Fine-tune control, 15 ep",hd95,1163,709,72.403328,70.607584,-1.526659,0.0,-5.974487,2.939446,0.895332,49.059982,48.254252,no change
+thin tools,roift-long,"ROI fine-tune, 50 ep",iou,1163,709,0.718308,0.721116,0.002808,0.000529,-0.005675,0.01113,0.270853,49.183147,46.517627,no change
+thin tools,roift-long,"ROI fine-tune, 50 ep",recall,1163,709,0.833709,0.838127,0.004419,0.0,-0.004188,0.013012,0.983582,46.00172,47.72141,no change
+thin tools,roift-long,"ROI fine-tune, 50 ep",precision,1163,709,0.83983,0.839147,-0.003921,0.001683,-0.011109,0.003614,0.134378,51.071429,44.375,no change
+thin tools,roift-long,"ROI fine-tune, 50 ep",hd95,1163,709,72.403328,72.83707,0.462725,0.0,-4.705652,5.830249,0.35403,47.053571,49.642857,no change
+wide tools,tversky-rescore-hi,BCE-Tversky (grid to 0.95),iou,3489,1245,0.841382,0.841669,0.000286,-0.000698,-0.003155,0.003722,0.312266,46.890226,49.412439,no change
+wide tools,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,3489,1245,0.906705,0.925894,0.01919,0.012149,0.015857,0.022601,0.0,77.844655,18.859272,better
+wide tools,tversky-rescore-hi,BCE-Tversky (grid to 0.95),precision,3489,1245,0.921539,0.903502,-0.018275,-0.012417,-0.020517,-0.01606,0.0,19.313923,77.371,worse
+wide tools,tversky-rescore-hi,BCE-Tversky (grid to 0.95),hd95,3489,1245,55.09394,56.375876,1.601049,0.30537,-0.869696,3.924557,0.0003,52.522341,45.257999,no change
+wide tools,synaug-fixed,"Synthetic aug, additive",iou,3489,1245,0.841382,0.842942,0.001559,0.000254,-0.001887,0.005087,0.158576,48.466609,47.090857,no change
+wide tools,synaug-fixed,"Synthetic aug, additive",recall,3489,1245,0.906705,0.906288,-0.000417,-0.000794,-0.00406,0.003144,0.073128,44.167383,49.326455,no change
+wide tools,synaug-fixed,"Synthetic aug, additive",precision,3489,1245,0.921539,0.924032,0.002391,0.001015,0.000134,0.004615,0.000151,50.05767,43.310265,better
+wide tools,synaug-fixed,"Synthetic aug, additive",hd95,3489,1245,55.09394,53.61006,-1.351607,0.0,-3.681094,0.985071,0.419273,47.981546,49.769319,no change
+wide tools,static-tiling,Static tiling,iou,3489,1245,0.841382,0.835855,-0.005528,-0.002271,-0.009265,-0.001911,0.0,44.11006,52.249928,worse
+wide tools,static-tiling,Static tiling,recall,3489,1245,0.906705,0.90763,0.000925,-0.000903,-0.002787,0.004601,0.028633,45.600459,49.727716,no change
+wide tools,static-tiling,Static tiling,precision,3489,1245,0.921539,0.914417,-0.006792,-0.001011,-0.009317,-0.004197,9e-06,45.195627,50.086306,worse
+wide tools,static-tiling,Static tiling,hd95,3489,1245,55.09394,67.424229,12.269216,0.555288,9.419805,15.164393,0.0,54.401611,43.958573,worse
+wide tools,cascade-redetect-clean,Cascade on baseline weights,iou,3489,1245,0.841382,0.845486,0.004104,0.00093,0.00049,0.007616,0.001442,49.8137,45.371167,better
+wide tools,cascade-redetect-clean,Cascade on baseline weights,recall,3489,1245,0.906705,0.917088,0.010383,0.002594,0.006735,0.013814,0.0,54.170249,40.384064,better
+wide tools,cascade-redetect-clean,Cascade on baseline weights,precision,3489,1245,0.921539,0.916567,-0.005254,-0.00159,-0.007306,-0.003263,0.0,42.708934,51.67147,worse
+wide tools,cascade-redetect-clean,Cascade on baseline weights,hd95,3489,1245,55.09394,55.781404,0.687894,0.0,-1.540508,3.017471,0.812178,48.414986,49.25072,no change
+wide tools,roift-control-ff,"Fine-tune control, 15 ep",iou,3489,1245,0.841382,0.846035,0.004653,0.00193,0.001359,0.007887,0.0,52.307251,42.39037,better
+wide tools,roift-control-ff,"Fine-tune control, 15 ep",recall,3489,1245,0.906705,0.906872,0.000167,8.6e-05,-0.003145,0.003249,0.420671,47.004872,45.915735,no change
+wide tools,roift-control-ff,"Fine-tune control, 15 ep",precision,3489,1245,0.921539,0.927209,0.005653,0.001122,0.003599,0.007746,0.0,50.532681,41.808235,better
+wide tools,roift-control-ff,"Fine-tune control, 15 ep",hd95,3489,1245,55.09394,51.363832,-3.81976,-0.116075,-6.094743,-1.530939,0.00264,45.868126,51.281313,better
+wide tools,roift-long,"ROI fine-tune, 50 ep",iou,3489,1245,0.841382,0.852463,0.01108,0.002916,0.007375,0.014692,0.0,55.001433,40.212095,better
+wide tools,roift-long,"ROI fine-tune, 50 ep",recall,3489,1245,0.906705,0.919003,0.012299,0.001205,0.008475,0.015949,0.0,50.415592,43.364861,better
+wide tools,roift-long,"ROI fine-tune, 50 ep",precision,3489,1245,0.921539,0.922723,0.001153,0.001457,-0.000902,0.003202,3e-06,51.42446,41.784173,no change
+wide tools,roift-long,"ROI fine-tune, 50 ep",hd95,3489,1245,55.09394,52.152127,-3.011504,-0.236068,-5.353982,-0.686147,1.7e-05,44.920863,52.546763,better
+tiny or thin,tversky-rescore-hi,BCE-Tversky (grid to 0.95),iou,1282,772,0.721076,0.718111,-0.002965,-0.001691,-0.011182,0.005014,0.043383,44.071763,50.780031,no change
+tiny or thin,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,1282,772,0.835496,0.861693,0.026196,0.016569,0.018036,0.034703,0.0,76.053042,18.25273,better
+tiny or thin,tversky-rescore-hi,BCE-Tversky (grid to 0.95),precision,1282,772,0.840568,0.81672,-0.028088,-0.018796,-0.034978,-0.021318,0.0,21.742671,75.977199,worse
+tiny or thin,tversky-rescore-hi,BCE-Tversky (grid to 0.95),hd95,1282,772,72.315349,71.246783,-0.510976,0.246082,-5.365139,4.125345,0.172312,52.117264,44.462541,no change
+tiny or thin,synaug-fixed,"Synthetic aug, additive",iou,1282,772,0.721076,0.7246,0.003523,3.5e-05,-0.004206,0.011527,0.162881,48.829953,46.411856,no change
+tiny or thin,synaug-fixed,"Synthetic aug, additive",recall,1282,772,0.835496,0.835162,-0.000334,0.0,-0.00839,0.007435,0.641822,47.425897,46.567863,no change
+tiny or thin,synaug-fixed,"Synthetic aug, additive",precision,1282,772,0.840568,0.847451,0.008119,0.001262,0.000619,0.015829,0.038372,50.651466,45.358306,better
+tiny or thin,synaug-fixed,"Synthetic aug, additive",hd95,1282,772,72.315349,70.417805,-2.058456,0.0,-7.071016,2.650256,0.827495,48.615635,47.47557,no change
+tiny or thin,static-tiling,Static tiling,iou,1282,772,0.721076,0.71838,-0.002697,-0.001214,-0.012047,0.006194,0.212289,45.865835,50.312012,no change
+tiny or thin,static-tiling,Static tiling,recall,1282,772,0.835496,0.8444,0.008904,-0.000769,-0.000101,0.017767,0.408715,44.617785,49.843994,no change
+tiny or thin,static-tiling,Static tiling,precision,1282,772,0.840568,0.827147,-0.013068,0.000408,-0.021723,-0.004656,0.139652,48.989491,48.100243,worse
+tiny or thin,static-tiling,Static tiling,hd95,1282,772,72.315349,81.610238,8.794295,0.172854,3.256833,14.253917,0.008706,51.172191,46.564268,worse
+tiny or thin,cascade-redetect-clean,Cascade on baseline weights,iou,1282,772,0.721076,0.716473,-0.004603,-0.001036,-0.012661,0.003117,0.033897,45.475819,50.156006,no change
+tiny or thin,cascade-redetect-clean,Cascade on baseline weights,recall,1282,772,0.835496,0.852893,0.017396,0.003978,0.009211,0.02543,0.0,55.616225,37.207488,better
+tiny or thin,cascade-redetect-clean,Cascade on baseline weights,precision,1282,772,0.840568,0.821694,-0.021792,-0.004548,-0.028307,-0.014693,0.0,39.059968,55.753647,worse
+tiny or thin,cascade-redetect-clean,Cascade on baseline weights,hd95,1282,772,72.315349,78.232554,6.539989,0.292126,1.610361,11.581676,0.001002,52.106969,45.137763,worse
+tiny or thin,roift-control-ff,"Fine-tune control, 15 ep",iou,1282,772,0.721076,0.721384,0.000308,0.0,-0.007207,0.007508,0.517258,48.283931,45.631825,no change
+tiny or thin,roift-control-ff,"Fine-tune control, 15 ep",recall,1282,772,0.835496,0.828959,-0.006538,-0.000436,-0.014446,0.001079,0.054038,44.695788,49.297972,no change
+tiny or thin,roift-control-ff,"Fine-tune control, 15 ep",precision,1282,772,0.840568,0.850034,0.00501,0.00244,-0.001251,0.01179,0.000306,52.922078,42.613636,no change
+tiny or thin,roift-control-ff,"Fine-tune control, 15 ep",hd95,1282,772,72.315349,69.127518,-2.955084,0.0,-7.584457,1.286704,0.546925,48.051948,49.350649,no change
+tiny or thin,roift-long,"ROI fine-tune, 50 ep",iou,1282,772,0.721076,0.725656,0.004579,0.000837,-0.003968,0.012454,0.170096,49.609984,45.865835,no change
+tiny or thin,roift-long,"ROI fine-tune, 50 ep",recall,1282,772,0.835496,0.841743,0.006247,0.0,-0.001596,0.014128,0.613039,46.723869,46.645866,no change
+tiny or thin,roift-long,"ROI fine-tune, 50 ep",precision,1282,772,0.840568,0.841106,-0.00246,0.001716,-0.009991,0.004891,0.130592,51.255061,44.129555,no change
+tiny or thin,roift-long,"ROI fine-tune, 50 ep",hd95,1282,772,72.315349,72.529555,0.247613,0.0,-4.948155,5.773055,0.392205,46.801619,49.878543,no change
+scene Smoke,tversky-rescore-hi,BCE-Tversky (grid to 0.95),iou,43,43,0.770268,0.760604,-0.009664,0.008592,-0.038229,0.011423,0.391694,60.465116,37.209302,no change
+scene Smoke,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,43,43,0.879004,0.885727,0.006723,0.016415,-0.018547,0.026586,0.008627,67.44186,30.232558,no change
+scene Smoke,tversky-rescore-hi,BCE-Tversky (grid to 0.95),precision,43,43,0.875564,0.857496,-0.015388,-0.010596,-0.03833,0.002155,0.084466,30.952381,64.285714,no change
+scene Smoke,tversky-rescore-hi,BCE-Tversky (grid to 0.95),hd95,43,43,60.948157,61.693227,4.441824,-0.544189,-15.581944,31.702404,0.823761,47.619048,52.380952,no change
+scene Smoke,synaug-fixed,"Synthetic aug, additive",iou,43,43,0.770268,0.775663,0.005395,0.008306,-0.020657,0.027349,0.209281,55.813953,41.860465,no change
+scene Smoke,synaug-fixed,"Synthetic aug, additive",recall,43,43,0.879004,0.873942,-0.005062,-0.006077,-0.027541,0.012674,0.352971,34.883721,60.465116,no change
+scene Smoke,synaug-fixed,"Synthetic aug, additive",precision,43,43,0.875564,0.886775,0.011211,0.001233,-0.015212,0.031862,0.176101,51.162791,41.860465,no change
+scene Smoke,synaug-fixed,"Synthetic aug, additive",hd95,43,43,60.948157,59.135965,-1.812192,-0.212912,-21.789841,17.572165,0.586504,44.186047,53.488372,no change
+scene Smoke,static-tiling,Static tiling,iou,43,43,0.770268,0.767171,-0.003097,0.004802,-0.025538,0.01578,0.578046,53.488372,46.511628,no change
+scene Smoke,static-tiling,Static tiling,recall,43,43,0.879004,0.883556,0.004552,0.001291,-0.007139,0.016672,0.760512,53.488372,44.186047,no change
+scene Smoke,static-tiling,Static tiling,precision,43,43,0.875564,0.862279,-0.013284,-0.002561,-0.042867,0.010888,0.909614,48.837209,51.162791,no change
+scene Smoke,static-tiling,Static tiling,hd95,43,43,60.948157,76.716915,15.768758,0.729791,-4.552385,41.930337,0.251644,60.465116,39.534884,no change
+scene Smoke,cascade-redetect-clean,Cascade on baseline weights,iou,43,43,0.770268,0.770034,-0.000234,-0.002053,-0.032657,0.026789,0.815716,48.837209,51.162791,no change
+scene Smoke,cascade-redetect-clean,Cascade on baseline weights,recall,43,43,0.879004,0.868055,-0.010949,-0.003687,-0.036824,0.012693,0.483787,44.186047,55.813953,no change
+scene Smoke,cascade-redetect-clean,Cascade on baseline weights,precision,43,43,0.875564,0.88558,0.010016,0.000392,-0.018944,0.03278,0.322583,46.511628,44.186047,no change
+scene Smoke,cascade-redetect-clean,Cascade on baseline weights,hd95,43,43,60.948157,56.448734,-4.499423,-0.423024,-26.369706,17.500319,0.909614,46.511628,53.488372,no change
+scene Smoke,roift-control-ff,"Fine-tune control, 15 ep",iou,43,43,0.770268,0.765243,-0.005025,0.003013,-0.035408,0.021292,0.862427,51.162791,46.511628,no change
+scene Smoke,roift-control-ff,"Fine-tune control, 15 ep",recall,43,43,0.879004,0.862119,-0.016885,-0.004197,-0.042706,0.00326,0.232145,39.534884,60.465116,no change
+scene Smoke,roift-control-ff,"Fine-tune control, 15 ep",precision,43,43,0.875564,0.890269,0.014705,0.003699,-0.013795,0.036891,0.102208,55.813953,34.883721,no change
+scene Smoke,roift-control-ff,"Fine-tune control, 15 ep",hd95,43,43,60.948157,56.57406,-4.374097,-0.880283,-25.098472,16.910267,0.768883,44.186047,53.488372,no change
+scene Smoke,roift-long,"ROI fine-tune, 50 ep",iou,43,43,0.770268,0.785149,0.014882,0.003074,-0.025879,0.053734,0.359255,53.488372,44.186047,no change
+scene Smoke,roift-long,"ROI fine-tune, 50 ep",recall,43,43,0.879004,0.881709,0.002706,-0.001799,-0.032041,0.03652,0.890693,46.511628,51.162791,no change
+scene Smoke,roift-long,"ROI fine-tune, 50 ep",precision,43,43,0.875564,0.891503,0.01594,0.001939,-0.013996,0.042909,0.146934,55.813953,32.55814,no change
+scene Smoke,roift-long,"ROI fine-tune, 50 ep",hd95,43,43,60.948157,73.813919,12.865762,0.100927,-16.081722,48.971724,0.657129,51.162791,46.511628,no change
+scene Blood,tversky-rescore-hi,BCE-Tversky (grid to 0.95),iou,360,280,0.801044,0.805009,0.003965,-0.000797,-0.006411,0.01486,0.913416,45.833333,49.444444,no change
+scene Blood,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,360,280,0.879418,0.906347,0.026929,0.01498,0.016781,0.037992,0.0,76.111111,18.611111,better
+scene Blood,tversky-rescore-hi,BCE-Tversky (grid to 0.95),precision,360,280,0.900485,0.881789,-0.018695,-0.014134,-0.027656,-0.009771,0.0,20.903955,77.40113,worse
+scene Blood,tversky-rescore-hi,BCE-Tversky (grid to 0.95),hd95,360,280,64.986988,63.07495,-1.912038,0.384463,-10.300566,5.87859,0.676064,53.107345,45.762712,no change
+scene Blood,synaug-fixed,"Synthetic aug, additive",iou,360,280,0.801044,0.814673,0.013629,0.000802,0.003889,0.023763,0.058106,49.722222,44.444444,better
+scene Blood,synaug-fixed,"Synthetic aug, additive",recall,360,280,0.879418,0.886216,0.006798,-0.000272,-0.001687,0.016329,0.981524,45.833333,48.055556,no change
+scene Blood,synaug-fixed,"Synthetic aug, additive",precision,360,280,0.900485,0.91057,0.012152,0.000983,0.003315,0.02199,0.085581,49.717514,43.220339,better
+scene Blood,synaug-fixed,"Synthetic aug, additive",hd95,360,280,64.986988,58.543958,-7.508385,-0.325812,-15.856158,0.595554,0.215827,46.327684,51.694915,no change
+scene Blood,static-tiling,Static tiling,iou,360,280,0.801044,0.798854,-0.00219,-0.001065,-0.011659,0.00743,0.115679,44.166667,50.555556,no change
+scene Blood,static-tiling,Static tiling,recall,360,280,0.879418,0.88517,0.005752,-0.00184,-0.002121,0.014331,0.333237,41.944444,51.666667,no change
+scene Blood,static-tiling,Static tiling,precision,360,280,0.900485,0.891977,-0.005988,0.000488,-0.016037,0.004433,0.18474,48.022599,48.022599,no change
+scene Blood,static-tiling,Static tiling,hd95,360,280,64.986988,77.286465,11.699157,0.385793,1.818361,21.85745,0.073222,51.977401,46.045198,worse
+scene Blood,cascade-redetect-clean,Cascade on baseline weights,iou,360,280,0.801044,0.805478,0.004435,0.0,-0.005598,0.014266,0.628941,47.777778,47.222222,no change
+scene Blood,cascade-redetect-clean,Cascade on baseline weights,recall,360,280,0.879418,0.889821,0.010403,0.003272,0.002776,0.018211,0.001841,54.166667,40.555556,better
+scene Blood,cascade-redetect-clean,Cascade on baseline weights,precision,360,280,0.900485,0.89794,-0.007502,-0.002019,-0.016108,0.001396,0.016588,43.75,51.988636,no change
+scene Blood,cascade-redetect-clean,Cascade on baseline weights,hd95,360,280,64.986988,60.937292,-2.871664,-0.144257,-11.418028,5.414346,0.318454,47.159091,50.852273,no change
+scene Blood,roift-control-ff,"Fine-tune control, 15 ep",iou,360,280,0.801044,0.806051,0.005008,0.000482,-0.004793,0.01486,0.450318,49.166667,45.555556,no change
+scene Blood,roift-control-ff,"Fine-tune control, 15 ep",recall,360,280,0.879418,0.878685,-0.000733,-0.000517,-0.008115,0.006584,0.506984,45.277778,48.611111,no change
+scene Blood,roift-control-ff,"Fine-tune control, 15 ep",precision,360,280,0.900485,0.911279,0.010794,0.00151,0.001065,0.022069,0.011012,51.412429,42.372881,better
+scene Blood,roift-control-ff,"Fine-tune control, 15 ep",hd95,360,280,64.986988,55.03409,-9.952898,-0.442578,-17.969353,-2.357842,0.019411,42.937853,54.519774,better
+scene Blood,roift-long,"ROI fine-tune, 50 ep",iou,360,280,0.801044,0.813268,0.012224,0.002214,0.001795,0.022664,0.046924,53.888889,40.277778,better
+scene Blood,roift-long,"ROI fine-tune, 50 ep",recall,360,280,0.879418,0.890817,0.011399,0.001084,0.002418,0.020344,0.090134,50.555556,43.611111,better
+scene Blood,roift-long,"ROI fine-tune, 50 ep",precision,360,280,0.900485,0.906313,0.005828,0.001512,-0.003499,0.016366,0.092907,51.977401,42.655367,no change
+scene Blood,roift-long,"ROI fine-tune, 50 ep",hd95,360,280,64.986988,55.27875,-9.708237,-0.468291,-17.901416,-1.60262,0.004057,40.960452,56.497175,better
+scene Motion Blur,tversky-rescore-hi,BCE-Tversky (grid to 0.95),iou,359,307,0.756762,0.76707,0.010308,0.001312,-0.004209,0.02469,0.170698,50.417827,45.961003,no change
+scene Motion Blur,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,359,307,0.844804,0.879261,0.034457,0.013452,0.01957,0.049468,0.0,76.32312,18.662953,better
+scene Motion Blur,tversky-rescore-hi,BCE-Tversky (grid to 0.95),precision,359,307,0.88249,0.862381,-0.020018,-0.013681,-0.029622,-0.011138,0.0,25.988701,70.903955,worse
+scene Motion Blur,tversky-rescore-hi,BCE-Tversky (grid to 0.95),hd95,359,307,77.132609,71.777243,-5.24688,0.0,-12.950472,2.612337,0.433064,48.587571,49.435028,no change
+scene Motion Blur,synaug-fixed,"Synthetic aug, additive",iou,359,307,0.756762,0.763803,0.007041,0.000882,-0.00557,0.020442,0.19824,49.582173,45.961003,no change
+scene Motion Blur,synaug-fixed,"Synthetic aug, additive",recall,359,307,0.844804,0.852131,0.007327,0.000859,-0.006216,0.021992,0.05712,49.860724,44.011142,no change
+scene Motion Blur,synaug-fixed,"Synthetic aug, additive",precision,359,307,0.88249,0.885391,0.002919,0.000602,-0.004865,0.010758,0.59777,49.575071,46.74221,no change
+scene Motion Blur,synaug-fixed,"Synthetic aug, additive",hd95,359,307,77.132609,76.40101,-0.241396,-0.422783,-7.982603,7.317598,0.166563,45.609065,52.974504,no change
+scene Motion Blur,static-tiling,Static tiling,iou,359,307,0.756762,0.743155,-0.013608,-0.005829,-0.027522,0.00014,0.001679,40.668524,57.103064,no change
+scene Motion Blur,static-tiling,Static tiling,recall,359,307,0.844804,0.840984,-0.003819,-0.000755,-0.017121,0.010329,0.202942,46.518106,49.860724,no change
+scene Motion Blur,static-tiling,Static tiling,precision,359,307,0.88249,0.865816,-0.012521,-0.001506,-0.023298,-0.002563,0.100486,47.025496,50.141643,worse
+scene Motion Blur,static-tiling,Static tiling,hd95,359,307,77.132609,87.388694,10.076927,0.527864,1.743669,19.169168,0.143979,53.541076,46.175637,worse
+scene Motion Blur,cascade-redetect-clean,Cascade on baseline weights,iou,359,307,0.756762,0.756104,-0.000658,0.000295,-0.012939,0.011638,0.691814,48.467967,46.239554,no change
+scene Motion Blur,cascade-redetect-clean,Cascade on baseline weights,recall,359,307,0.844804,0.856537,0.011733,0.003207,-0.000955,0.024335,0.001351,54.874652,39.275766,no change
+scene Motion Blur,cascade-redetect-clean,Cascade on baseline weights,precision,359,307,0.88249,0.870171,-0.012079,-0.004374,-0.020416,-0.004229,0.000235,38.135593,56.779661,worse
+scene Motion Blur,cascade-redetect-clean,Cascade on baseline weights,hd95,359,307,77.132609,78.145212,1.178933,0.001418,-5.536813,8.147735,0.605836,50.0,47.175141,no change
+scene Motion Blur,roift-control-ff,"Fine-tune control, 15 ep",iou,359,307,0.756762,0.756613,-0.000149,0.002566,-0.012002,0.012003,0.197348,52.64624,44.011142,no change
+scene Motion Blur,roift-control-ff,"Fine-tune control, 15 ep",recall,359,307,0.844804,0.839452,-0.005351,0.000779,-0.018918,0.008198,0.58098,49.303621,46.239554,no change
+scene Motion Blur,roift-control-ff,"Fine-tune control, 15 ep",precision,359,307,0.88249,0.887069,0.004181,0.001866,-0.002716,0.010905,0.041372,52.542373,41.80791,no change
+scene Motion Blur,roift-control-ff,"Fine-tune control, 15 ep",hd95,359,307,77.132609,76.829852,-0.536978,0.0,-7.564344,6.590077,0.651728,49.152542,49.717514,no change
+scene Motion Blur,roift-long,"ROI fine-tune, 50 ep",iou,359,307,0.756762,0.772259,0.015497,0.002882,0.000183,0.030648,0.006786,55.431755,40.111421,better
+scene Motion Blur,roift-long,"ROI fine-tune, 50 ep",recall,359,307,0.844804,0.863866,0.019062,0.002285,0.002916,0.035371,0.001151,53.203343,41.78273,better
+scene Motion Blur,roift-long,"ROI fine-tune, 50 ep",precision,359,307,0.88249,0.886583,0.001499,0.001771,-0.005184,0.008382,0.266696,52.272727,42.045455,no change
+scene Motion Blur,roift-long,"ROI fine-tune, 50 ep",hd95,359,307,77.132609,72.844324,-3.703194,-0.01246,-11.17528,4.077661,0.187378,47.443182,50.284091,no change
+scene Underexposure,tversky-rescore-hi,BCE-Tversky (grid to 0.95),iou,61,54,0.736593,0.72403,-0.012564,-0.004338,-0.054374,0.018352,0.43246,42.622951,50.819672,no change
+scene Underexposure,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,61,54,0.843001,0.86454,0.021539,0.010653,-0.022139,0.056835,0.004987,68.852459,26.229508,no change
+scene Underexposure,tversky-rescore-hi,BCE-Tversky (grid to 0.95),precision,61,54,0.867844,0.834958,-0.030688,-0.018094,-0.046094,-0.015249,0.000199,29.310345,70.689655,worse
+scene Underexposure,tversky-rescore-hi,BCE-Tversky (grid to 0.95),hd95,61,54,71.18239,67.985583,-4.229026,0.507478,-19.988911,9.759783,0.929053,55.172414,44.827586,no change
+scene Underexposure,synaug-fixed,"Synthetic aug, additive",iou,61,54,0.736593,0.718206,-0.018388,-0.00794,-0.039324,0.005828,0.025226,36.065574,60.655738,no change
+scene Underexposure,synaug-fixed,"Synthetic aug, additive",recall,61,54,0.843001,0.832611,-0.01039,0.000307,-0.033631,0.015789,0.461633,49.180328,47.540984,no change
+scene Underexposure,synaug-fixed,"Synthetic aug, additive",precision,61,54,0.867844,0.855425,-0.014869,0.000373,-0.030412,7.3e-05,0.365064,45.762712,45.762712,no change
+scene Underexposure,synaug-fixed,"Synthetic aug, additive",hd95,61,54,71.18239,78.292253,7.552732,0.443274,-6.005066,21.590596,0.341582,54.237288,45.762712,no change
+scene Underexposure,static-tiling,Static tiling,iou,61,54,0.736593,0.728939,-0.007654,-0.00758,-0.046784,0.037286,0.18749,40.983607,55.737705,no change
+scene Underexposure,static-tiling,Static tiling,recall,61,54,0.843001,0.842577,-0.000424,0.00025,-0.044131,0.049468,0.617636,47.540984,49.180328,no change
+scene Underexposure,static-tiling,Static tiling,precision,61,54,0.867844,0.850767,-0.016557,-0.004479,-0.032227,-0.001663,0.239002,40.677966,54.237288,worse
+scene Underexposure,static-tiling,Static tiling,hd95,61,54,71.18239,82.772438,12.405281,0.698061,-8.742984,35.433797,0.27046,55.932203,44.067797,no change
+scene Underexposure,cascade-redetect-clean,Cascade on baseline weights,iou,61,54,0.736593,0.727225,-0.009369,-0.005375,-0.044745,0.029262,0.13801,40.983607,57.377049,no change
+scene Underexposure,cascade-redetect-clean,Cascade on baseline weights,recall,61,54,0.843001,0.852337,0.009337,0.005911,-0.02793,0.051285,0.441363,54.098361,37.704918,no change
+scene Underexposure,cascade-redetect-clean,Cascade on baseline weights,precision,61,54,0.867844,0.835195,-0.019461,-0.00758,-0.033415,-0.006208,0.040805,40.677966,59.322034,worse
+scene Underexposure,cascade-redetect-clean,Cascade on baseline weights,hd95,61,54,71.18239,72.535788,0.481788,0.50427,-16.398779,15.604957,0.283578,52.542373,45.762712,no change
+scene Underexposure,roift-control-ff,"Fine-tune control, 15 ep",iou,61,54,0.736593,0.738614,0.00202,-0.004214,-0.024801,0.038907,0.401344,45.901639,50.819672,no change
+scene Underexposure,roift-control-ff,"Fine-tune control, 15 ep",recall,61,54,0.843001,0.838367,-0.004634,-0.002588,-0.043807,0.038169,0.58592,40.983607,54.098361,no change
+scene Underexposure,roift-control-ff,"Fine-tune control, 15 ep",precision,61,54,0.867844,0.864294,-0.00519,0.002232,-0.01648,0.005265,0.903875,50.847458,45.762712,no change
+scene Underexposure,roift-control-ff,"Fine-tune control, 15 ep",hd95,61,54,71.18239,68.221625,-1.856276,0.397062,-13.886211,8.423312,0.311811,52.542373,47.457627,no change
+scene Underexposure,roift-long,"ROI fine-tune, 50 ep",iou,61,54,0.736593,0.742989,0.006396,-0.003384,-0.021199,0.040161,0.947175,45.901639,52.459016,no change
+scene Underexposure,roift-long,"ROI fine-tune, 50 ep",recall,61,54,0.843001,0.865997,0.022996,0.003411,-0.001513,0.057885,0.106253,52.459016,40.983607,no change
+scene Underexposure,roift-long,"ROI fine-tune, 50 ep",precision,61,54,0.867844,0.853509,-0.016759,-0.003321,-0.034213,-0.001794,0.337764,45.762712,52.542373,worse
+scene Underexposure,roift-long,"ROI fine-tune, 50 ep",hd95,61,54,71.18239,82.77843,12.926378,0.95268,-7.198412,35.684596,0.405238,52.542373,45.762712,no change
+scene Overexposure,tversky-rescore-hi,BCE-Tversky (grid to 0.95),iou,82,73,0.765641,0.761614,-0.004026,-0.004719,-0.041744,0.035005,0.75063,43.902439,53.658537,no change
+scene Overexposure,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,82,73,0.845916,0.86041,0.014493,0.010385,-0.023227,0.056304,0.000463,71.95122,23.170732,no change
+scene Overexposure,tversky-rescore-hi,BCE-Tversky (grid to 0.95),precision,82,73,0.878892,0.861771,-0.015606,-0.014442,-0.045233,0.014714,0.000257,23.75,72.5,no change
+scene Overexposure,tversky-rescore-hi,BCE-Tversky (grid to 0.95),hd95,82,73,68.0278,66.111894,-1.488904,0.411076,-15.528791,11.528422,0.929903,53.75,45.0,no change
+scene Overexposure,synaug-fixed,"Synthetic aug, additive",iou,82,73,0.765641,0.770763,0.005122,0.00308,-0.025904,0.04019,0.622708,52.439024,45.121951,no change
+scene Overexposure,synaug-fixed,"Synthetic aug, additive",recall,82,73,0.845916,0.838598,-0.007319,-0.002963,-0.039408,0.029868,0.303593,45.121951,51.219512,no change
+scene Overexposure,synaug-fixed,"Synthetic aug, additive",precision,82,73,0.878892,0.915654,0.038482,0.003841,0.006356,0.077416,0.037352,55.696203,39.240506,better
+scene Overexposure,synaug-fixed,"Synthetic aug, additive",hd95,82,73,68.0278,65.600147,-0.1838,-0.262033,-17.609865,16.037617,0.896962,48.101266,50.632911,no change
+scene Overexposure,static-tiling,Static tiling,iou,82,73,0.765641,0.749649,-0.015992,-0.003441,-0.059204,0.022203,0.349998,41.463415,56.097561,no change
+scene Overexposure,static-tiling,Static tiling,recall,82,73,0.845916,0.846613,0.000697,-0.001534,-0.042305,0.042809,0.26549,42.682927,52.439024,no change
+scene Overexposure,static-tiling,Static tiling,precision,82,73,0.878892,0.86048,-0.017137,-0.003121,-0.056061,0.017482,0.255655,41.25,53.75,no change
+scene Overexposure,static-tiling,Static tiling,hd95,82,73,68.0278,75.08742,6.339234,-0.213832,-12.197998,24.613913,0.931202,47.5,52.5,no change
+scene Overexposure,cascade-redetect-clean,Cascade on baseline weights,iou,82,73,0.765641,0.761875,-0.003766,3.9e-05,-0.033805,0.027394,0.826701,47.560976,48.780488,no change
+scene Overexposure,cascade-redetect-clean,Cascade on baseline weights,recall,82,73,0.845916,0.870016,0.0241,8.5e-05,-0.005982,0.059648,0.757784,47.560976,47.560976,no change
+scene Overexposure,cascade-redetect-clean,Cascade on baseline weights,precision,82,73,0.878892,0.860659,-0.018233,0.000489,-0.046955,0.01001,0.279897,45.679012,46.91358,no change
+scene Overexposure,cascade-redetect-clean,Cascade on baseline weights,hd95,82,73,68.0278,80.041031,12.013231,0.0,-1.849069,27.5564,0.676476,49.382716,49.382716,no change
+scene Overexposure,roift-control-ff,"Fine-tune control, 15 ep",iou,82,73,0.765641,0.761885,-0.003756,0.000301,-0.037024,0.027233,0.870963,48.780488,46.341463,no change
+scene Overexposure,roift-control-ff,"Fine-tune control, 15 ep",recall,82,73,0.845916,0.84256,-0.003357,-0.002868,-0.031426,0.0266,0.072843,36.585366,56.097561,no change
+scene Overexposure,roift-control-ff,"Fine-tune control, 15 ep",precision,82,73,0.878892,0.884909,0.006018,0.005238,-0.022813,0.033498,0.12483,59.259259,35.802469,no change
+scene Overexposure,roift-control-ff,"Fine-tune control, 15 ep",hd95,82,73,68.0278,76.904834,8.877034,0.0,-6.755219,25.793791,0.860345,48.148148,49.382716,no change
+scene Overexposure,roift-long,"ROI fine-tune, 50 ep",iou,82,73,0.765641,0.776918,0.011277,-0.0,-0.021735,0.043855,0.715192,47.560976,47.560976,no change
+scene Overexposure,roift-long,"ROI fine-tune, 50 ep",recall,82,73,0.845916,0.872707,0.02679,-0.000393,-7.1e-05,0.062353,0.799339,43.902439,48.780488,no change
+scene Overexposure,roift-long,"ROI fine-tune, 50 ep",precision,82,73,0.878892,0.869202,-0.00969,0.001167,-0.037569,0.017219,0.866686,50.617284,43.209877,no change
+scene Overexposure,roift-long,"ROI fine-tune, 50 ep",hd95,82,73,68.0278,71.378847,3.351048,0.780456,-13.276374,20.20249,0.609682,53.08642,43.209877,no change
+scene any degradation,tversky-rescore-hi,BCE-Tversky (grid to 0.95),iou,850,618,0.776315,0.782195,0.00588,0.0,-0.002659,0.014496,0.451515,47.882353,48.0,no change
+scene any degradation,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,850,618,0.861577,0.891036,0.029459,0.013443,0.020799,0.038652,0.0,74.941176,20.117647,better
+scene any degradation,tversky-rescore-hi,BCE-Tversky (grid to 0.95),precision,850,618,0.888223,0.868386,-0.019416,-0.013624,-0.02583,-0.01319,0.0,24.191617,73.173653,worse
+scene any degradation,tversky-rescore-hi,BCE-Tversky (grid to 0.95),hd95,850,618,70.462097,66.926337,-3.345878,0.20948,-8.221782,1.38677,0.685625,51.017964,47.54491,no change
+scene any degradation,synaug-fixed,"Synthetic aug, additive",iou,850,618,0.776315,0.785575,0.00926,0.00062,0.001335,0.017545,0.080286,49.176471,46.117647,better
+scene any degradation,synaug-fixed,"Synthetic aug, additive",recall,850,618,0.861577,0.867701,0.006124,0.0,-0.001621,0.014701,0.506847,47.058824,47.176471,no change
+scene any degradation,synaug-fixed,"Synthetic aug, additive",precision,850,618,0.888223,0.896286,0.00904,0.001104,0.002706,0.015736,0.027638,50.478469,44.019139,better
+scene any degradation,synaug-fixed,"Synthetic aug, additive",hd95,850,618,70.462097,67.821035,-2.755575,-0.321449,-8.013706,2.191705,0.135325,46.5311,51.913876,no change
+scene any degradation,static-tiling,Static tiling,iou,850,618,0.776315,0.768246,-0.008069,-0.003092,-0.016677,0.000681,0.000681,43.176471,53.411765,no change
+scene any degradation,static-tiling,Static tiling,recall,850,618,0.861577,0.863532,0.001955,-0.001225,-0.006424,0.010671,0.081087,44.823529,50.588235,no change
+scene any degradation,static-tiling,Static tiling,precision,850,618,0.888223,0.875395,-0.010961,-0.000715,-0.018247,-0.003324,0.018763,46.953405,49.58184,worse
+scene any degradation,static-tiling,Static tiling,hd95,850,618,70.462097,82.495394,12.012942,0.497286,6.190922,18.207372,0.006672,53.046595,45.997611,worse
+scene any degradation,cascade-redetect-clean,Cascade on baseline weights,iou,850,618,0.776315,0.777141,0.000826,0.0,-0.007431,0.008752,0.689912,47.647059,47.882353,no change
+scene any degradation,cascade-redetect-clean,Cascade on baseline weights,recall,850,618,0.861577,0.873428,0.011851,0.002745,0.004134,0.019431,3.7e-05,53.411765,41.176471,better
+scene any degradation,cascade-redetect-clean,Cascade on baseline weights,precision,850,618,0.888223,0.878707,-0.010467,-0.002466,-0.016169,-0.004575,5.3e-05,42.22488,52.870813,worse
+scene any degradation,cascade-redetect-clean,Cascade on baseline weights,hd95,850,618,70.462097,70.51885,0.563201,0.0,-4.214649,5.279619,0.720955,49.401914,48.444976,no change
+scene any degradation,roift-control-ff,"Fine-tune control, 15 ep",iou,850,618,0.776315,0.778693,0.002378,0.001437,-0.005335,0.009732,0.233886,50.470588,45.411765,no change
+scene any degradation,roift-control-ff,"Fine-tune control, 15 ep",recall,850,618,0.861577,0.859443,-0.002135,-0.000546,-0.010025,0.005016,0.414311,45.764706,49.058824,no change
+scene any degradation,roift-control-ff,"Fine-tune control, 15 ep",precision,850,618,0.888223,0.89524,0.006782,0.002034,0.001056,0.012889,0.00012,52.983294,40.811456,better
+scene any degradation,roift-control-ff,"Fine-tune control, 15 ep",hd95,850,618,70.462097,67.16304,-3.336611,-0.111655,-8.010812,1.441453,0.207893,47.016706,51.312649,no change
+scene any degradation,roift-long,"ROI fine-tune, 50 ep",iou,850,618,0.776315,0.790466,0.01415,0.0021,0.005238,0.022941,0.001755,53.411765,41.764706,better
+scene any degradation,roift-long,"ROI fine-tune, 50 ep",recall,850,618,0.861577,0.877991,0.016414,0.001079,0.007542,0.025549,0.001757,50.352941,44.0,better
+scene any degradation,roift-long,"ROI fine-tune, 50 ep",precision,850,618,0.888223,0.892147,0.002699,0.001779,-0.003229,0.008975,0.030546,52.511962,41.866029,no change
+scene any degradation,roift-long,"ROI fine-tune, 50 ep",hd95,850,618,70.462097,66.105013,-4.028972,-0.162652,-9.100316,1.147275,0.034336,45.69378,51.794258,no change
+scene clean,tversky-rescore-hi,BCE-Tversky (grid to 0.95),iou,2587,1201,0.81402,0.812043,-0.001977,-0.001561,-0.006219,0.002441,0.009957,44.723618,50.908388,no change
+scene clean,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,2587,1201,0.892653,0.911815,0.019162,0.012189,0.01471,0.023968,0.0,77.386935,19.095477,better
+scene clean,tversky-rescore-hi,BCE-Tversky (grid to 0.95),precision,2587,1201,0.901688,0.881933,-0.021332,-0.013748,-0.024737,-0.017959,0.0,19.120534,77.777778,worse
+scene clean,tversky-rescore-hi,BCE-Tversky (grid to 0.95),hd95,2587,1201,57.652746,59.322904,2.088006,0.288934,-0.974391,5.17207,0.000824,52.689439,44.405183,no change
+scene clean,synaug-fixed,"Synthetic aug, additive",iou,2587,1201,0.81402,0.815122,0.001101,0.000407,-0.003691,0.005674,0.151657,48.782373,46.579049,no change
+scene clean,synaug-fixed,"Synthetic aug, additive",recall,2587,1201,0.892653,0.891343,-0.00131,-0.000935,-0.005885,0.003236,0.069619,44.027831,49.787399,no change
+scene clean,synaug-fixed,"Synthetic aug, additive",precision,2587,1201,0.901688,0.904204,0.00291,0.001293,-0.000667,0.00664,8e-05,51.041257,43.222004,no change
+scene clean,synaug-fixed,"Synthetic aug, additive",hd95,2587,1201,57.652746,56.369641,-1.208106,0.0,-4.129801,1.720501,0.739256,48.369352,48.840864,no change
+scene clean,static-tiling,Static tiling,iou,2587,1201,0.81402,0.810442,-0.003579,-0.001686,-0.008186,0.001339,0.000504,44.762273,51.372246,no change
+scene clean,static-tiling,Static tiling,recall,2587,1201,0.892653,0.897305,0.004652,-0.000711,6.4e-05,0.009834,0.232042,45.496714,49.632779,better
+scene clean,static-tiling,Static tiling,precision,2587,1201,0.901688,0.891692,-0.009468,-0.001196,-0.013455,-0.005633,8.9e-05,45.287446,50.567071,worse
+scene clean,static-tiling,Static tiling,hd95,2587,1201,57.652746,69.711725,11.735478,0.443274,8.254259,15.134154,0.0,53.382871,44.779038,worse
+scene clean,cascade-redetect-clean,Cascade on baseline weights,iou,2587,1201,0.81402,0.816807,0.002787,0.000273,-0.001977,0.007415,0.038678,48.666409,46.810978,no change
+scene clean,cascade-redetect-clean,Cascade on baseline weights,recall,2587,1201,0.892653,0.906035,0.013382,0.002953,0.008503,0.018391,0.0,54.735215,39.427909,better
+scene clean,cascade-redetect-clean,Cascade on baseline weights,precision,2587,1201,0.901688,0.892543,-0.009648,-0.002002,-0.012788,-0.006345,0.0,41.938015,52.648097,worse
+scene clean,cascade-redetect-clean,Cascade on baseline weights,hd95,2587,1201,57.652746,59.312821,1.772905,0.0,-1.184081,4.521441,0.175458,49.274225,48.214986,no change
+scene clean,roift-control-ff,"Fine-tune control, 15 ep",iou,2587,1201,0.81402,0.819135,0.005115,0.001709,0.000859,0.009294,0.0,52.029378,42.056436,better
+scene clean,roift-control-ff,"Fine-tune control, 15 ep",recall,2587,1201,0.892653,0.892968,0.000315,0.0,-0.004165,0.004836,0.415796,46.849633,46.192501,no change
+scene clean,roift-control-ff,"Fine-tune control, 15 ep",precision,2587,1201,0.901688,0.90699,0.004259,0.001314,0.001476,0.007201,0.0,50.980392,42.784314,better
+scene clean,roift-control-ff,"Fine-tune control, 15 ep",hd95,2587,1201,57.652746,53.218675,-4.473283,-0.039571,-7.33384,-1.592917,0.008447,46.627451,50.431373,better
+scene clean,roift-long,"ROI fine-tune, 50 ep",iou,2587,1201,0.81402,0.824189,0.010169,0.002885,0.005408,0.014764,0.0,54.232702,41.28334,better
+scene clean,roift-long,"ROI fine-tune, 50 ep",recall,2587,1201,0.892653,0.903878,0.011225,0.000879,0.00663,0.016135,0.0,49.47816,43.757248,better
+scene clean,roift-long,"ROI fine-tune, 50 ep",precision,2587,1201,0.901688,0.902191,7.6e-05,0.001189,-0.003096,0.003175,0.001171,50.567959,42.929886,no change
+scene clean,roift-long,"ROI fine-tune, 50 ep",hd95,2587,1201,57.652746,54.726992,-3.168375,-0.171573,-6.203738,-0.12977,0.00091,45.201723,51.938895,better
+tool-free frames,tversky-rescore-hi,BCE-Tversky (grid to 0.95),iou,326,274,0.677914,0.622699,-0.055215,0.0,-0.105882,-0.003214,0.007863,7.055215,12.576687,worse
+tool-free frames,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,326,274,,,,,,,,,,n/a
+tool-free frames,tversky-rescore-hi,BCE-Tversky (grid to 0.95),precision,326,274,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,no change
+tool-free frames,tversky-rescore-hi,BCE-Tversky (grid to 0.95),hd95,326,274,,,,,,,,,,n/a
+tool-free frames,synaug-fixed,"Synthetic aug, additive",iou,326,274,0.677914,0.653374,-0.02454,0.0,-0.066038,0.017704,0.976968,6.748466,9.202454,no change
+tool-free frames,synaug-fixed,"Synthetic aug, additive",recall,326,274,,,,,,,,,,n/a
+tool-free frames,synaug-fixed,"Synthetic aug, additive",precision,326,274,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,no change
+tool-free frames,synaug-fixed,"Synthetic aug, additive",hd95,326,274,,,,,,,,,,n/a
+tool-free frames,static-tiling,Static tiling,iou,326,274,0.677914,0.484663,-0.193252,0.0,-0.240628,-0.146027,0.0,1.533742,20.858896,worse
+tool-free frames,static-tiling,Static tiling,recall,326,274,,,,,,,,,,n/a
+tool-free frames,static-tiling,Static tiling,precision,326,274,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,no change
+tool-free frames,static-tiling,Static tiling,hd95,326,274,,,,,,,,,,n/a
+tool-free frames,cascade-redetect-clean,Cascade on baseline weights,iou,326,274,0.677914,0.622699,-0.055215,0.0,-0.097859,-0.012383,0.040372,4.907975,10.429448,worse
+tool-free frames,cascade-redetect-clean,Cascade on baseline weights,recall,326,274,,,,,,,,,,n/a
+tool-free frames,cascade-redetect-clean,Cascade on baseline weights,precision,326,274,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,no change
+tool-free frames,cascade-redetect-clean,Cascade on baseline weights,hd95,326,274,,,,,,,,,,n/a
+tool-free frames,roift-control-ff,"Fine-tune control, 15 ep",iou,326,274,0.677914,0.696319,0.018405,0.0,-0.021807,0.058282,0.01963,7.97546,6.134969,no change
+tool-free frames,roift-control-ff,"Fine-tune control, 15 ep",recall,326,274,,,,,,,,,,n/a
+tool-free frames,roift-control-ff,"Fine-tune control, 15 ep",precision,326,274,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,no change
+tool-free frames,roift-control-ff,"Fine-tune control, 15 ep",hd95,326,274,,,,,,,,,,n/a
+tool-free frames,roift-long,"ROI fine-tune, 50 ep",iou,326,274,0.677914,0.653374,-0.02454,0.0,-0.070123,0.021091,0.942395,7.668712,10.122699,no change
+tool-free frames,roift-long,"ROI fine-tune, 50 ep",recall,326,274,,,,,,,,,,n/a
+tool-free frames,roift-long,"ROI fine-tune, 50 ep",precision,326,274,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,no change
+tool-free frames,roift-long,"ROI fine-tune, 50 ep",hd95,326,274,,,,,,,,,,n/a

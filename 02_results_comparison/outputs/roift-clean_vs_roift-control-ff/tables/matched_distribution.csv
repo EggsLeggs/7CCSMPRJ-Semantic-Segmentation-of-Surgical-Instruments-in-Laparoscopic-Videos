@@ -1,0 +1,4 @@
+stratum,run,label,metric,matched_threshold,n_frames,mean,median,improved_pct,worsened_pct,p
+all tool frames,roift-clean,"ROI fine-tune, 15 ep",recall,0.539039,4652,0.002584,-0.003269,27.751505,63.435082,0.0
+size tiny,roift-clean,"ROI fine-tune, 15 ep",recall,0.59138,600,-0.015727,-0.011733,18.5,72.0,0.0
+thin tools,roift-clean,"ROI fine-tune, 15 ep",recall,0.553417,1163,-0.005782,-0.006595,22.957868,69.561479,0.0

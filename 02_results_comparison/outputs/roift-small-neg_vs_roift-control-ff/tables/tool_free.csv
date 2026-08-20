@@ -1,0 +1,3 @@
+run,label,n_frames,fp_px_mean,fp_px_median,clean_rate,clean_rate_json,delta_fp_px,p
+roift-control-ff,"Fine-tune control, 15 ep",326,3510.263804,0.0,0.720859,0.681929,0.0,
+roift-small-neg,"ROI fine-tune, size-biased",326,4333.776074,0.0,0.671779,0.621416,823.51227,7e-06

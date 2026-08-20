@@ -1,0 +1,5 @@
+objective,run,label,thresholds,iou_lofo,iou_at_0.50,gain
+overall IoU,roift-neg-clean,ROI fine-tune + negatives 0.3,0.4/0.4/0.4/0.4/0.4,0.820306,0.819022,0.001284
+overall IoU,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,0.5/0.5/0.5/0.5/0.5,0.82215,0.82215,0.0
+tiny IoU,roift-neg-clean,ROI fine-tune + negatives 0.3,0.5/0.4/0.4/0.4/0.4,0.819059,0.819022,3.7e-05
+tiny IoU,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,0.6/0.5/0.55/0.5/0.55,0.820053,0.82215,-0.002098

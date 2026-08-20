@@ -1,0 +1,31 @@
+convention,stratum,run,label,n_frames,target_precision,matched_threshold,reference_recall,arm_recall_matched,delta_recall_matched,delta_recall_at_0.50,out_of_grid
+per-frame,all tool frames,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",4652,0.902141,0.489312,0.898784,0.897919,-0.000866,-0.002577,False
+per-frame,size tiny,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",600,0.793695,0.476051,0.789149,0.792663,0.003514,-0.00229,False
+per-frame,size small,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",919,0.879995,0.496525,0.890074,0.888072,-0.002003,-0.002631,False
+per-frame,size med,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",2337,0.92256,0.493146,0.922513,0.921048,-0.001465,-0.002448,False
+per-frame,size large,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",796,0.94555,0.481491,0.921815,0.920982,-0.000833,-0.003111,False
+per-frame,thin tools,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",1163,0.839147,0.487121,0.838127,0.839413,0.001286,-0.001492,False
+per-frame,wide tools,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",3489,0.922723,0.490392,0.919003,0.917425,-0.001578,-0.002939,False
+per-frame,tiny or thin,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",1282,0.841106,0.485137,0.841743,0.843484,0.001741,-0.001404,False
+per-frame,scene Smoke,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",43,0.891503,0.528225,0.881709,0.879328,-0.002382,0.002588,False
+per-frame,scene Blood,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",360,0.906313,0.505431,0.890817,0.886557,-0.00426,-0.003307,False
+per-frame,scene Motion Blur,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",359,0.886583,0.535123,0.863866,0.850991,-0.012875,-0.005682,False
+per-frame,scene Underexposure,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",61,0.853509,0.536335,0.865997,0.8574,-0.008597,-0.000491,False
+per-frame,scene Overexposure,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",82,0.869202,0.482788,0.872707,0.870433,-0.002274,-0.006034,False
+per-frame,scene any degradation,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",850,0.892147,0.52447,0.877991,0.869602,-0.008389,-0.003612,False
+per-frame,scene clean,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",2587,0.902191,0.481581,0.903878,0.903708,-0.00017,-0.003043,False
+pooled,all tool frames,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",4652,0.908962,0.481685,0.915467,0.915469,2e-06,-0.0026,False
+pooled,size tiny,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",600,0.689327,0.417988,0.836757,0.853139,0.016382,-0.00163,False
+pooled,size small,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",919,0.842324,0.498685,0.890315,0.88787,-0.002445,-0.002681,False
+pooled,size med,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",2337,0.914702,0.491044,0.923384,0.921904,-0.00148,-0.00275,False
+pooled,size large,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",796,0.944286,0.473852,0.917569,0.918399,0.00083,-0.002431,False
+pooled,thin tools,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",1163,0.814592,0.476327,0.878097,0.881716,0.00362,-0.000935,False
+pooled,wide tools,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",3489,0.922417,0.482776,0.920399,0.919912,-0.000487,-0.002819,False
+pooled,tiny or thin,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",1282,0.812574,0.46813,0.877968,0.883192,0.005223,-0.000862,False
+pooled,scene Smoke,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",43,0.887546,0.540653,0.894207,0.888206,-0.006001,0.00075,False
+pooled,scene Blood,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",360,0.912545,0.487806,0.910425,0.906531,-0.003895,-0.005761,False
+pooled,scene Motion Blur,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",359,0.873434,0.509585,0.872951,0.864863,-0.008088,-0.006177,False
+pooled,scene Underexposure,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",61,0.804999,0.483757,0.871083,0.873633,0.00255,-0.000809,False
+pooled,scene Overexposure,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",82,0.882631,0.447763,0.886493,0.891421,0.004928,-0.005976,False
+pooled,scene any degradation,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",850,0.889703,0.501678,0.892409,0.887075,-0.005334,-0.005022,False
+pooled,scene clean,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",2587,0.91057,0.473049,0.923138,0.924386,0.001249,-0.002357,False

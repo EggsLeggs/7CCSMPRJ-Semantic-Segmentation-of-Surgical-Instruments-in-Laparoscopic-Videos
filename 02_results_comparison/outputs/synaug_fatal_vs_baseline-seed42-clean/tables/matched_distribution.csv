@@ -1,0 +1,4 @@
+stratum,run,label,metric,matched_threshold,n_frames,mean,median,improved_pct,worsened_pct,p
+all tool frames,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",recall,0.489849,4652,0.003511,0.001199,50.601892,43.207223,0.0
+size tiny,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",recall,0.434331,600,0.01498,0.004771,56.666667,33.833333,1e-06
+thin tools,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",recall,0.471955,1163,0.00708,0.002686,52.880482,41.358555,0.000108

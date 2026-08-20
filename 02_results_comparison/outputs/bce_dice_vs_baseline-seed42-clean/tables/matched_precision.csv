@@ -1,0 +1,31 @@
+convention,stratum,run,label,n_frames,target_precision,matched_threshold,reference_recall,arm_recall_matched,delta_recall_matched,delta_recall_at_0.50,out_of_grid
+per-frame,all tool frames,bce_dice,BCE-Dice,4652,0.901515,0.491218,0.888456,0.890964,0.002508,0.002085,False
+per-frame,size tiny,bce_dice,BCE-Dice,600,0.79139,0.299661,0.78,0.792756,0.012756,-0.002551,False
+per-frame,size small,bce_dice,BCE-Dice,919,0.879945,0.56732,0.884734,0.88322,-0.001515,0.002305,False
+per-frame,size med,bce_dice,BCE-Dice,2337,0.921759,0.534779,0.912271,0.912973,0.000702,0.002311,False
+per-frame,size large,bce_dice,BCE-Dice,796,0.94476,0.515398,0.904584,0.908657,0.004074,0.004661,False
+per-frame,thin tools,bce_dice,BCE-Dice,1163,0.83983,0.431244,0.833709,0.837997,0.004289,-0.000267,False
+per-frame,wide tools,bce_dice,BCE-Dice,3489,0.921539,0.52671,0.906705,0.908378,0.001673,0.002869,False
+per-frame,tiny or thin,bce_dice,BCE-Dice,1282,0.840568,0.414827,0.835496,0.841929,0.006433,0.000772,False
+per-frame,scene Smoke,bce_dice,BCE-Dice,43,0.875564,0.569619,0.879004,0.860506,-0.018498,-0.015109,False
+per-frame,scene Blood,bce_dice,BCE-Dice,360,0.900485,0.397154,0.879418,0.885792,0.006373,0.000914,False
+per-frame,scene Motion Blur,bce_dice,BCE-Dice,359,0.88249,0.512257,0.844804,0.859573,0.014769,0.015465,False
+per-frame,scene Underexposure,bce_dice,BCE-Dice,61,0.867844,0.7,0.843001,0.843247,0.000246,0.014448,True
+per-frame,scene Overexposure,bce_dice,BCE-Dice,82,0.878892,0.182492,0.845916,0.881425,0.035508,0.013799,False
+per-frame,scene any degradation,bce_dice,BCE-Dice,850,0.888223,0.46672,0.861577,0.873044,0.011467,0.009663,False
+per-frame,scene clean,bce_dice,BCE-Dice,2587,0.901688,0.488566,0.892653,0.894176,0.001523,0.000982,False
+pooled,all tool frames,bce_dice,BCE-Dice,4652,0.91009,0.490765,0.90186,0.905437,0.003577,0.003186,False
+pooled,size tiny,bce_dice,BCE-Dice,600,0.714459,0.234245,0.826454,0.843642,0.017188,-0.002747,False
+pooled,size small,bce_dice,BCE-Dice,919,0.844001,0.475476,0.885693,0.889144,0.003451,0.00216,False
+pooled,size med,bce_dice,BCE-Dice,2337,0.914296,0.510334,0.912692,0.913653,0.000961,0.001434,False
+pooled,size large,bce_dice,BCE-Dice,796,0.944877,0.568032,0.896684,0.900713,0.004029,0.006614,False
+pooled,thin tools,bce_dice,BCE-Dice,1163,0.827062,0.440324,0.873757,0.878508,0.004751,0.001152,False
+pooled,wide tools,bce_dice,BCE-Dice,3489,0.921875,0.504476,0.905569,0.908834,0.003265,0.003455,False
+pooled,tiny or thin,bce_dice,BCE-Dice,1282,0.824599,0.43257,0.872499,0.87831,0.005811,0.001715,False
+pooled,scene Smoke,bce_dice,BCE-Dice,43,0.873838,0.649968,0.879444,0.857023,-0.022421,-0.01438,False
+pooled,scene Blood,bce_dice,BCE-Dice,360,0.911434,0.425613,0.89926,0.902686,0.003426,-9.3e-05,False
+pooled,scene Motion Blur,bce_dice,BCE-Dice,359,0.882443,0.35111,0.846275,0.868497,0.022222,0.014611,False
+pooled,scene Underexposure,bce_dice,BCE-Dice,61,0.87087,0.650871,0.851798,0.857983,0.006184,0.015622,False
+pooled,scene Overexposure,bce_dice,BCE-Dice,82,0.897702,0.168893,0.875977,0.889485,0.013507,-0.003721,False
+pooled,scene any degradation,bce_dice,BCE-Dice,850,0.894572,0.415869,0.874286,0.884338,0.010052,0.005976,False
+pooled,scene clean,bce_dice,BCE-Dice,2587,0.909921,0.506642,0.906564,0.910246,0.003682,0.00397,False

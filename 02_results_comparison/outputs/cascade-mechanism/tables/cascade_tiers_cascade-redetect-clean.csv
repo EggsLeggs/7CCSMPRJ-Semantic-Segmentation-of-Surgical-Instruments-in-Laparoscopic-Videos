@@ -1,0 +1,6 @@
+tier,n_frames,share_pct,delta_iou,delta_iou_tool_frames,mean_zoom
+bootstrap_empty,254,5.102451,-2e-05,-3.3e-05,
+bootstrap_too_large,158,3.173965,-1e-05,-1.1e-05,
+fullframe_after_empty_roi,131,2.631579,0.0,0.0,1.33225
+roi,4431,89.011651,-0.001631,0.002028,1.196717
+roi_recovered,4,0.080354,-0.75,-0.0,1.462396

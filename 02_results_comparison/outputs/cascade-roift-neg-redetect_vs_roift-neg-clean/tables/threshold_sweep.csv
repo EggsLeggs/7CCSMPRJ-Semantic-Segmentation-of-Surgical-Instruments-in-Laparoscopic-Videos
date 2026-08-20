@@ -1,0 +1,29 @@
+run,label,threshold,iou,precision,recall,iou_tiny,recall_tiny,notool_fp_px
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.1,0.780511,0.804916,0.960483,0.601117,0.890839,8419.877301
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.2,0.805415,0.844376,0.944692,0.632466,0.860251,6475.546012
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.3,0.816258,0.869074,0.929852,0.64796,0.835599,5447.251534
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.4,0.820306,0.887695,0.914309,0.654536,0.810724,4777.43865
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.5,0.819022,0.902813,0.897223,0.653616,0.784486,4312.165644
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.55,0.81657,0.909495,0.887744,0.650528,0.770077,4109.079755
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.6,0.812733,0.915983,0.87708,0.645196,0.753604,3901.377301
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.65,0.807352,0.922549,0.864984,0.637996,0.735306,3700.263804
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.7,0.800201,0.928887,0.85121,0.62857,0.714839,3502.751534
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.75,0.790731,0.935524,0.835105,0.615421,0.690284,3303.03681
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.8,0.778168,0.942184,0.816014,0.5981,0.661792,3092.386503
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.85,0.761255,0.950271,0.792557,0.575325,0.627735,2851.423313
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.9,0.736211,0.957191,0.760483,0.542556,0.582773,2549.54908
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.95,0.689006,0.966275,0.704856,0.480047,0.505378,2042.058282
+cascade-roift-neg-redetect,Cascade on ROI-tuned weights,0.1,0.766513,0.785286,0.96832,0.578737,0.915859,9780.794479
+cascade-roift-neg-redetect,Cascade on ROI-tuned weights,0.2,0.797246,0.828115,0.954823,0.621364,0.890936,7569.960123
+cascade-roift-neg-redetect,Cascade on ROI-tuned weights,0.3,0.812375,0.854811,0.941751,0.644203,0.870037,6367.874233
+cascade-roift-neg-redetect,Cascade on ROI-tuned weights,0.4,0.820102,0.875267,0.927842,0.658147,0.849274,5533.588957
+cascade-roift-neg-redetect,Cascade on ROI-tuned weights,0.5,0.82215,0.891867,0.912271,0.664561,0.826956,4917.469325
+cascade-roift-neg-redetect,Cascade on ROI-tuned weights,0.55,0.821231,0.89928,0.90343,0.665092,0.814332,4660.251534
+cascade-roift-neg-redetect,Cascade on ROI-tuned weights,0.6,0.818952,0.906704,0.893392,0.6639,0.800019,4398.696319
+cascade-roift-neg-redetect,Cascade on ROI-tuned weights,0.65,0.815155,0.913906,0.88196,0.661273,0.784305,4147.147239
+cascade-roift-neg-redetect,Cascade on ROI-tuned weights,0.7,0.809476,0.921045,0.868761,0.656018,0.765932,3898.766871
+cascade-roift-neg-redetect,Cascade on ROI-tuned weights,0.75,0.801541,0.928414,0.853318,0.646931,0.743674,3655.895706
+cascade-roift-neg-redetect,Cascade on ROI-tuned weights,0.8,0.790533,0.93598,0.834865,0.633808,0.717334,3397.481595
+cascade-roift-neg-redetect,Cascade on ROI-tuned weights,0.85,0.775087,0.943794,0.81189,0.614748,0.684429,3126.490798
+cascade-roift-neg-redetect,Cascade on ROI-tuned weights,0.9,0.751431,0.952062,0.780096,0.585865,0.640082,2815.226994
+cascade-roift-neg-redetect,Cascade on ROI-tuned weights,0.95,0.706189,0.961967,0.725048,0.529305,0.564356,2294.490798

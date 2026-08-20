@@ -1,0 +1,127 @@
+2026-02-11 15:34:36,846 [INFO] Loading labels from LEMON_labels.json...
+2026-02-11 15:34:37,080 [INFO] Loaded 4194 videos
+2026-02-11 15:34:37,082 [INFO] Building strata from 4194 videos...
+2026-02-11 15:34:37,101 [INFO] Found 127 unique strata
+2026-02-11 15:34:37,101 [INFO] Calculating allocation for 5000 frames...
+2026-02-11 15:34:37,103 [INFO] Stratum allocation:
+2026-02-11 15:34:37,105 [INFO]   appendectomy | laparoscopic | 1280x720: 210 videos → 250 frames
+2026-02-11 15:34:37,105 [INFO]   hernia_repair | robotic | 1280x720: 185 videos → 221 frames
+2026-02-11 15:34:37,105 [INFO]   colectomy | laparoscopic | 1280x720: 171 videos → 204 frames
+2026-02-11 15:34:37,106 [INFO]   cholecystectomy | laparoscopic | 1280x720: 152 videos → 181 frames
+2026-02-11 15:34:37,106 [INFO]   hysterectomy | laparoscopic | 1280x720: 129 videos → 154 frames
+2026-02-11 15:34:37,106 [INFO]   thymectomy | laparoscopic | 1280x720: 126 videos → 150 frames
+2026-02-11 15:34:37,107 [INFO]   colectomy | robotic | 1280x720: 122 videos → 145 frames
+2026-02-11 15:34:37,108 [INFO]   cystectomy | laparoscopic | 1280x720: 114 videos → 136 frames
+2026-02-11 15:34:37,108 [INFO]   adhesiolysis | laparoscopic | 1280x720: 111 videos → 132 frames
+2026-02-11 15:34:37,109 [INFO]   splenectomy | laparoscopic | 1280x720: 103 videos → 123 frames
+2026-02-11 15:34:37,109 [INFO]   low_anterior_resection | laparoscopic | 1280x720: 103 videos → 123 frames
+2026-02-11 15:34:37,111 [INFO]   adrenalectomy | laparoscopic | 1280x720: 100 videos → 119 frames
+2026-02-11 15:34:37,111 [INFO]   hernia_repair | laparoscopic | 1280x720: 96 videos → 114 frames
+2026-02-11 15:34:37,111 [INFO]   thymectomy | robotic | 1280x720: 94 videos → 112 frames
+2026-02-11 15:34:37,112 [INFO]   nissen_fundoplication | laparoscopic | 1280x720: 91 videos → 108 frames
+2026-02-11 15:34:37,113 [INFO]   ... and 112 more strata
+2026-02-11 15:34:37,340 [INFO] Sampled 5000 frames total
+2026-02-11 15:34:38,036 [INFO] Wrote to sampling_plan.csv
+2026-02-11 15:34:38,037 [INFO] Dry run done. Check sampling_plan.csv
+2026-02-11 15:42:49,882 [INFO] Loading labels from LEMON_labels.json...
+2026-02-11 15:42:50,277 [INFO] Loaded 4194 videos
+2026-02-11 15:42:50,277 [INFO] Building strata from 4194 videos...
+2026-02-11 15:42:50,282 [INFO] Found 127 unique strata
+2026-02-11 15:42:50,282 [INFO] Calculating allocation for 5000 frames...
+2026-02-11 15:42:50,283 [INFO] Stratum allocation:
+2026-02-11 15:42:50,283 [INFO]   appendectomy | laparoscopic | 1280x720: 210 videos → 250 frames
+2026-02-11 15:42:50,283 [INFO]   hernia_repair | robotic | 1280x720: 185 videos → 221 frames
+2026-02-11 15:42:50,283 [INFO]   colectomy | laparoscopic | 1280x720: 171 videos → 204 frames
+2026-02-11 15:42:50,283 [INFO]   cholecystectomy | laparoscopic | 1280x720: 152 videos → 181 frames
+2026-02-11 15:42:50,283 [INFO]   hysterectomy | laparoscopic | 1280x720: 129 videos → 154 frames
+2026-02-11 15:42:50,283 [INFO]   thymectomy | laparoscopic | 1280x720: 126 videos → 150 frames
+2026-02-11 15:42:50,283 [INFO]   colectomy | robotic | 1280x720: 122 videos → 145 frames
+2026-02-11 15:42:50,283 [INFO]   cystectomy | laparoscopic | 1280x720: 114 videos → 136 frames
+2026-02-11 15:42:50,284 [INFO]   adhesiolysis | laparoscopic | 1280x720: 111 videos → 132 frames
+2026-02-11 15:42:50,284 [INFO]   splenectomy | laparoscopic | 1280x720: 103 videos → 123 frames
+2026-02-11 15:42:50,284 [INFO]   low_anterior_resection | laparoscopic | 1280x720: 103 videos → 123 frames
+2026-02-11 15:42:50,284 [INFO]   adrenalectomy | laparoscopic | 1280x720: 100 videos → 119 frames
+2026-02-11 15:42:50,284 [INFO]   hernia_repair | laparoscopic | 1280x720: 96 videos → 114 frames
+2026-02-11 15:42:50,284 [INFO]   thymectomy | robotic | 1280x720: 94 videos → 112 frames
+2026-02-11 15:42:50,284 [INFO]   nissen_fundoplication | laparoscopic | 1280x720: 91 videos → 108 frames
+2026-02-11 15:42:50,284 [INFO]   ... and 112 more strata
+2026-02-11 15:42:50,319 [INFO] Sampled 5000 frames total
+2026-02-11 15:42:50,848 [INFO] Wrote to sampling_plan.csv
+2026-02-11 15:42:50,852 [INFO] Extracting 5000 frames from videos in ./lemon_data...
+2026-02-11 15:47:10,605 [INFO]   Progress: 100/5000 (0 failed)
+2026-02-11 15:52:21,599 [INFO]   Progress: 200/5000 (0 failed)
+2026-02-11 15:57:16,761 [INFO]   Progress: 300/5000 (0 failed)
+2026-02-11 16:02:55,524 [INFO]   Progress: 400/5000 (0 failed)
+2026-02-11 16:08:43,791 [INFO]   Progress: 500/5000 (0 failed)
+2026-02-11 16:13:42,860 [INFO]   Progress: 600/5000 (0 failed)
+2026-02-11 16:18:09,130 [INFO]   Progress: 700/5000 (0 failed)
+2026-02-11 16:23:14,832 [INFO]   Progress: 800/5000 (0 failed)
+2026-02-11 16:29:46,050 [INFO]   Progress: 900/5000 (0 failed)
+2026-02-11 16:34:24,351 [INFO]   Progress: 1000/5000 (0 failed)
+2026-02-11 16:39:13,582 [INFO]   Progress: 1100/5000 (0 failed)
+2026-02-11 16:43:59,630 [INFO]   Progress: 1200/5000 (0 failed)
+2026-02-11 16:47:54,381 [INFO]   Progress: 1300/5000 (0 failed)
+2026-02-11 16:51:48,547 [INFO]   Progress: 1400/5000 (0 failed)
+2026-02-11 16:56:28,327 [INFO]   Progress: 1500/5000 (0 failed)
+2026-02-11 17:01:29,349 [INFO]   Progress: 1600/5000 (0 failed)
+2026-02-11 17:07:04,626 [INFO]   Progress: 1700/5000 (0 failed)
+2026-02-11 17:13:03,081 [INFO]   Progress: 1800/5000 (0 failed)
+2026-02-11 17:17:12,095 [INFO]   Progress: 1900/5000 (0 failed)
+2026-02-11 17:21:24,770 [INFO]   Progress: 2000/5000 (0 failed)
+2026-02-11 17:25:51,544 [INFO]   Progress: 2100/5000 (0 failed)
+2026-02-11 17:30:09,812 [INFO]   Progress: 2200/5000 (0 failed)
+2026-02-11 17:36:01,821 [INFO]   Progress: 2300/5000 (0 failed)
+2026-02-11 17:40:59,050 [INFO]   Progress: 2400/5000 (0 failed)
+2026-02-11 17:45:46,812 [INFO]   Progress: 2500/5000 (0 failed)
+2026-02-11 17:50:00,572 [INFO]   Progress: 2600/5000 (0 failed)
+2026-02-11 17:54:14,880 [INFO]   Progress: 2700/5000 (0 failed)
+2026-02-11 17:58:38,364 [INFO]   Progress: 2800/5000 (0 failed)
+2026-02-11 18:04:17,285 [INFO]   Progress: 2900/5000 (0 failed)
+2026-02-11 18:09:11,295 [INFO]   Progress: 3000/5000 (0 failed)
+2026-02-11 18:13:28,814 [INFO]   Progress: 3100/5000 (0 failed)
+2026-02-11 18:18:25,065 [INFO]   Progress: 3200/5000 (0 failed)
+2026-02-11 18:22:24,557 [INFO]   Progress: 3300/5000 (0 failed)
+2026-02-11 18:26:40,068 [INFO]   Progress: 3400/5000 (0 failed)
+2026-02-11 18:31:12,016 [INFO]   Progress: 3500/5000 (0 failed)
+2026-02-11 18:37:10,308 [INFO]   Progress: 3600/5000 (0 failed)
+2026-02-11 18:41:56,282 [INFO]   Progress: 3700/5000 (0 failed)
+2026-02-11 18:45:54,371 [INFO]   Progress: 3800/5000 (0 failed)
+2026-02-11 18:49:55,349 [INFO]   Progress: 3900/5000 (0 failed)
+2026-02-11 18:53:54,313 [INFO]   Progress: 4000/5000 (0 failed)
+2026-02-11 18:59:26,519 [INFO]   Progress: 4100/5000 (0 failed)
+2026-02-11 19:03:07,768 [INFO]   Progress: 4200/5000 (0 failed)
+2026-02-11 19:07:47,042 [INFO]   Progress: 4300/5000 (0 failed)
+2026-02-11 19:11:59,045 [INFO]   Progress: 4400/5000 (0 failed)
+2026-02-11 19:16:06,794 [INFO]   Progress: 4500/5000 (0 failed)
+2026-02-11 19:20:29,836 [INFO]   Progress: 4600/5000 (0 failed)
+2026-02-11 19:24:57,099 [INFO]   Progress: 4700/5000 (0 failed)
+2026-02-11 19:28:48,370 [INFO]   Progress: 4800/5000 (0 failed)
+2026-02-11 19:34:17,306 [INFO]   Progress: 4900/5000 (0 failed)
+2026-02-11 19:38:17,761 [INFO]   Progress: 5000/5000 (0 failed)
+2026-02-11 19:38:17,768 [INFO] Extracted 5000, 0 failed
+2026-02-11 19:38:17,773 [INFO] Full run done. Check sampling_plan.csv and frames in ./extracted_frames
+2026-02-12 19:23:03,567 [INFO] Loading labels from LEMON_labels.json...
+2026-02-12 19:23:04,055 [INFO] Loaded 4194 videos
+2026-02-12 19:23:04,056 [INFO] Building strata from 4194 videos...
+2026-02-12 19:23:04,064 [INFO] Found 127 unique strata
+2026-02-12 19:23:04,065 [INFO] Calculating allocation for 5000 frames...
+2026-02-12 19:23:04,065 [INFO] Stratum allocation:
+2026-02-12 19:23:04,066 [INFO]   appendectomy | laparoscopic | 1280x720: 210 videos → 250 frames
+2026-02-12 19:23:04,066 [INFO]   hernia_repair | robotic | 1280x720: 185 videos → 221 frames
+2026-02-12 19:23:04,066 [INFO]   colectomy | laparoscopic | 1280x720: 171 videos → 204 frames
+2026-02-12 19:23:04,066 [INFO]   cholecystectomy | laparoscopic | 1280x720: 152 videos → 181 frames
+2026-02-12 19:23:04,067 [INFO]   hysterectomy | laparoscopic | 1280x720: 129 videos → 154 frames
+2026-02-12 19:23:04,067 [INFO]   thymectomy | laparoscopic | 1280x720: 126 videos → 150 frames
+2026-02-12 19:23:04,067 [INFO]   colectomy | robotic | 1280x720: 122 videos → 145 frames
+2026-02-12 19:23:04,067 [INFO]   cystectomy | laparoscopic | 1280x720: 114 videos → 136 frames
+2026-02-12 19:23:04,067 [INFO]   adhesiolysis | laparoscopic | 1280x720: 111 videos → 132 frames
+2026-02-12 19:23:04,068 [INFO]   splenectomy | laparoscopic | 1280x720: 103 videos → 123 frames
+2026-02-12 19:23:04,068 [INFO]   low_anterior_resection | laparoscopic | 1280x720: 103 videos → 123 frames
+2026-02-12 19:23:04,068 [INFO]   adrenalectomy | laparoscopic | 1280x720: 100 videos → 119 frames
+2026-02-12 19:23:04,068 [INFO]   hernia_repair | laparoscopic | 1280x720: 96 videos → 114 frames
+2026-02-12 19:23:04,068 [INFO]   thymectomy | robotic | 1280x720: 94 videos → 112 frames
+2026-02-12 19:23:04,068 [INFO]   nissen_fundoplication | laparoscopic | 1280x720: 91 videos → 108 frames
+2026-02-12 19:23:04,068 [INFO]   ... and 112 more strata
+2026-02-12 19:23:04,268 [INFO] Sampled 5000 frames total
+2026-02-12 19:23:04,553 [INFO] Wrote to sampling_plan.csv
+2026-02-12 19:23:04,553 [INFO] Dry run done. Check sampling_plan.csv

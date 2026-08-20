@@ -1,0 +1,31 @@
+convention,stratum,run,label,n_frames,target_precision,matched_threshold,reference_recall,arm_recall_matched,delta_recall_matched,delta_recall_at_0.50,out_of_grid
+per-frame,all tool frames,static-tiling,Static tiling,4652,0.901515,0.563828,0.888456,0.876971,-0.011485,0.002791,False
+per-frame,size tiny,static-tiling,Static tiling,600,0.79139,0.583442,0.78,0.771733,-0.008268,0.019398,False
+per-frame,size small,static-tiling,Static tiling,919,0.879945,0.565522,0.884734,0.86373,-0.021004,-0.003877,False
+per-frame,size med,static-tiling,Static tiling,2337,0.921759,0.554691,0.912271,0.90274,-0.009531,0.001201,False
+per-frame,size large,static-tiling,Static tiling,796,0.94476,0.539826,0.904584,0.900081,-0.004503,0.002638,False
+per-frame,thin tools,static-tiling,Static tiling,1163,0.83983,0.575124,0.833709,0.820144,-0.013564,0.008387,False
+per-frame,wide tools,static-tiling,Static tiling,3489,0.921539,0.556247,0.906705,0.896335,-0.01037,0.000925,False
+per-frame,tiny or thin,static-tiling,Static tiling,1282,0.840568,0.569875,0.835496,0.823899,-0.011597,0.008904,False
+per-frame,scene Smoke,static-tiling,Static tiling,43,0.875564,0.579505,0.879004,0.860846,-0.018158,0.004552,False
+per-frame,scene Blood,static-tiling,Static tiling,360,0.900485,0.556746,0.879418,0.872709,-0.006709,0.005752,False
+per-frame,scene Motion Blur,static-tiling,Static tiling,359,0.88249,0.614718,0.844804,0.811086,-0.033718,-0.003819,False
+per-frame,scene Underexposure,static-tiling,Static tiling,61,0.867844,0.593692,0.843001,0.806183,-0.036818,-0.000424,False
+per-frame,scene Overexposure,static-tiling,Static tiling,82,0.878892,0.623002,0.845916,0.820107,-0.02581,0.000697,False
+per-frame,scene any degradation,static-tiling,Static tiling,850,0.888223,0.583638,0.861577,0.843101,-0.018477,0.001955,False
+per-frame,scene clean,static-tiling,Static tiling,2587,0.901688,0.571659,0.892653,0.881329,-0.011324,0.004652,False
+pooled,all tool frames,static-tiling,Static tiling,4652,0.91009,0.575772,0.90186,0.88825,-0.01361,0.001622,False
+pooled,size tiny,static-tiling,Static tiling,600,0.714459,0.7,0.826454,0.764586,-0.061868,0.003862,True
+pooled,size small,static-tiling,Static tiling,919,0.844001,0.551376,0.885693,0.868682,-0.017011,-0.003601,False
+pooled,size med,static-tiling,Static tiling,2337,0.914296,0.566717,0.912692,0.900252,-0.01244,0.000541,False
+pooled,size large,static-tiling,Static tiling,796,0.944877,0.568978,0.896684,0.888597,-0.008086,0.004581,False
+pooled,thin tools,static-tiling,Static tiling,1163,0.827062,0.618195,0.873757,0.841886,-0.031871,0.000217,False
+pooled,wide tools,static-tiling,Static tiling,3489,0.921875,0.565223,0.905569,0.894824,-0.010745,0.001807,False
+pooled,tiny or thin,static-tiling,Static tiling,1282,0.824599,0.621174,0.872499,0.840574,-0.031925,0.001257,False
+pooled,scene Smoke,static-tiling,Static tiling,43,0.873838,0.545579,0.879444,0.871642,-0.007802,0.005311,False
+pooled,scene Blood,static-tiling,Static tiling,360,0.911434,0.528387,0.89926,0.895732,-0.003528,0.002433,False
+pooled,scene Motion Blur,static-tiling,Static tiling,359,0.882443,0.644056,0.846275,0.806795,-0.03948,-0.002903,False
+pooled,scene Underexposure,static-tiling,Static tiling,61,0.87087,0.695771,0.851798,0.787199,-0.0646,0.0028,False
+pooled,scene Overexposure,static-tiling,Static tiling,82,0.897702,0.624865,0.875977,0.84963,-0.026347,0.001455,False
+pooled,scene any degradation,static-tiling,Static tiling,850,0.894572,0.595614,0.874286,0.852015,-0.022272,-0.000201,False
+pooled,scene clean,static-tiling,Static tiling,2587,0.909921,0.584319,0.906564,0.892982,-0.013582,0.002805,False

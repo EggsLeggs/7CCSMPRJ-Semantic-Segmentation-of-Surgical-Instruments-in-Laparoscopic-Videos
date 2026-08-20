@@ -1,0 +1,3 @@
+run,frames with a region,partial coverage,partial coverage pct,mean coverage,"delta iou, full coverage","delta iou, partial coverage"
+Cascade on baseline weights,4353,701,16.103836,0.944503,0.002115,0.001498
+Cascade on ROI-tuned weights,4373,674,15.41276,0.946864,0.003773,0.000894

@@ -1,0 +1,4 @@
+stratum,run,label,metric,matched_threshold,n_frames,mean,median,improved_pct,worsened_pct,p
+all tool frames,roift-control-ff,"Fine-tune control, 15 ep",recall,0.459581,4652,0.004418,0.004589,67.347377,24.226139,0.0
+size tiny,roift-control-ff,"Fine-tune control, 15 ep",recall,0.392957,600,0.019914,0.012921,77.833333,13.666667,0.0
+thin tools,roift-control-ff,"Fine-tune control, 15 ep",recall,0.433387,1163,0.013943,0.009604,76.182287,17.368874,0.0

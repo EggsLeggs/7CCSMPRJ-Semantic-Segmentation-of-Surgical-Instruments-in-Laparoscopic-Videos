@@ -1,0 +1,31 @@
+convention,stratum,run,label,n_frames,target_precision,matched_threshold,reference_recall,arm_recall_matched,delta_recall_matched,delta_recall_at_0.50,out_of_grid
+per-frame,all tool frames,roift-neg-strong,ROI fine-tune + negatives 0.5,4652,0.907571,0.528151,0.886761,0.888059,0.001297,0.006658,False
+per-frame,size tiny,roift-neg-strong,ROI fine-tune + negatives 0.5,600,0.812767,0.562263,0.772227,0.759958,-0.012269,0.006733,False
+per-frame,size small,roift-neg-strong,ROI fine-tune + negatives 0.5,919,0.883319,0.524139,0.876806,0.877453,0.000647,0.005824,False
+per-frame,size med,roift-neg-strong,ROI fine-tune + negatives 0.5,2337,0.926186,0.519177,0.913343,0.916132,0.002789,0.005989,False
+per-frame,size large,roift-neg-strong,ROI fine-tune + negatives 0.5,796,0.948217,0.518421,0.906546,0.913319,0.006773,0.009529,False
+per-frame,thin tools,roift-neg-strong,ROI fine-tune + negatives 0.5,1163,0.847198,0.538357,0.826431,0.821388,-0.005043,0.005041,False
+per-frame,wide tools,roift-neg-strong,ROI fine-tune + negatives 0.5,3489,0.927209,0.522978,0.906872,0.910248,0.003376,0.007197,False
+per-frame,tiny or thin,roift-neg-strong,ROI fine-tune + negatives 0.5,1282,0.850034,0.539976,0.828959,0.824719,-0.004239,0.0061,False
+per-frame,scene Smoke,roift-neg-strong,ROI fine-tune + negatives 0.5,43,0.890269,0.571035,0.862119,0.861359,-0.000759,0.014597,False
+per-frame,scene Blood,roift-neg-strong,ROI fine-tune + negatives 0.5,360,0.911279,0.520021,0.878685,0.87746,-0.001225,0.002391,False
+per-frame,scene Motion Blur,roift-neg-strong,ROI fine-tune + negatives 0.5,359,0.887069,0.511378,0.839452,0.853054,0.013602,0.016212,False
+per-frame,scene Underexposure,roift-neg-strong,ROI fine-tune + negatives 0.5,61,0.864294,0.577313,0.838367,0.837543,-0.000824,0.022577,False
+per-frame,scene Overexposure,roift-neg-strong,ROI fine-tune + negatives 0.5,82,0.884909,0.599668,0.84256,0.818919,-0.023641,0.002882,False
+per-frame,scene any degradation,roift-neg-strong,ROI fine-tune + negatives 0.5,850,0.89524,0.526943,0.859443,0.863232,0.003789,0.009514,False
+per-frame,scene clean,roift-neg-strong,ROI fine-tune + negatives 0.5,2587,0.90699,0.525227,0.892968,0.893612,0.000644,0.005382,False
+pooled,all tool frames,roift-neg-strong,ROI fine-tune + negatives 0.5,4652,0.915181,0.529188,0.903056,0.905528,0.002471,0.007408,False
+pooled,size tiny,roift-neg-strong,ROI fine-tune + negatives 0.5,600,0.730062,0.550162,0.820791,0.814146,-0.006645,0.006976,False
+pooled,size small,roift-neg-strong,ROI fine-tune + negatives 0.5,919,0.850061,0.558806,0.877641,0.870152,-0.007489,0.005237,False
+pooled,size med,roift-neg-strong,ROI fine-tune + negatives 0.5,2337,0.919429,0.523674,0.913913,0.915934,0.002021,0.005926,False
+pooled,size large,roift-neg-strong,ROI fine-tune + negatives 0.5,796,0.947598,0.514914,0.901123,0.909128,0.008005,0.010301,False
+pooled,thin tools,roift-neg-strong,ROI fine-tune + negatives 0.5,1163,0.827013,0.548843,0.868092,0.862532,-0.00556,0.005714,False
+pooled,wide tools,roift-neg-strong,ROI fine-tune + negatives 0.5,3489,0.927664,0.52388,0.90767,0.911457,0.003787,0.007631,False
+pooled,tiny or thin,roift-neg-strong,ROI fine-tune + negatives 0.5,1282,0.826725,0.545459,0.867374,0.863107,-0.004267,0.006174,False
+pooled,scene Smoke,roift-neg-strong,ROI fine-tune + negatives 0.5,43,0.874331,0.520569,0.856804,0.882502,0.025698,0.029966,False
+pooled,scene Blood,roift-neg-strong,ROI fine-tune + negatives 0.5,360,0.918309,0.520175,0.896617,0.89728,0.000662,0.004027,False
+pooled,scene Motion Blur,roift-neg-strong,ROI fine-tune + negatives 0.5,359,0.885073,0.555442,0.850271,0.85504,0.004769,0.017516,False
+pooled,scene Underexposure,roift-neg-strong,ROI fine-tune + negatives 0.5,61,0.865327,0.622703,0.840187,0.831719,-0.008468,0.029789,False
+pooled,scene Overexposure,roift-neg-strong,ROI fine-tune + negatives 0.5,82,0.900683,0.497176,0.848928,0.869531,0.020602,0.019961,False
+pooled,scene any degradation,roift-neg-strong,ROI fine-tune + negatives 0.5,850,0.898078,0.532738,0.872389,0.878378,0.005989,0.012641,False
+pooled,scene clean,roift-neg-strong,ROI fine-tune + negatives 0.5,2587,0.915855,0.519611,0.912408,0.914715,0.002307,0.005494,False

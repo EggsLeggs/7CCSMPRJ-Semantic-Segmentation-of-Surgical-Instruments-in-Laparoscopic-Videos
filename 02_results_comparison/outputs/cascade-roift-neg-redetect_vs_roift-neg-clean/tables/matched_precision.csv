@@ -1,0 +1,31 @@
+convention,stratum,run,label,n_frames,target_precision,matched_threshold,reference_recall,arm_recall_matched,delta_recall_matched,delta_recall_at_0.50,out_of_grid
+per-frame,all tool frames,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,4652,0.902813,0.573797,0.897223,0.898652,0.001429,0.015048,False
+per-frame,size tiny,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,600,0.799797,0.606801,0.784486,0.797881,0.013395,0.04247,False
+per-frame,size small,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,919,0.878574,0.595999,0.889563,0.886616,-0.002947,0.017537,False
+per-frame,size med,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,2337,0.922943,0.556955,0.92163,0.923005,0.001375,0.010446,False
+per-frame,size large,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,796,0.945419,0.522478,0.919389,0.920995,0.001606,0.005014,False
+per-frame,thin tools,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,1163,0.839713,0.591714,0.835916,0.8442,0.008284,0.030896,False
+per-frame,wide tools,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,3489,0.923399,0.562501,0.917659,0.917253,-0.000406,0.009765,False
+per-frame,tiny or thin,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,1282,0.842387,0.594,0.839398,0.846203,0.006805,0.029617,False
+per-frame,scene Smoke,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,43,0.883615,0.542664,0.881151,0.878456,-0.002695,0.006796,False
+per-frame,scene Blood,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,360,0.909928,0.589069,0.881776,0.883152,0.001376,0.017891,False
+per-frame,scene Motion Blur,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,359,0.884479,0.569613,0.863048,0.864647,0.001598,0.016757,False
+per-frame,scene Underexposure,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,61,0.84666,0.586192,0.872484,0.871424,-0.00106,0.020721,False
+per-frame,scene Overexposure,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,82,0.870652,0.542817,0.85013,0.860141,0.010011,0.019778,False
+per-frame,scene any degradation,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,850,0.891991,0.576598,0.872526,0.874,0.001473,0.017465,False
+per-frame,scene clean,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,2587,0.902863,0.56799,0.90313,0.904915,0.001785,0.014159,False
+pooled,all tool frames,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,4652,0.909795,0.560646,0.913883,0.913282,-0.000601,0.009463,False
+pooled,size tiny,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,600,0.719663,0.600363,0.83335,0.840442,0.007092,0.031195,False
+pooled,size small,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,919,0.836812,0.595581,0.889531,0.886507,-0.003024,0.017194,False
+pooled,size med,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,2337,0.914919,0.554712,0.922413,0.923524,0.001111,0.009716,False
+pooled,size large,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,796,0.944319,0.521432,0.914985,0.916637,0.001653,0.004994,False
+pooled,thin tools,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,1163,0.817963,0.588134,0.877136,0.877962,0.000826,0.020585,False
+pooled,wide tools,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,3489,0.922849,0.551202,0.918733,0.918739,6e-06,0.007995,False
+pooled,tiny or thin,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,1282,0.818514,0.590487,0.876854,0.877049,0.000195,0.020358,False
+pooled,scene Smoke,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,43,0.865492,0.517814,0.896414,0.898629,0.002215,0.006001,False
+pooled,scene Blood,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,360,0.915017,0.561197,0.902812,0.905283,0.002471,0.01287,False
+pooled,scene Motion Blur,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,359,0.87452,0.567156,0.871716,0.870991,-0.000726,0.013991,False
+pooled,scene Underexposure,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,61,0.809304,0.529604,0.877915,0.887614,0.009699,0.017203,False
+pooled,scene Overexposure,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,82,0.901849,0.565703,0.873601,0.866986,-0.006615,0.010044,False
+pooled,scene any degradation,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,850,0.891494,0.560336,0.888209,0.889327,0.001118,0.013229,False
+pooled,scene clean,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,2587,0.911585,0.555372,0.922235,0.921291,-0.000943,0.007825,False

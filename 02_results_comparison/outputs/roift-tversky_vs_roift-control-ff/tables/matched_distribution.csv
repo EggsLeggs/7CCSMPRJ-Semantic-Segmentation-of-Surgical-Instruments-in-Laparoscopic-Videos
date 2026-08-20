@@ -1,0 +1,4 @@
+stratum,run,label,metric,matched_threshold,n_frames,mean,median,improved_pct,worsened_pct,p
+all tool frames,roift-tversky,ROI fine-tune from BCE-Tversky,recall,0.796472,4652,0.005168,-0.001485,41.401548,51.71969,0.000164
+size tiny,roift-tversky,ROI fine-tune from BCE-Tversky,recall,0.830211,600,-0.003388,-0.004861,34.833333,56.333333,2.1e-05
+thin tools,roift-tversky,ROI fine-tune from BCE-Tversky,recall,0.796195,1163,0.002934,-0.002408,40.068788,53.482373,0.00627

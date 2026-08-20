@@ -1,0 +1,31 @@
+convention,stratum,run,label,n_frames,target_precision,matched_threshold,reference_recall,arm_recall_matched,delta_recall_matched,delta_recall_at_0.50,out_of_grid
+per-frame,all tool frames,ft-long-control,"Fine-tune control, 50 ep",4652,0.907571,0.509963,0.886761,0.886559,-0.000203,0.001176,False
+per-frame,size tiny,ft-long-control,"Fine-tune control, 50 ep",600,0.812767,0.524603,0.772227,0.767959,-0.004267,0.000819,False
+per-frame,size small,ft-long-control,"Fine-tune control, 50 ep",919,0.883319,0.515423,0.876806,0.874702,-0.002104,0.000332,False
+per-frame,size med,ft-long-control,"Fine-tune control, 50 ep",2337,0.926186,0.50264,0.913343,0.914058,0.000715,0.001047,False
+per-frame,size large,ft-long-control,"Fine-tune control, 50 ep",796,0.948217,0.498076,0.906546,0.909528,0.002982,0.0028,False
+per-frame,thin tools,ft-long-control,"Fine-tune control, 50 ep",1163,0.847198,0.512146,0.826431,0.824624,-0.001806,0.000502,False
+per-frame,wide tools,ft-long-control,"Fine-tune control, 50 ep",3489,0.927209,0.508655,0.906872,0.907224,0.000352,0.0014,False
+per-frame,tiny or thin,ft-long-control,"Fine-tune control, 50 ep",1282,0.850034,0.513643,0.828959,0.827515,-0.001443,0.001099,False
+per-frame,scene Smoke,ft-long-control,"Fine-tune control, 50 ep",43,0.890269,0.499618,0.862119,0.870507,0.008388,0.008327,False
+per-frame,scene Blood,ft-long-control,"Fine-tune control, 50 ep",360,0.911279,0.510953,0.878685,0.878267,-0.000419,0.001162,False
+per-frame,scene Motion Blur,ft-long-control,"Fine-tune control, 50 ep",359,0.887069,0.532017,0.839452,0.840323,0.00087,0.005977,False
+per-frame,scene Underexposure,ft-long-control,"Fine-tune control, 50 ep",61,0.864294,0.50567,0.838367,0.855514,0.017147,0.018191,False
+per-frame,scene Overexposure,ft-long-control,"Fine-tune control, 50 ep",82,0.884909,0.492867,0.84256,0.850609,0.00805,0.007063,False
+per-frame,scene any degradation,ft-long-control,"Fine-tune control, 50 ep",850,0.89524,0.511703,0.859443,0.861633,0.00219,0.003989,False
+per-frame,scene clean,ft-long-control,"Fine-tune control, 50 ep",2587,0.90699,0.504605,0.892968,0.893734,0.000766,0.001388,False
+pooled,all tool frames,ft-long-control,"Fine-tune control, 50 ep",4652,0.915181,0.514714,0.903056,0.903171,0.000114,0.001901,False
+pooled,size tiny,ft-long-control,"Fine-tune control, 50 ep",600,0.730062,0.583665,0.820791,0.805178,-0.015613,0.001129,False
+pooled,size small,ft-long-control,"Fine-tune control, 50 ep",919,0.850061,0.536045,0.877641,0.872373,-0.005269,0.000394,False
+pooled,size med,ft-long-control,"Fine-tune control, 50 ep",2337,0.919429,0.508114,0.913913,0.913962,4.9e-05,0.001052,False
+pooled,size large,ft-long-control,"Fine-tune control, 50 ep",796,0.947598,0.497092,0.901123,0.905077,0.003954,0.003679,False
+pooled,thin tools,ft-long-control,"Fine-tune control, 50 ep",1163,0.827013,0.536377,0.868092,0.862568,-0.005524,0.000765,False
+pooled,wide tools,ft-long-control,"Fine-tune control, 50 ep",3489,0.927664,0.509384,0.90767,0.908645,0.000975,0.00205,False
+pooled,tiny or thin,ft-long-control,"Fine-tune control, 50 ep",1282,0.826725,0.532877,0.867374,0.86278,-0.004594,0.001041,False
+pooled,scene Smoke,ft-long-control,"Fine-tune control, 50 ep",43,0.874331,0.520782,0.856804,0.871805,0.015001,0.018478,False
+pooled,scene Blood,ft-long-control,"Fine-tune control, 50 ep",360,0.918309,0.519075,0.896617,0.895176,-0.001441,0.001022,False
+pooled,scene Motion Blur,ft-long-control,"Fine-tune control, 50 ep",359,0.885073,0.582636,0.850271,0.844436,-0.005835,0.006498,False
+pooled,scene Underexposure,ft-long-control,"Fine-tune control, 50 ep",61,0.865327,0.694195,0.840187,0.817726,-0.022461,0.017902,False
+pooled,scene Overexposure,ft-long-control,"Fine-tune control, 50 ep",82,0.900683,0.480991,0.848928,0.861165,0.012237,0.010053,False
+pooled,scene any degradation,ft-long-control,"Fine-tune control, 50 ep",850,0.898078,0.532953,0.872389,0.87251,0.000121,0.004712,False
+pooled,scene clean,ft-long-control,"Fine-tune control, 50 ep",2587,0.915855,0.50957,0.912408,0.913484,0.001076,0.002184,False

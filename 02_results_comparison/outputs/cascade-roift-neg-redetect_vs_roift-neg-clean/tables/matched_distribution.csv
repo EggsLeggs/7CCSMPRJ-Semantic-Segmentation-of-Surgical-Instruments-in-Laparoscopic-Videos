@@ -1,0 +1,4 @@
+stratum,run,label,metric,matched_threshold,n_frames,mean,median,improved_pct,worsened_pct,p
+all tool frames,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,recall,0.573797,4652,0.001429,-0.00502,22.012038,70.915735,0.0
+size tiny,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,recall,0.606801,600,0.013395,-0.00675,27.0,63.166667,0.0
+thin tools,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,recall,0.591714,1163,0.008284,-0.006772,26.311264,66.809974,0.0

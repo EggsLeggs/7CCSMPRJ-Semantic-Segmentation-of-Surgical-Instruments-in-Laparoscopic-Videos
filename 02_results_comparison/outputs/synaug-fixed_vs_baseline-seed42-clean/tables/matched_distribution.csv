@@ -1,0 +1,4 @@
+stratum,run,label,metric,matched_threshold,n_frames,mean,median,improved_pct,worsened_pct,p
+all tool frames,synaug-fixed,"Synthetic aug, additive",recall,0.477435,4652,0.002739,0.001164,50.472915,43.121238,0.0
+size tiny,synaug-fixed,"Synthetic aug, additive",recall,0.426319,600,0.013974,0.008845,61.833333,30.333333,0.0
+thin tools,synaug-fixed,"Synthetic aug, additive",recall,0.472848,1163,0.004285,0.002874,53.654342,39.55288,2.4e-05

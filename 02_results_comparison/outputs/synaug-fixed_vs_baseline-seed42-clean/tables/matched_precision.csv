@@ -1,0 +1,31 @@
+convention,stratum,run,label,n_frames,target_precision,matched_threshold,reference_recall,arm_recall_matched,delta_recall_matched,delta_recall_at_0.50,out_of_grid
+per-frame,all tool frames,synaug-fixed,"Synthetic aug, additive",4652,0.901515,0.477435,0.888456,0.891195,0.002739,-0.000581,False
+per-frame,size tiny,synaug-fixed,"Synthetic aug, additive",600,0.79139,0.426319,0.78,0.793974,0.013974,-0.00185,False
+per-frame,size small,synaug-fixed,"Synthetic aug, additive",919,0.879945,0.506795,0.884734,0.884743,9e-06,0.001265,False
+per-frame,size med,synaug-fixed,"Synthetic aug, additive",2337,0.921759,0.482865,0.912271,0.915029,0.002758,0.000507,False
+per-frame,size large,synaug-fixed,"Synthetic aug, additive",796,0.94476,0.465727,0.904584,0.90372,-0.000863,-0.004953,False
+per-frame,thin tools,synaug-fixed,"Synthetic aug, additive",1163,0.83983,0.472848,0.833709,0.837994,0.004285,-0.001074,False
+per-frame,wide tools,synaug-fixed,"Synthetic aug, additive",3489,0.921539,0.479069,0.906705,0.909017,0.002312,-0.000417,False
+per-frame,tiny or thin,synaug-fixed,"Synthetic aug, additive",1282,0.840568,0.461693,0.835496,0.842619,0.007123,-0.000334,False
+per-frame,scene Smoke,synaug-fixed,"Synthetic aug, additive",43,0.875564,0.40797,0.879004,0.887559,0.008555,-0.005062,False
+per-frame,scene Blood,synaug-fixed,"Synthetic aug, additive",360,0.900485,0.427724,0.879418,0.897027,0.017609,0.006798,False
+per-frame,scene Motion Blur,synaug-fixed,"Synthetic aug, additive",359,0.88249,0.479935,0.844804,0.855582,0.010778,0.007327,False
+per-frame,scene Underexposure,synaug-fixed,"Synthetic aug, additive",61,0.867844,0.576872,0.843001,0.811466,-0.031534,-0.01039,False
+per-frame,scene Overexposure,synaug-fixed,"Synthetic aug, additive",82,0.878892,0.277156,0.845916,0.875666,0.02975,-0.007319,False
+per-frame,scene any degradation,synaug-fixed,"Synthetic aug, additive",850,0.888223,0.443955,0.861577,0.876906,0.015328,0.006124,False
+per-frame,scene clean,synaug-fixed,"Synthetic aug, additive",2587,0.901688,0.481477,0.892653,0.893999,0.001346,-0.00131,False
+pooled,all tool frames,synaug-fixed,"Synthetic aug, additive",4652,0.91009,0.466218,0.90186,0.904292,0.002432,-0.00206,False
+pooled,size tiny,synaug-fixed,"Synthetic aug, additive",600,0.714459,0.389273,0.826454,0.845281,0.018827,-0.00303,False
+pooled,size small,synaug-fixed,"Synthetic aug, additive",919,0.844001,0.466471,0.885693,0.891661,0.005968,0.000426,False
+pooled,size med,synaug-fixed,"Synthetic aug, additive",2337,0.914296,0.470765,0.912692,0.916496,0.003804,3.5e-05,False
+pooled,size large,synaug-fixed,"Synthetic aug, additive",796,0.944877,0.480221,0.896684,0.893291,-0.003393,-0.005848,False
+pooled,thin tools,synaug-fixed,"Synthetic aug, additive",1163,0.827062,0.467522,0.873757,0.878515,0.004758,-0.001074,False
+pooled,wide tools,synaug-fixed,"Synthetic aug, additive",3489,0.921875,0.465467,0.905569,0.907758,0.002189,-0.002191,False
+pooled,tiny or thin,synaug-fixed,"Synthetic aug, additive",1282,0.824599,0.456765,0.872499,0.879659,0.00716,-0.000564,False
+pooled,scene Smoke,synaug-fixed,"Synthetic aug, additive",43,0.873838,0.435492,0.879444,0.873589,-0.005855,-0.014997,False
+pooled,scene Blood,synaug-fixed,"Synthetic aug, additive",360,0.911434,0.421259,0.89926,0.910868,0.011608,0.001089,False
+pooled,scene Motion Blur,synaug-fixed,"Synthetic aug, additive",359,0.882443,0.45038,0.846275,0.855965,0.00969,0.001619,False
+pooled,scene Underexposure,synaug-fixed,"Synthetic aug, additive",61,0.87087,0.625697,0.851798,0.800003,-0.051796,-0.019822,False
+pooled,scene Overexposure,synaug-fixed,"Synthetic aug, additive",82,0.897702,0.312667,0.875977,0.887835,0.011857,-0.013755,False
+pooled,scene any degradation,synaug-fixed,"Synthetic aug, additive",850,0.894572,0.439815,0.874286,0.882944,0.008657,-0.000354,False
+pooled,scene clean,synaug-fixed,"Synthetic aug, additive",2587,0.909921,0.467274,0.906564,0.909016,0.002452,-0.001771,False

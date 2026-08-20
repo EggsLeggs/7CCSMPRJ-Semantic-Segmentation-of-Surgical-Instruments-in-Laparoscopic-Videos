@@ -1,0 +1,31 @@
+convention,stratum,run,label,n_frames,target_precision,matched_threshold,reference_recall,arm_recall_matched,delta_recall_matched,delta_recall_at_0.50,out_of_grid
+per-frame,all tool frames,bce_tversky,BCE-Tversky [ERRONEOUS],4652,0.901515,0.7,0.888456,0.898597,0.010141,0.02098,True
+per-frame,size tiny,bce_tversky,BCE-Tversky [ERRONEOUS],600,0.79139,0.7,0.78,0.789081,0.009081,0.025486,True
+per-frame,size small,bce_tversky,BCE-Tversky [ERRONEOUS],919,0.879945,0.7,0.884734,0.89424,0.009506,0.021871,True
+per-frame,size med,bce_tversky,BCE-Tversky [ERRONEOUS],2337,0.921759,0.7,0.912271,0.923663,0.011392,0.021056,True
+per-frame,size large,bce_tversky,BCE-Tversky [ERRONEOUS],796,0.94476,0.7,0.904584,0.912584,0.008001,0.016335,True
+per-frame,thin tools,bce_tversky,BCE-Tversky [ERRONEOUS],1163,0.83983,0.7,0.833709,0.844896,0.011187,0.026353,True
+per-frame,wide tools,bce_tversky,BCE-Tversky [ERRONEOUS],3489,0.921539,0.7,0.906705,0.916497,0.009792,0.01919,True
+per-frame,tiny or thin,bce_tversky,BCE-Tversky [ERRONEOUS],1282,0.840568,0.7,0.835496,0.846771,0.011274,0.026196,True
+per-frame,scene Smoke,bce_tversky,BCE-Tversky [ERRONEOUS],43,0.875564,0.7,0.879004,0.873867,-0.005137,0.006723,True
+per-frame,scene Blood,bce_tversky,BCE-Tversky [ERRONEOUS],360,0.900485,0.7,0.879418,0.894687,0.015268,0.026929,True
+per-frame,scene Motion Blur,bce_tversky,BCE-Tversky [ERRONEOUS],359,0.88249,0.7,0.844804,0.866852,0.022049,0.034457,True
+per-frame,scene Underexposure,bce_tversky,BCE-Tversky [ERRONEOUS],61,0.867844,0.7,0.843001,0.850733,0.007732,0.021539,True
+per-frame,scene Overexposure,bce_tversky,BCE-Tversky [ERRONEOUS],82,0.878892,0.7,0.845916,0.849192,0.003276,0.014493,True
+per-frame,scene any degradation,bce_tversky,BCE-Tversky [ERRONEOUS],850,0.888223,0.7,0.861577,0.878923,0.017346,0.029459,True
+per-frame,scene clean,bce_tversky,BCE-Tversky [ERRONEOUS],2587,0.901688,0.7,0.892653,0.90139,0.008737,0.019162,True
+pooled,all tool frames,bce_tversky,BCE-Tversky [ERRONEOUS],4652,0.91009,0.7,0.90186,0.911798,0.009938,0.019527,True
+pooled,size tiny,bce_tversky,BCE-Tversky [ERRONEOUS],600,0.714459,0.7,0.826454,0.837906,0.011452,0.026934,True
+pooled,size small,bce_tversky,BCE-Tversky [ERRONEOUS],919,0.844001,0.7,0.885693,0.894595,0.008903,0.021127,True
+pooled,size med,bce_tversky,BCE-Tversky [ERRONEOUS],2337,0.914296,0.7,0.912692,0.923704,0.011012,0.020572,True
+pooled,size large,bce_tversky,BCE-Tversky [ERRONEOUS],796,0.944877,0.7,0.896684,0.905187,0.008503,0.01687,True
+pooled,thin tools,bce_tversky,BCE-Tversky [ERRONEOUS],1163,0.827062,0.7,0.873757,0.886913,0.013156,0.027041,True
+pooled,wide tools,bce_tversky,BCE-Tversky [ERRONEOUS],3489,0.921875,0.7,0.905569,0.915082,0.009513,0.018536,True
+pooled,tiny or thin,bce_tversky,BCE-Tversky [ERRONEOUS],1282,0.824599,0.7,0.872499,0.885561,0.013062,0.026871,True
+pooled,scene Smoke,bce_tversky,BCE-Tversky [ERRONEOUS],43,0.873838,0.7,0.879444,0.870402,-0.009042,0.002704,True
+pooled,scene Blood,bce_tversky,BCE-Tversky [ERRONEOUS],360,0.911434,0.7,0.89926,0.908838,0.009578,0.019779,True
+pooled,scene Motion Blur,bce_tversky,BCE-Tversky [ERRONEOUS],359,0.882443,0.7,0.846275,0.86788,0.021605,0.032903,True
+pooled,scene Underexposure,bce_tversky,BCE-Tversky [ERRONEOUS],61,0.87087,0.7,0.851798,0.874934,0.023136,0.037262,True
+pooled,scene Overexposure,bce_tversky,BCE-Tversky [ERRONEOUS],82,0.897702,0.7,0.875977,0.88649,0.010512,0.019667,True
+pooled,scene any degradation,bce_tversky,BCE-Tversky [ERRONEOUS],850,0.894572,0.7,0.874286,0.889818,0.015532,0.026404,True
+pooled,scene clean,bce_tversky,BCE-Tversky [ERRONEOUS],2587,0.909921,0.7,0.906564,0.916623,0.010059,0.019285,True

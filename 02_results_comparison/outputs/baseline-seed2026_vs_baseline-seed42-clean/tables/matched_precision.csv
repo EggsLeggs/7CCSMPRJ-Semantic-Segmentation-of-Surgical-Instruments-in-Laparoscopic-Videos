@@ -1,0 +1,31 @@
+convention,stratum,run,label,n_frames,target_precision,matched_threshold,reference_recall,arm_recall_matched,delta_recall_matched,delta_recall_at_0.50,out_of_grid
+per-frame,all tool frames,baseline-seed2026,Baseline (seed 2026),4652,0.901515,0.489356,0.888456,0.889029,0.000574,-0.000925,False
+per-frame,size tiny,baseline-seed2026,Baseline (seed 2026),600,0.79139,0.48428,0.78,0.776749,-0.003251,-0.006632,False
+per-frame,size small,baseline-seed2026,Baseline (seed 2026),919,0.879945,0.497471,0.884734,0.877474,-0.00726,-0.00766,False
+per-frame,size med,baseline-seed2026,Baseline (seed 2026),2337,0.921759,0.488537,0.912271,0.915155,0.002884,0.001434,False
+per-frame,size large,baseline-seed2026,Baseline (seed 2026),796,0.94476,0.481445,0.904584,0.91079,0.006206,0.004226,False
+per-frame,thin tools,baseline-seed2026,Baseline (seed 2026),1163,0.83983,0.52125,0.833709,0.819554,-0.014155,-0.00944,False
+per-frame,wide tools,baseline-seed2026,Baseline (seed 2026),3489,0.921539,0.47372,0.906705,0.911849,0.005144,0.001913,False
+per-frame,tiny or thin,baseline-seed2026,Baseline (seed 2026),1282,0.840568,0.510248,0.835496,0.824992,-0.010504,-0.008253,False
+per-frame,scene Smoke,baseline-seed2026,Baseline (seed 2026),43,0.875564,0.387729,0.879004,0.880018,0.001014,-0.020615,False
+per-frame,scene Blood,baseline-seed2026,Baseline (seed 2026),360,0.900485,0.449256,0.879418,0.885877,0.006459,-0.000951,False
+per-frame,scene Motion Blur,baseline-seed2026,Baseline (seed 2026),359,0.88249,0.488722,0.844804,0.844896,9.2e-05,-0.001769,False
+per-frame,scene Underexposure,baseline-seed2026,Baseline (seed 2026),61,0.867844,0.54792,0.843001,0.824262,-0.018739,-0.006647,False
+per-frame,scene Overexposure,baseline-seed2026,Baseline (seed 2026),82,0.878892,0.564745,0.845916,0.845223,-0.000694,0.009493,False
+per-frame,scene any degradation,baseline-seed2026,Baseline (seed 2026),850,0.888223,0.480519,0.861577,0.864193,0.002615,-0.000509,False
+per-frame,scene clean,baseline-seed2026,Baseline (seed 2026),2587,0.901688,0.493479,0.892653,0.894053,0.0014,0.000511,False
+pooled,all tool frames,baseline-seed2026,Baseline (seed 2026),4652,0.91009,0.50853,0.90186,0.902996,0.001136,0.002341,False
+pooled,size tiny,baseline-seed2026,Baseline (seed 2026),600,0.714459,0.655706,0.826454,0.778997,-0.047457,-0.008517,False
+pooled,size small,baseline-seed2026,Baseline (seed 2026),919,0.844001,0.507368,0.885693,0.876362,-0.009331,-0.008023,False
+pooled,size med,baseline-seed2026,Baseline (seed 2026),2337,0.914296,0.495702,0.912692,0.915085,0.002392,0.001861,False
+pooled,size large,baseline-seed2026,Baseline (seed 2026),796,0.944877,0.492657,0.896684,0.904469,0.007786,0.007003,False
+pooled,thin tools,baseline-seed2026,Baseline (seed 2026),1163,0.827062,0.619828,0.873757,0.838916,-0.034841,-0.009716,False
+pooled,wide tools,baseline-seed2026,Baseline (seed 2026),3489,0.921875,0.481609,0.905569,0.911638,0.00607,0.003932,False
+pooled,tiny or thin,baseline-seed2026,Baseline (seed 2026),1282,0.824599,0.609394,0.872499,0.841308,-0.031191,-0.008774,False
+pooled,scene Smoke,baseline-seed2026,Baseline (seed 2026),43,0.873838,0.488049,0.879444,0.855558,-0.023886,-0.026452,False
+pooled,scene Blood,baseline-seed2026,Baseline (seed 2026),360,0.911434,0.460667,0.89926,0.902444,0.003184,-0.001803,False
+pooled,scene Motion Blur,baseline-seed2026,Baseline (seed 2026),359,0.882443,0.524503,0.846275,0.852823,0.006549,0.010568,False
+pooled,scene Underexposure,baseline-seed2026,Baseline (seed 2026),61,0.87087,0.65396,0.851798,0.798872,-0.052926,-0.01444,False
+pooled,scene Overexposure,baseline-seed2026,Baseline (seed 2026),82,0.897702,0.626501,0.875977,0.845824,-0.030153,-0.011111,False
+pooled,scene any degradation,baseline-seed2026,Baseline (seed 2026),850,0.894572,0.516986,0.874286,0.873224,-0.001062,0.001664,False
+pooled,scene clean,baseline-seed2026,Baseline (seed 2026),2587,0.909921,0.509226,0.906564,0.911467,0.004903,0.006152,False

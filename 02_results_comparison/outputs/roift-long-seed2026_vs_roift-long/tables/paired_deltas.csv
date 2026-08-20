@@ -1,0 +1,65 @@
+stratum,run,label,metric,n_frames,n_videos,reference,arm_value,delta,median,ci_low,ci_high,p,improved_pct,worsened_pct,verdict
+all tool frames,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",iou,4652,1294,0.819626,0.819139,-0.000487,0.0,-0.002011,0.001029,0.888829,43.981083,43.594153,no change
+all tool frames,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",recall,4652,1294,0.898784,0.896207,-0.002577,-4.1e-05,-0.004208,-0.00093,0.00472,41.315563,43.05675,worse
+all tool frames,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",precision,4652,1294,0.902141,0.903638,0.001955,6.4e-05,0.000682,0.003258,0.003593,42.64961,41.21856,better
+all tool frames,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",hd95,4652,1294,57.24608,57.849949,0.446871,0.0,-0.962864,1.820877,0.701125,45.338248,46.357329,no change
+size tiny,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",iou,600,463,0.651608,0.655831,0.004223,0.0,-0.002708,0.011362,0.294367,46.166667,42.5,no change
+size tiny,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",recall,600,463,0.789149,0.786858,-0.00229,0.0,-0.009945,0.005255,0.456145,41.833333,44.333333,no change
+size tiny,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",precision,600,463,0.793695,0.79881,0.007103,0.000371,0.0004,0.014571,0.074901,47.535211,41.901408,better
+size tiny,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",hd95,600,463,87.546606,88.328252,0.345842,0.0,-5.388047,6.261117,0.18845,47.359155,42.605634,no change
+size small,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",iou,919,663,0.789536,0.788072,-0.001465,0.00038,-0.005523,0.002569,0.233612,47.007617,42.546246,no change
+size small,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",recall,919,663,0.890074,0.887443,-0.002632,0.000109,-0.006711,0.00128,0.698889,44.831338,42.546246,no change
+size small,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",precision,919,663,0.879995,0.880552,0.001652,-0.000286,-0.001309,0.004502,0.402009,44.298246,45.833333,no change
+size small,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",hd95,919,663,68.817624,70.419811,1.081543,0.0,-2.28977,4.514726,0.193887,41.995614,48.026316,no change
+size med,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",iou,2337,1148,0.855879,0.854786,-0.001094,-9.1e-05,-0.002812,0.000563,0.662501,43.51733,44.030809,no change
+size med,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",recall,2337,1148,0.922513,0.920065,-0.002448,-2.4e-05,-0.004032,-0.000874,0.031195,41.035516,42.019683,worse
+size med,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",precision,2337,1148,0.92256,0.923435,0.000876,2.8e-05,-0.000406,0.002171,0.127066,40.753425,40.453767,no change
+size med,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",hd95,2337,1148,49.830804,50.334527,0.503723,0.0,-1.179148,2.266581,0.464792,44.905822,46.660959,no change
+size large,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",iou,796,545,0.874575,0.873447,-0.001128,-0.000111,-0.00383,0.001703,0.144255,40.201005,44.346734,no change
+size large,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",recall,796,545,0.921815,0.918704,-0.003111,-0.000482,-0.005971,-0.000273,0.002958,37.688442,45.728643,worse
+size large,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",precision,796,545,0.94555,0.947346,0.001796,0.000229,0.000339,0.003403,0.028809,42.839196,37.688442,better
+size large,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",hd95,796,545,43.961362,43.58632,-0.375042,0.0,-2.428206,1.425768,0.662805,48.994975,46.231156,no change
+thin tools,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",iou,1163,709,0.721116,0.722806,0.00169,9e-05,-0.002189,0.005701,0.379677,45.915735,43.078246,no change
+thin tools,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",recall,1163,709,0.838127,0.836635,-0.001492,0.0,-0.005748,0.002609,0.814132,45.399828,42.906277,no change
+thin tools,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",precision,1163,709,0.839147,0.841609,0.00345,0.00023,-0.000542,0.007758,0.08285,45.719329,43.512798,no change
+thin tools,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",hd95,1163,709,72.83707,73.76696,0.711934,0.0,-2.404069,3.895175,0.13547,45.366284,45.631068,no change
+wide tools,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",iou,3489,1245,0.852463,0.85125,-0.001213,0.0,-0.002844,0.000411,0.65764,43.336199,43.766122,no change
+wide tools,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",recall,3489,1245,0.919003,0.916064,-0.002939,-8.9e-05,-0.004491,-0.001431,0.001026,39.954142,43.106907,worse
+wide tools,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",precision,3489,1245,0.922723,0.923904,0.001468,4e-05,0.000368,0.002532,0.019343,41.649899,40.4714,better
+wide tools,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",hd95,3489,1245,52.152127,52.649477,0.360548,0.0,-1.087319,1.854877,0.189632,45.329118,46.593849,no change
+tiny or thin,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",iou,1282,772,0.725656,0.727863,0.002207,0.000125,-0.001292,0.005654,0.255662,46.333853,42.979719,no change
+tiny or thin,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",recall,1282,772,0.841743,0.840339,-0.001404,0.0,-0.00526,0.002514,0.883292,45.0078,42.979719,no change
+tiny or thin,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",precision,1282,772,0.841106,0.843932,0.003723,0.000104,0.000261,0.007545,0.09418,45.316253,43.714972,better
+tiny or thin,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",hd95,1282,772,72.529555,73.082048,0.353572,0.0,-2.905868,3.475632,0.358452,44.915933,45.876701,no change
+scene Smoke,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",iou,43,43,0.785149,0.784465,-0.000685,0.000277,-0.011178,0.011011,0.769638,48.837209,41.860465,no change
+scene Smoke,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",recall,43,43,0.881709,0.884297,0.002588,0.000563,-0.006351,0.013665,0.778796,48.837209,46.511628,no change
+scene Smoke,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",precision,43,43,0.891503,0.887711,-0.003792,0.000795,-0.011624,0.002274,0.935224,48.837209,39.534884,no change
+scene Smoke,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",hd95,43,43,73.813919,75.696216,1.882297,0.11748,-4.012622,7.580081,0.552563,58.139535,39.534884,no change
+scene Blood,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",iou,360,280,0.813268,0.811252,-0.002016,-0.000348,-0.0064,0.001903,0.355176,40.833333,45.0,no change
+scene Blood,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",recall,360,280,0.890817,0.88751,-0.003307,-0.000181,-0.007828,0.000547,0.078994,39.166667,45.277778,no change
+scene Blood,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",precision,360,280,0.906313,0.905637,-0.000676,-4.2e-05,-0.005146,0.003361,0.676287,42.090395,41.242938,no change
+scene Blood,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",hd95,360,280,55.27875,58.777489,3.498739,0.0,-0.464461,7.404656,0.272273,46.892655,44.350282,no change
+scene Motion Blur,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",iou,359,307,0.772259,0.765843,-0.006416,-0.0,-0.012569,-0.000335,0.279852,46.239554,45.961003,worse
+scene Motion Blur,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",recall,359,307,0.863866,0.858184,-0.005682,-0.00028,-0.011795,0.000216,0.033977,38.16156,45.682451,no change
+scene Motion Blur,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",precision,359,307,0.886583,0.882012,-0.001752,0.000498,-0.006515,0.002371,0.155442,46.458924,39.660057,no change
+scene Motion Blur,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",hd95,359,307,72.844324,72.409669,-0.731258,0.0,-5.591043,3.963568,0.655404,48.441926,48.15864,no change
+scene Underexposure,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",iou,61,54,0.742989,0.741148,-0.001841,0.00272,-0.012956,0.008114,0.590993,55.737705,42.622951,no change
+scene Underexposure,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",recall,61,54,0.865997,0.865506,-0.000491,0.0,-0.010386,0.008003,0.774034,44.262295,45.901639,no change
+scene Underexposure,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",precision,61,54,0.853509,0.84788,-0.005629,-0.000639,-0.019451,0.006196,0.712813,41.666667,45.0,no change
+scene Underexposure,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",hd95,61,54,82.77843,84.011704,1.233274,-0.146185,-9.141711,10.526673,0.885965,46.666667,51.666667,no change
+scene Overexposure,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",iou,82,73,0.776918,0.772042,-0.004876,-0.000206,-0.023905,0.014642,0.359792,40.243902,48.780488,no change
+scene Overexposure,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",recall,82,73,0.872707,0.866673,-0.006034,-0.000773,-0.030514,0.020579,0.187176,37.804878,50.0,no change
+scene Overexposure,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",precision,82,73,0.869202,0.871902,0.0027,0.0,-0.012385,0.01557,0.44284,40.740741,35.802469,no change
+scene Overexposure,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",hd95,82,73,71.378847,75.900227,4.521379,0.0,-7.768796,19.638653,0.911057,49.382716,45.679012,no change
+scene any degradation,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",iou,850,618,0.790466,0.786424,-0.004042,-0.000239,-0.007674,-0.000193,0.106627,43.647059,46.0,worse
+scene any degradation,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",recall,850,618,0.877991,0.87438,-0.003612,-0.000201,-0.007458,0.000407,0.015213,39.882353,45.647059,no change
+scene any degradation,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",precision,850,618,0.892147,0.888953,-0.002005,9.9e-05,-0.005196,0.000801,0.490678,43.198091,40.811456,no change
+scene any degradation,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",hd95,850,618,66.105013,68.498913,2.272335,0.0,-0.703695,5.159916,0.277476,47.732697,46.658711,no change
+scene clean,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",iou,2587,1201,0.824189,0.824262,7.3e-05,0.0001,-0.001997,0.002167,0.365456,44.800928,42.945497,no change
+scene clean,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",recall,2587,1201,0.903878,0.900835,-0.003043,-7.4e-05,-0.005345,-0.000869,0.014157,41.051411,43.21608,worse
+scene clean,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",precision,2587,1201,0.902191,0.904817,0.003023,0.0001,0.001428,0.004783,0.003679,43.257989,40.997662,better
+scene clean,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",hd95,2587,1201,54.726992,55.554891,0.658827,0.0,-1.184163,2.499138,0.448967,44.894778,46.765394,no change
+tool-free frames,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",iou,326,274,0.653374,0.656442,0.003067,0.0,-0.02447,0.027868,0.608387,3.374233,3.067485,no change
+tool-free frames,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",recall,326,274,,,,,,,,,,n/a
+tool-free frames,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",precision,326,274,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,no change
+tool-free frames,roift-long-seed2026,"ROI fine-tune, 50 ep, repeat seed",hd95,326,274,,,,,,,,,,n/a

@@ -1,0 +1,3 @@
+run,label,n_frames,fp_px_mean,fp_px_median,clean_rate,clean_rate_json,delta_fp_px,p
+ft-long-control,"Fine-tune control, 50 ep",326,4031.09816,0.0,0.705521,0.669414,0.0,
+roift-long,"ROI fine-tune, 50 ep",326,4262.110429,0.0,0.665644,0.638853,231.01227,0.014505

@@ -1,0 +1,8 @@
+run,label,n_frames,fp_px_mean,fp_px_median,clean_rate,clean_rate_json,delta_fp_px,p
+baseline-seed42-clean,Baseline (seed 42),326,4397.702454,0.0,0.684049,0.662838,0.0,
+tversky-rescore-hi,BCE-Tversky (grid to 0.95),326,4873.242331,0.0,0.644172,0.608638,475.539877,0.030644
+synaug-fixed,"Synthetic aug, additive",326,4320.309816,0.0,0.665644,0.636668,-77.392638,0.559172
+static-tiling,Static tiling,326,5509.733129,14.0,0.52454,0.478127,1112.030675,4.4e-05
+cascade-redetect-clean,Cascade on baseline weights,326,4614.08589,0.0,0.650307,0.605102,216.383436,0.168149
+roift-control-ff,"Fine-tune control, 15 ep",326,3510.263804,0.0,0.720859,0.681929,-887.43865,0.001449
+roift-long,"ROI fine-tune, 50 ep",326,4262.110429,0.0,0.665644,0.638853,-135.592025,0.695757

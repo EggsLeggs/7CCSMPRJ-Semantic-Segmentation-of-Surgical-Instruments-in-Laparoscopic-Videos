@@ -1,0 +1,60 @@
+# During development, numerous artefacts are produced and authentication tokens included.
+# These are both irrelevant to the final submission and could have security implications if committed.
+# Therefore, this gitignore is unconventionally setup as an allowlist and each file is explicitly un-ignored.
+# During submission, the repository could be cleaned up, at which point I will revert this if I have time.
+
+*
+!*/
+
+# root-level files
+!/.gitignore
+!sole_ownership_declaration.md
+!/README.md
+!/pre-commit
+
+# 00 model training
+!00_model_training/00_model_training.ipynb
+
+# 01 baseline analysis
+!01_baseline_analysis/README.md
+!01_baseline_analysis/01a_baseline_failure_analysis.ipynb
+!01_baseline_analysis/01b_baseline_smalltool_failure_analysis.ipynb
+!01_baseline_analysis/requirements.txt
+!01_baseline_analysis/baseline_common.py
+
+# 02 results comparison
+!02_results_comparison/README.md
+!02_results_comparison/requirements.txt
+!02_results_comparison/02a_results_comparison.ipynb
+!02_results_comparison/02b_cascade_mechanism.ipynb
+!02_results_comparison/compare_common.py
+!02_results_comparison/outputs/**/*.csv
+!02_results_comparison/outputs/**/*.png
+
+# 03 tooling
+!03_tooling/README.md
+!03_tooling/requirements.txt
+!03_tooling/03a_tool_size_distribution.ipynb
+!03_tooling/03b_tool_thinness_distribution.ipynb
+!03_tooling/03c_leak_guard.ipynb
+!03_tooling/03d_empirical_tuning_tool.ipynb
+!03_tooling/03e_synthetic_aug_comparison.ipynb
+
+# 04 dataset preparation
+!04_dataset_preparation/README.md
+!04_dataset_preparation/scripts/requirements.txt
+!04_dataset_preparation/scripts/04a_download.py
+!04_dataset_preparation/scripts/04b_sampler.py
+!04_dataset_preparation/scripts/04c_update_sheet.py
+!04_dataset_preparation/artefacts/04b_sampling_plan.csv
+!04_dataset_preparation/artefacts/04b_lemon_sampler.log
+!04_dataset_preparation/artefacts/04c_annotation_tracker.xlsx
+!00_model_training/artefacts/**
+!00_model_training/README.md
+!03_tooling/03f_temporal_clip_builder.py
+!03_tooling/03g_frame_review_tool.ipynb
+!03_tooling/03k_cleaned_reeval.py
+!03_tooling/03h_run_audit.py
+!03_tooling/03i_beta_sweep_figure.py
+!03_tooling/03j_configuration_figures.py
+!03_tooling/03l_measure_ft_zoom.py

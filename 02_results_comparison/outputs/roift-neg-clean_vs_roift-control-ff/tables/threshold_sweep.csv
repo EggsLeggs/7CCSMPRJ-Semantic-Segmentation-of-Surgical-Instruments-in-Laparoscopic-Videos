@@ -1,0 +1,29 @@
+run,label,threshold,iou,precision,recall,iou_tiny,recall_tiny,notool_fp_px
+roift-control-ff,"Fine-tune control, 15 ep",0.1,0.793009,0.836576,0.938648,0.630695,0.857934,4840.276074
+roift-control-ff,"Fine-tune control, 15 ep",0.2,0.807132,0.864226,0.924516,0.644961,0.832305,4299.141104
+roift-control-ff,"Fine-tune control, 15 ep",0.3,0.813184,0.882203,0.912012,0.650938,0.811809,3946.245399
+roift-control-ff,"Fine-tune control, 15 ep",0.4,0.814899,0.89587,0.899595,0.651616,0.791879,3696.981595
+roift-control-ff,"Fine-tune control, 15 ep",0.5,0.813695,0.907571,0.886761,0.649292,0.772227,3510.263804
+roift-control-ff,"Fine-tune control, 15 ep",0.55,0.811996,0.912689,0.879759,0.646793,0.761636,3424.429448
+roift-control-ff,"Fine-tune control, 15 ep",0.6,0.809429,0.917682,0.872011,0.643405,0.750201,3335.674847
+roift-control-ff,"Fine-tune control, 15 ep",0.65,0.805807,0.922788,0.863284,0.638291,0.73699,3242.095092
+roift-control-ff,"Fine-tune control, 15 ep",0.7,0.800993,0.927906,0.853363,0.631713,0.722226,3145.165644
+roift-control-ff,"Fine-tune control, 15 ep",0.75,0.794645,0.932973,0.841869,0.62339,0.705552,3041.831288
+roift-control-ff,"Fine-tune control, 15 ep",0.8,0.78617,0.938242,0.828105,0.612195,0.68549,2926.248466
+roift-control-ff,"Fine-tune control, 15 ep",0.85,0.774287,0.943891,0.810622,0.596269,0.659998,2789.684049
+roift-control-ff,"Fine-tune control, 15 ep",0.9,0.756218,0.950255,0.786322,0.572067,0.625042,2615.978528
+roift-control-ff,"Fine-tune control, 15 ep",0.95,0.722347,0.958984,0.744431,0.526078,0.564529,2327.957055
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.1,0.780511,0.804916,0.960483,0.601117,0.890839,8419.877301
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.2,0.805415,0.844376,0.944692,0.632466,0.860251,6475.546012
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.3,0.816258,0.869074,0.929852,0.64796,0.835599,5447.251534
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.4,0.820306,0.887695,0.914309,0.654536,0.810724,4777.43865
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.5,0.819022,0.902813,0.897223,0.653616,0.784486,4312.165644
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.55,0.81657,0.909495,0.887744,0.650528,0.770077,4109.079755
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.6,0.812733,0.915983,0.87708,0.645196,0.753604,3901.377301
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.65,0.807352,0.922549,0.864984,0.637996,0.735306,3700.263804
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.7,0.800201,0.928887,0.85121,0.62857,0.714839,3502.751534
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.75,0.790731,0.935524,0.835105,0.615421,0.690284,3303.03681
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.8,0.778168,0.942184,0.816014,0.5981,0.661792,3092.386503
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.85,0.761255,0.950271,0.792557,0.575325,0.627735,2851.423313
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.9,0.736211,0.957191,0.760483,0.542556,0.582773,2549.54908
+roift-neg-clean,ROI fine-tune + negatives 0.3,0.95,0.689006,0.966275,0.704856,0.480047,0.505378,2042.058282

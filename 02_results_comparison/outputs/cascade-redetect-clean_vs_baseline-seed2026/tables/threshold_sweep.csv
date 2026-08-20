@@ -1,0 +1,17 @@
+run,label,threshold,iou,precision,recall,iou_tiny,recall_tiny,notool_fp_px
+baseline-seed2026,Baseline (seed 2026),0.1,0.786275,0.825637,0.943008,0.615454,0.866562,5721.478528
+baseline-seed2026,Baseline (seed 2026),0.2,0.802619,0.855881,0.928384,0.632327,0.840061,5062.984663
+baseline-seed2026,Baseline (seed 2026),0.3,0.809497,0.875169,0.915093,0.637854,0.816999,4666.840491
+baseline-seed2026,Baseline (seed 2026),0.4,0.81158,0.89038,0.90161,0.638665,0.794877,4365.484663
+baseline-seed2026,Baseline (seed 2026),0.5,0.810349,0.902842,0.887531,0.636761,0.773368,4118.291411
+baseline-seed2026,Baseline (seed 2026),0.6,0.805766,0.914109,0.871363,0.630595,0.74861,3877.674847
+baseline-seed2026,Baseline (seed 2026),0.7,0.79653,0.925192,0.850796,0.618495,0.717265,3589.671779
+cascade-redetect-clean,Cascade on baseline weights,0.1,0.776943,0.810291,0.950234,0.602477,0.886589,6582.349693
+cascade-redetect-clean,Cascade on baseline weights,0.2,0.797038,0.842118,0.937778,0.626273,0.867186,5751.358896
+cascade-redetect-clean,Cascade on baseline weights,0.3,0.806811,0.862862,0.925978,0.63711,0.848359,5266.46319
+cascade-redetect-clean,Cascade on baseline weights,0.4,0.811371,0.878992,0.913692,0.642537,0.829339,4903.634969
+cascade-redetect-clean,Cascade on baseline weights,0.5,0.812234,0.892507,0.900561,0.644554,0.810142,4614.08589
+cascade-redetect-clean,Cascade on baseline weights,0.55,0.811353,0.898607,0.893263,0.643968,0.799448,4474.812883
+cascade-redetect-clean,Cascade on baseline weights,0.6,0.809565,0.904567,0.885187,0.642266,0.787448,4328.539877
+cascade-redetect-clean,Cascade on baseline weights,0.65,0.806625,0.91045,0.87601,0.639064,0.773845,4169.092025
+cascade-redetect-clean,Cascade on baseline weights,0.7,0.802328,0.916296,0.865483,0.634319,0.758506,3994.288344

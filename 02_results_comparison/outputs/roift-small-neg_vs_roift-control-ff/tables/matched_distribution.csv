@@ -1,0 +1,4 @@
+stratum,run,label,metric,matched_threshold,n_frames,mean,median,improved_pct,worsened_pct,p
+all tool frames,roift-small-neg,"ROI fine-tune, size-biased",recall,0.540324,4652,0.003578,-0.003377,27.901978,62.962167,0.0
+size tiny,roift-small-neg,"ROI fine-tune, size-biased",recall,0.584758,600,-0.004798,-0.01015,19.666667,71.333333,0.0
+thin tools,roift-small-neg,"ROI fine-tune, size-biased",recall,0.547989,1163,0.001629,-0.005543,26.913156,65.864144,0.0

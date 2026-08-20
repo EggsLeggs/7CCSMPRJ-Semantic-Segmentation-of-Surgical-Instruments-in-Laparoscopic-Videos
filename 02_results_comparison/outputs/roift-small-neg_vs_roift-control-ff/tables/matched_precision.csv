@@ -1,0 +1,31 @@
+convention,stratum,run,label,n_frames,target_precision,matched_threshold,reference_recall,arm_recall_matched,delta_recall_matched,delta_recall_at_0.50,out_of_grid
+per-frame,all tool frames,roift-small-neg,"ROI fine-tune, size-biased",4652,0.907571,0.540324,0.886761,0.89034,0.003578,0.011104,False
+per-frame,size tiny,roift-small-neg,"ROI fine-tune, size-biased",600,0.812767,0.584758,0.772227,0.767429,-0.004798,0.021087,False
+per-frame,size small,roift-small-neg,"ROI fine-tune, size-biased",919,0.883319,0.530101,0.876806,0.88175,0.004943,0.011254,False
+per-frame,size med,roift-small-neg,"ROI fine-tune, size-biased",2337,0.926186,0.530783,0.913343,0.916961,0.003618,0.008668,False
+per-frame,size large,roift-small-neg,"ROI fine-tune, size-biased",796,0.948217,0.524989,0.906546,0.913361,0.006815,0.010557,False
+per-frame,thin tools,roift-small-neg,"ROI fine-tune, size-biased",1163,0.847198,0.547989,0.826431,0.828059,0.001629,0.013804,False
+per-frame,wide tools,roift-small-neg,"ROI fine-tune, size-biased",3489,0.927209,0.536013,0.906872,0.91116,0.004288,0.010204,False
+per-frame,tiny or thin,roift-small-neg,"ROI fine-tune, size-biased",1282,0.850034,0.5542,0.828959,0.830337,0.001379,0.015026,False
+per-frame,scene Smoke,roift-small-neg,"ROI fine-tune, size-biased",43,0.890269,0.571682,0.862119,0.868091,0.005972,0.020823,False
+per-frame,scene Blood,roift-small-neg,"ROI fine-tune, size-biased",360,0.911279,0.534809,0.878685,0.880928,0.002243,0.008779,False
+per-frame,scene Motion Blur,roift-small-neg,"ROI fine-tune, size-biased",359,0.887069,0.536819,0.839452,0.856721,0.017269,0.025505,False
+per-frame,scene Underexposure,roift-small-neg,"ROI fine-tune, size-biased",61,0.864294,0.585121,0.838367,0.839512,0.001144,0.023421,False
+per-frame,scene Overexposure,roift-small-neg,"ROI fine-tune, size-biased",82,0.884909,0.567004,0.84256,0.831887,-0.010673,0.008548,False
+per-frame,scene any degradation,roift-small-neg,"ROI fine-tune, size-biased",850,0.89524,0.536864,0.859443,0.868606,0.009163,0.017029,False
+per-frame,scene clean,roift-small-neg,"ROI fine-tune, size-biased",2587,0.90699,0.535019,0.892968,0.896801,0.003833,0.010196,False
+pooled,all tool frames,roift-small-neg,"ROI fine-tune, size-biased",4652,0.915181,0.542801,0.903056,0.905828,0.002772,0.009892,False
+pooled,size tiny,roift-small-neg,"ROI fine-tune, size-biased",600,0.730062,0.63266,0.820791,0.799468,-0.021324,0.018564,False
+pooled,size small,roift-small-neg,"ROI fine-tune, size-biased",919,0.850061,0.535616,0.877641,0.880741,0.003099,0.01048,False
+pooled,size med,roift-small-neg,"ROI fine-tune, size-biased",2337,0.919429,0.536697,0.913913,0.916656,0.002743,0.008697,False
+pooled,size large,roift-small-neg,"ROI fine-tune, size-biased",796,0.947598,0.527667,0.901123,0.907692,0.006569,0.010783,False
+pooled,thin tools,roift-small-neg,"ROI fine-tune, size-biased",1163,0.827013,0.565564,0.868092,0.863428,-0.004664,0.010465,False
+pooled,wide tools,roift-small-neg,"ROI fine-tune, size-biased",3489,0.927664,0.536546,0.90767,0.911687,0.004017,0.009817,False
+pooled,tiny or thin,roift-small-neg,"ROI fine-tune, size-biased",1282,0.826725,0.565029,0.867374,0.863718,-0.003655,0.011246,False
+pooled,scene Smoke,roift-small-neg,"ROI fine-tune, size-biased",43,0.874331,0.45871,0.856804,0.90312,0.046316,0.038134,False
+pooled,scene Blood,roift-small-neg,"ROI fine-tune, size-biased",360,0.918309,0.535319,0.896617,0.896802,0.000184,0.006319,False
+pooled,scene Motion Blur,roift-small-neg,"ROI fine-tune, size-biased",359,0.885073,0.622906,0.850271,0.838525,-0.011746,0.018406,False
+pooled,scene Underexposure,roift-small-neg,"ROI fine-tune, size-biased",61,0.865327,0.882837,0.840187,0.700504,-0.139683,0.02504,False
+pooled,scene Overexposure,roift-small-neg,"ROI fine-tune, size-biased",82,0.900683,0.516748,0.848928,0.844785,-0.004143,0.00044,False
+pooled,scene any degradation,roift-small-neg,"ROI fine-tune, size-biased",850,0.898078,0.563415,0.872389,0.873729,0.001339,0.014631,False
+pooled,scene clean,roift-small-neg,"ROI fine-tune, size-biased",2587,0.915855,0.533418,0.912408,0.9165,0.004092,0.009323,False

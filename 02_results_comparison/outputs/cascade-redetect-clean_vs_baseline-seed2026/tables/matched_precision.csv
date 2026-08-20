@@ -1,0 +1,31 @@
+convention,stratum,run,label,n_frames,target_precision,matched_threshold,reference_recall,arm_recall_matched,delta_recall_matched,delta_recall_at_0.50,out_of_grid
+per-frame,all tool frames,cascade-redetect-clean,Cascade on baseline weights,4652,0.902842,0.585524,0.887531,0.887525,-6e-06,0.01303,False
+per-frame,size tiny,cascade-redetect-clean,Cascade on baseline weights,600,0.794257,0.624219,0.773368,0.780859,0.007491,0.036774,False
+per-frame,size small,cascade-redetect-clean,Cascade on baseline weights,919,0.880317,0.611309,0.877074,0.874365,-0.002709,0.016272,False
+per-frame,size med,cascade-redetect-clean,Cascade on baseline weights,2337,0.923057,0.568085,0.913705,0.913,-0.000704,0.00866,False
+per-frame,size large,cascade-redetect-clean,Cascade on baseline weights,796,0.946338,0.528579,0.90881,0.909722,0.000912,0.004221,False
+per-frame,thin tools,cascade-redetect-clean,Cascade on baseline weights,1163,0.836496,0.607904,0.824268,0.828249,0.003981,0.026712,False
+per-frame,wide tools,cascade-redetect-clean,Cascade on baseline weights,3489,0.924416,0.573124,0.908618,0.907342,-0.001276,0.008469,False
+per-frame,tiny or thin,cascade-redetect-clean,Cascade on baseline weights,1282,0.83897,0.605809,0.827243,0.830891,0.003648,0.02565,False
+per-frame,scene Smoke,cascade-redetect-clean,Cascade on baseline weights,43,0.888869,0.530524,0.858389,0.86198,0.003591,0.009666,False
+per-frame,scene Blood,cascade-redetect-clean,Cascade on baseline weights,360,0.907059,0.576953,0.878467,0.878049,-0.000417,0.011354,False
+per-frame,scene Motion Blur,cascade-redetect-clean,Cascade on baseline weights,359,0.883752,0.620871,0.843035,0.834192,-0.008842,0.013502,False
+per-frame,scene Underexposure,cascade-redetect-clean,Cascade on baseline weights,61,0.861111,0.674647,0.836353,0.807829,-0.028524,0.015984,False
+per-frame,scene Overexposure,cascade-redetect-clean,Cascade on baseline weights,82,0.870882,0.579664,0.85541,0.857457,0.002047,0.014607,False
+per-frame,scene any degradation,cascade-redetect-clean,Cascade on baseline weights,850,0.89065,0.600122,0.861068,0.856249,-0.00482,0.012359,False
+per-frame,scene clean,cascade-redetect-clean,Cascade on baseline weights,2587,0.902488,0.580232,0.893164,0.894196,0.001032,0.012871,False
+pooled,all tool frames,cascade-redetect-clean,Cascade on baseline weights,4652,0.909173,0.576236,0.904201,0.9021,-0.0021,0.008199,False
+pooled,size tiny,cascade-redetect-clean,Cascade on baseline weights,600,0.681439,0.650806,0.817937,0.812338,-0.005599,0.028119,False
+pooled,size small,cascade-redetect-clean,Cascade on baseline weights,919,0.842894,0.618563,0.87767,0.873436,-0.004234,0.015941,False
+pooled,size med,cascade-redetect-clean,Cascade on baseline weights,2337,0.914798,0.566557,0.914553,0.913701,-0.000852,0.00814,False
+pooled,size large,cascade-redetect-clean,Cascade on baseline weights,796,0.945512,0.528759,0.903687,0.904711,0.001024,0.00435,False
+pooled,thin tools,cascade-redetect-clean,Cascade on baseline weights,1163,0.806899,0.611744,0.864041,0.860015,-0.004026,0.017736,False
+pooled,wide tools,cascade-redetect-clean,Cascade on baseline weights,3489,0.923854,0.565105,0.909501,0.908192,-0.001308,0.006941,False
+pooled,tiny or thin,cascade-redetect-clean,Cascade on baseline weights,1282,0.806088,0.613362,0.863725,0.859263,-0.004462,0.017596,False
+pooled,scene Smoke,cascade-redetect-clean,Cascade on baseline weights,43,0.875122,0.507095,0.852993,0.863771,0.010779,0.012266,False
+pooled,scene Blood,cascade-redetect-clean,Cascade on baseline weights,360,0.916315,0.573768,0.897457,0.895505,-0.001952,0.008127,False
+pooled,scene Motion Blur,cascade-redetect-clean,Cascade on baseline weights,359,0.879743,0.605351,0.856843,0.85004,-0.006803,0.010408,False
+pooled,scene Underexposure,cascade-redetect-clean,Cascade on baseline weights,61,0.847563,0.583845,0.837358,0.833963,-0.003396,0.015359,False
+pooled,scene Overexposure,cascade-redetect-clean,Cascade on baseline weights,82,0.879485,0.569703,0.864866,0.864199,-0.000667,0.008857,False
+pooled,scene any degradation,cascade-redetect-clean,Cascade on baseline weights,850,0.892619,0.585158,0.87595,0.872236,-0.003715,0.009441,False
+pooled,scene clean,cascade-redetect-clean,Cascade on baseline weights,2587,0.908928,0.572763,0.912715,0.910686,-0.00203,0.007305,False

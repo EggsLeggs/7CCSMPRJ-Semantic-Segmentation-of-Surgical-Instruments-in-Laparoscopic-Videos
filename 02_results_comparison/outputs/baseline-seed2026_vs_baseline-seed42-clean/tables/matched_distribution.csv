@@ -1,0 +1,4 @@
+stratum,run,label,metric,matched_threshold,n_frames,mean,median,improved_pct,worsened_pct,p
+all tool frames,baseline-seed2026,Baseline (seed 2026),recall,0.489356,4652,0.000574,-0.000362,46.023216,48.473775,0.538015
+size tiny,baseline-seed2026,Baseline (seed 2026),recall,0.48428,600,-0.003251,0.0,44.833333,46.333333,0.665815
+thin tools,baseline-seed2026,Baseline (seed 2026),recall,0.52125,1163,-0.014155,-0.005943,35.339639,58.469475,0.0

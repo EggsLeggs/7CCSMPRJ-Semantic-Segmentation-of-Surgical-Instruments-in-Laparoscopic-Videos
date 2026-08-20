@@ -1,0 +1,4 @@
+stratum,run,label,metric,matched_threshold,n_frames,mean,median,improved_pct,worsened_pct,p
+all tool frames,bce_tversky,BCE-Tversky [ERRONEOUS],recall,0.7,4652,0.010141,0.005405,61.715391,31.94325,0.0
+size tiny,bce_tversky,BCE-Tversky [ERRONEOUS],recall,0.7,600,0.009081,0.003555,56.0,33.666667,0.0
+thin tools,bce_tversky,BCE-Tversky [ERRONEOUS],recall,0.7,1163,0.011187,0.006224,60.791058,32.244196,0.0

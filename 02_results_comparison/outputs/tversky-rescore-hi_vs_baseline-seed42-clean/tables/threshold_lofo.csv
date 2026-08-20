@@ -1,0 +1,5 @@
+objective,run,label,thresholds,iou_lofo,iou_at_0.50,gain
+overall IoU,baseline-seed42-clean,Baseline (seed 42),0.4/0.4/0.4/0.4/0.4,0.811231,0.810614,0.000617
+overall IoU,tversky-rescore-hi,BCE-Tversky (grid to 0.95),0.7/0.7/0.7/0.7/0.7,0.81094,0.809838,0.001102
+tiny IoU,baseline-seed42-clean,Baseline (seed 42),0.5/0.4/0.5/0.4/0.4,0.810286,0.810614,-0.000328
+tiny IoU,tversky-rescore-hi,BCE-Tversky (grid to 0.95),0.7/0.65/0.7/0.65/0.7,0.81092,0.809838,0.001082

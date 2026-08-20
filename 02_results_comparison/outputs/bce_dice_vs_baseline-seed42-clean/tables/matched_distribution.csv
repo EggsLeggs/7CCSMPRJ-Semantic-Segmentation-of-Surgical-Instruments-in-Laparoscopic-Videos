@@ -1,0 +1,4 @@
+stratum,run,label,metric,matched_threshold,n_frames,mean,median,improved_pct,worsened_pct,p
+all tool frames,bce_dice,BCE-Dice,recall,0.491218,4652,0.002508,0.001467,51.268272,42.49785,0.0
+size tiny,bce_dice,BCE-Dice,recall,0.299661,600,0.012756,0.007372,59.333333,32.5,0.0
+thin tools,bce_dice,BCE-Dice,recall,0.431244,1163,0.004289,0.002351,52.966466,41.100602,0.000336

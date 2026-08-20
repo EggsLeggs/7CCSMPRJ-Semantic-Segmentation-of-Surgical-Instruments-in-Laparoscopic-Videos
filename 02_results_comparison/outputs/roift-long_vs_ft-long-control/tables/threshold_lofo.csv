@@ -1,0 +1,5 @@
+objective,run,label,thresholds,iou_lofo,iou_at_0.50,gain
+overall IoU,ft-long-control,"Fine-tune control, 50 ep",0.4/0.4/0.4/0.4/0.4,0.815722,0.814375,0.001347
+overall IoU,roift-long,"ROI fine-tune, 50 ep",0.4/0.4/0.4/0.4/0.4,0.820715,0.819626,0.001089
+tiny IoU,ft-long-control,"Fine-tune control, 50 ep",0.4/0.4/0.4/0.4/0.4,0.815722,0.814375,0.001347
+tiny IoU,roift-long,"ROI fine-tune, 50 ep",0.5/0.4/0.4/0.4/0.4,0.81963,0.819626,4e-06

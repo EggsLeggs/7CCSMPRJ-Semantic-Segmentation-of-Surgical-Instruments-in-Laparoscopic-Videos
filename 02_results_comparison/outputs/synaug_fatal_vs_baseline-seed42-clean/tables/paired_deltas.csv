@@ -1,0 +1,65 @@
+stratum,run,label,metric,n_frames,n_videos,reference,arm_value,delta,median,ci_low,ci_high,p,improved_pct,worsened_pct,verdict
+all tool frames,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",iou,4652,1294,0.810614,0.81239,0.001776,0.000578,-0.001453,0.004888,0.034916,49.140155,46.324162,no change
+all tool frames,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",recall,4652,1294,0.888456,0.890533,0.002077,0.00038,-0.001254,0.005346,0.00545,48.559759,45.614789,no change
+all tool frames,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",precision,4652,1294,0.901515,0.902833,0.000819,0.0,-0.001615,0.003239,0.875006,47.129448,47.282253,no change
+all tool frames,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",hd95,4652,1294,59.335811,57.371514,-1.400364,0.0,-3.482348,0.7449,0.268121,48.177254,48.832133,no change
+size tiny,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",iou,600,463,0.643358,0.65061,0.007252,0.0,-0.008504,0.023285,0.678742,47.666667,45.833333,no change
+size tiny,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",recall,600,463,0.78,0.781003,0.001002,0.0,-0.015293,0.017355,0.644589,44.166667,46.166667,no change
+size tiny,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",precision,600,463,0.79139,0.804682,0.008978,0.001686,-0.003372,0.020839,0.263273,51.192661,44.954128,no change
+size tiny,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",hd95,600,463,86.062207,78.622654,-4.651792,0.0,-13.435724,3.638497,0.288134,46.972477,49.724771,no change
+size small,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",iou,919,663,0.786197,0.783722,-0.002476,0.001559,-0.010993,0.005916,0.280688,50.598477,46.354733,no change
+size small,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",recall,919,663,0.884734,0.886117,0.001383,0.001092,-0.007485,0.00987,0.077246,50.598477,45.048966,no change
+size small,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",precision,919,663,0.879945,0.877375,-0.001843,-0.000317,-0.0079,0.00415,0.619563,47.200878,48.408342,no change
+size small,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",hd95,919,663,72.110538,68.500611,-3.168102,0.0,-8.678014,2.305828,0.310331,47.420417,49.506037,no change
+size med,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",iou,2337,1148,0.846497,0.848613,0.002116,0.0006,-0.001049,0.005355,0.083939,49.165597,46.341463,no change
+size med,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",recall,2337,1148,0.912271,0.914672,0.002401,0.00051,-0.000618,0.005437,0.011095,48.994437,45.614035,no change
+size med,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",precision,2337,1148,0.921759,0.921888,0.000159,-0.000221,-0.002183,0.002408,0.586558,45.84048,48.156089,no change
+size med,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",hd95,2337,1148,52.264386,51.052351,-0.969449,0.0,-3.602268,1.781511,0.427927,47.941681,48.885077,no change
+size large,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",iou,796,545,0.859526,0.861084,0.001558,0.000535,-0.004788,0.007489,0.578177,48.492462,46.60804,no change
+size large,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",recall,796,545,0.904584,0.907323,0.00274,0.000181,-0.004221,0.009187,0.313822,48.241206,45.854271,no change
+size large,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",precision,796,545,0.94476,0.945211,0.000212,0.000315,-0.002636,0.003371,0.447571,48.045397,45.018916,no change
+size large,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",hd95,796,545,46.50173,48.186584,1.597799,0.078569,-1.679503,4.992391,0.47136,50.567465,47.288777,no change
+thin tools,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",iou,1163,709,0.718308,0.721121,0.002813,0.001088,-0.006244,0.011549,0.2871,50.042992,45.05589,no change
+thin tools,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",recall,1163,709,0.833709,0.835408,0.0017,0.0,-0.007701,0.011089,0.842247,46.603611,47.291488,no change
+thin tools,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",precision,1163,709,0.83983,0.844912,0.002686,0.000844,-0.004166,0.009635,0.273075,49.50584,46.271339,no change
+thin tools,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",hd95,1163,709,72.403328,67.569403,-3.571919,0.0,-8.686645,1.525618,0.295045,48.51752,48.51752,no change
+wide tools,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",iou,3489,1245,0.841382,0.842813,0.00143,0.000516,-0.001912,0.004666,0.078591,48.839209,46.746919,no change
+wide tools,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",recall,3489,1245,0.906705,0.908908,0.002203,0.000678,-0.001267,0.005501,0.001321,49.211809,45.05589,no change
+wide tools,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",precision,3489,1245,0.921539,0.921623,0.00022,-0.000157,-0.002009,0.002451,0.570269,46.366782,47.60669,no change
+wide tools,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",hd95,3489,1245,55.09394,54.063297,-0.703438,0.0,-3.010627,1.513924,0.50292,48.068051,48.933103,no change
+tiny or thin,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",iou,1282,772,0.721076,0.725204,0.004127,0.00109,-0.004478,0.012477,0.21778,50.078003,44.929797,no change
+tiny or thin,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",recall,1282,772,0.835496,0.838344,0.002848,0.0,-0.005678,0.011526,0.776561,46.333853,46.957878,no change
+tiny or thin,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",precision,1282,772,0.840568,0.846193,0.003501,0.000844,-0.002986,0.010345,0.295824,49.551752,46.04727,no change
+tiny or thin,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",hd95,1282,772,72.315349,67.288588,-3.727373,0.0,-9.007654,1.171948,0.307758,48.492258,48.247759,no change
+scene Smoke,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",iou,43,43,0.770268,0.769235,-0.001033,-0.000763,-0.033243,0.031727,0.815716,44.186047,48.837209,no change
+scene Smoke,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",recall,43,43,0.879004,0.867964,-0.01104,0.001161,-0.037859,0.00904,0.96664,53.488372,44.186047,no change
+scene Smoke,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",precision,43,43,0.875564,0.882622,0.009738,-0.003067,-0.022279,0.043166,0.843078,35.714286,59.52381,no change
+scene Smoke,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",hd95,43,43,60.948157,50.943343,-6.30806,0.911462,-27.909007,12.72541,0.47996,57.142857,42.857143,no change
+scene Blood,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",iou,360,280,0.801044,0.805392,0.004349,-0.000128,-0.00549,0.014937,0.898833,46.944444,48.888889,no change
+scene Blood,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",recall,360,280,0.879418,0.883651,0.004232,-0.000843,-0.00471,0.014196,0.598091,45.555556,49.722222,no change
+scene Blood,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",precision,360,280,0.900485,0.903472,0.003114,0.000379,-0.005498,0.012356,0.74821,48.022599,46.327684,no change
+scene Blood,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",hd95,360,280,64.986988,59.865499,-4.986311,0.0,-13.015539,2.5463,0.830762,48.587571,48.587571,no change
+scene Motion Blur,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",iou,359,307,0.756762,0.758738,0.001976,4.7e-05,-0.008791,0.012733,0.550864,48.189415,46.518106,no change
+scene Motion Blur,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",recall,359,307,0.844804,0.852773,0.00797,0.004455,-0.004707,0.020286,0.002357,53.760446,40.947075,no change
+scene Motion Blur,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",precision,359,307,0.88249,0.878003,-0.003209,-0.000298,-0.009803,0.003771,0.175039,47.308782,48.725212,no change
+scene Motion Blur,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",hd95,359,307,77.132609,73.856831,-2.121954,0.0,-9.21185,4.626098,0.760817,47.592068,49.291785,no change
+scene Underexposure,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",iou,61,54,0.736593,0.752992,0.016399,0.002741,-0.009086,0.052924,0.664045,50.819672,44.262295,no change
+scene Underexposure,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",recall,61,54,0.843001,0.85621,0.013209,0.00651,-0.020419,0.05592,0.263156,57.377049,40.983607,no change
+scene Underexposure,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",precision,61,54,0.867844,0.867165,-0.001777,0.004055,-0.014485,0.011712,0.780034,54.237288,44.067797,no change
+scene Underexposure,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",hd95,61,54,71.18239,63.577747,-6.577901,0.0,-19.025925,5.081938,0.462381,47.457627,49.152542,no change
+scene Overexposure,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",iou,82,73,0.765641,0.761982,-0.003659,-0.001534,-0.038106,0.028824,0.701182,42.682927,52.439024,no change
+scene Overexposure,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",recall,82,73,0.845916,0.855689,0.009772,0.000454,-0.021481,0.044893,0.483766,48.780488,45.121951,no change
+scene Overexposure,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",precision,82,73,0.878892,0.875012,-0.002366,-0.001867,-0.030022,0.027765,0.207358,41.25,55.0,no change
+scene Overexposure,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",hd95,82,73,68.0278,78.684552,11.083754,0.10329,-8.414261,30.245532,0.441753,52.5,43.75,no change
+scene any degradation,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",iou,850,618,0.776315,0.780416,0.004101,-0.0,-0.003066,0.011619,0.887631,47.176471,48.0,no change
+scene any degradation,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",recall,850,618,0.861577,0.869295,0.007718,0.000935,0.000411,0.015626,0.04253,49.882353,45.294118,better
+scene any degradation,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",precision,850,618,0.888223,0.887455,4e-06,-4e-06,-0.005348,0.005961,0.230438,46.826347,48.383234,no change
+scene any degradation,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",hd95,850,618,70.462097,67.133942,-2.477078,0.0,-7.393703,2.379869,0.95465,49.101796,48.023952,no change
+scene clean,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",iou,2587,1201,0.81402,0.816832,0.002812,0.000907,-0.001816,0.007491,0.016868,49.826053,45.45806,no change
+scene clean,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",recall,2587,1201,0.892653,0.895055,0.002402,0.000346,-0.002462,0.00732,0.06597,48.086587,45.921917,no change
+scene clean,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",precision,2587,1201,0.901688,0.903677,0.001619,-7e-05,-0.001616,0.004871,0.545982,46.538159,47.324941,no change
+scene clean,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",hd95,2587,1201,57.652746,55.473632,-1.735396,0.0,-4.87846,1.161554,0.347394,47.836349,48.937844,no change
+tool-free frames,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",iou,326,274,0.677914,0.668712,-0.009202,0.0,-0.058104,0.040756,0.845005,8.588957,9.509202,no change
+tool-free frames,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",recall,326,274,,,,,,,,,,n/a
+tool-free frames,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",precision,326,274,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,no change
+tool-free frames,synaug_fatal,"Synthetic aug, extreme [ERRONEOUS]",hd95,326,274,,,,,,,,,,n/a

@@ -1,0 +1,65 @@
+stratum,run,label,metric,n_frames,n_videos,reference,arm_value,delta,median,ci_low,ci_high,p,improved_pct,worsened_pct,verdict
+all tool frames,roift-tversky,ROI fine-tune from BCE-Tversky,iou,4652,1294,0.813695,0.819602,0.005907,0.000375,0.002644,0.009087,0.011823,48.645744,46.6681,better
+all tool frames,roift-tversky,ROI fine-tune from BCE-Tversky,recall,4652,1294,0.886761,0.916621,0.02986,0.013176,0.026498,0.033267,0.0,80.846948,15.756664,better
+all tool frames,roift-tversky,ROI fine-tune from BCE-Tversky,precision,4652,1294,0.907571,0.885413,-0.021503,-0.012722,-0.023757,-0.019199,0.0,17.868817,79.145783,worse
+all tool frames,roift-tversky,ROI fine-tune from BCE-Tversky,hd95,4652,1294,56.087071,57.409395,1.299017,0.070806,-0.778566,3.426436,0.245512,50.860754,46.698627,no change
+size tiny,roift-tversky,ROI fine-tune from BCE-Tversky,iou,600,463,0.649292,0.648835,-0.000457,-0.001821,-0.015984,0.01381,0.15078,42.166667,50.666667,no change
+size tiny,roift-tversky,ROI fine-tune from BCE-Tversky,recall,600,463,0.772227,0.814181,0.041954,0.016435,0.025939,0.056353,0.0,73.333333,19.0,better
+size tiny,roift-tversky,ROI fine-tune from BCE-Tversky,precision,600,463,0.812767,0.771751,-0.037059,-0.020622,-0.0491,-0.025041,0.0,22.242315,75.22604,worse
+size tiny,roift-tversky,ROI fine-tune from BCE-Tversky,hd95,600,463,77.518235,86.23163,8.716836,0.458991,0.316824,17.148831,0.010464,55.696203,42.133816,worse
+size small,roift-tversky,ROI fine-tune from BCE-Tversky,iou,919,663,0.783408,0.79366,0.010252,8.9e-05,0.001843,0.0194,0.713678,48.422198,48.20457,better
+size small,roift-tversky,ROI fine-tune from BCE-Tversky,recall,919,663,0.876806,0.916648,0.039841,0.015047,0.031509,0.049602,0.0,82.154516,15.77802,better
+size small,roift-tversky,ROI fine-tune from BCE-Tversky,precision,919,663,0.883319,0.858929,-0.024162,-0.016578,-0.029972,-0.017846,0.0,18.281938,79.405286,worse
+size small,roift-tversky,ROI fine-tune from BCE-Tversky,hd95,919,663,70.468146,70.523218,-0.306652,0.334566,-5.745018,5.508898,0.238539,53.414097,43.722467,no change
+size med,roift-tversky,ROI fine-tune from BCE-Tversky,iou,2337,1148,0.851089,0.855487,0.004398,0.000579,0.00148,0.007173,0.017069,48.866068,46.598203,better
+size med,roift-tversky,ROI fine-tune from BCE-Tversky,recall,2337,1148,0.913343,0.937984,0.024641,0.012815,0.021908,0.027458,0.0,82.841249,14.548567,better
+size med,roift-tversky,ROI fine-tune from BCE-Tversky,precision,2337,1148,0.926186,0.906802,-0.019335,-0.012135,-0.021458,-0.017381,0.0,17.009426,79.948586,worse
+size med,roift-tversky,ROI fine-tune from BCE-Tversky,hd95,2337,1148,48.710867,50.165501,1.439913,0.031714,-1.034606,4.171989,0.317703,50.214225,47.429306,no change
+size large,roift-tversky,ROI fine-tune from BCE-Tversky,iou,796,545,0.862797,0.872916,0.01012,0.00208,0.004287,0.016511,0.000178,53.140704,42.085427,better
+size large,roift-tversky,ROI fine-tune from BCE-Tversky,recall,796,545,0.906546,0.931088,0.024543,0.010743,0.018538,0.031208,0.0,79.145729,16.834171,better
+size large,roift-tversky,ROI fine-tune from BCE-Tversky,precision,796,545,0.948217,0.934087,-0.014003,-0.009657,-0.016706,-0.011461,0.0,16.876574,79.219144,worse
+size large,roift-tversky,ROI fine-tune from BCE-Tversky,hd95,796,545,46.018212,43.037668,-2.445264,-0.158013,-5.948079,0.966278,0.02644,46.473552,51.133501,no change
+thin tools,roift-tversky,ROI fine-tune from BCE-Tversky,iou,1163,709,0.716673,0.720382,0.003709,0.0,-0.004458,0.011711,0.426043,48.495271,46.517627,no change
+thin tools,roift-tversky,ROI fine-tune from BCE-Tversky,recall,1163,709,0.826431,0.862735,0.036304,0.01704,0.027754,0.045506,0.0,78.3319,17.970765,better
+thin tools,roift-tversky,ROI fine-tune from BCE-Tversky,precision,1163,709,0.847198,0.8172,-0.027984,-0.017077,-0.034339,-0.021369,0.0,21.665175,76.096688,worse
+thin tools,roift-tversky,ROI fine-tune from BCE-Tversky,hd95,1163,709,70.607584,70.644009,-0.113171,0.306751,-4.884864,4.877276,0.080588,53.625783,44.31513,no change
+wide tools,roift-tversky,ROI fine-tune from BCE-Tversky,iou,3489,1245,0.846035,0.852676,0.00664,0.000443,0.003462,0.009948,0.015111,48.695901,46.718257,better
+wide tools,roift-tversky,ROI fine-tune from BCE-Tversky,recall,3489,1245,0.906872,0.934584,0.027712,0.012271,0.024552,0.031057,0.0,81.685297,15.01863,better
+wide tools,roift-tversky,ROI fine-tune from BCE-Tversky,precision,3489,1245,0.927209,0.907582,-0.019418,-0.012021,-0.021437,-0.017435,0.0,16.647465,80.126728,worse
+wide tools,roift-tversky,ROI fine-tune from BCE-Tversky,hd95,3489,1245,51.363832,53.108146,1.753341,0.0,-0.476325,4.082488,0.690717,49.971198,47.465438,no change
+tiny or thin,roift-tversky,ROI fine-tune from BCE-Tversky,iou,1282,772,0.721384,0.725784,0.0044,0.0,-0.003095,0.012225,0.389881,48.283931,46.567863,no change
+tiny or thin,roift-tversky,ROI fine-tune from BCE-Tversky,recall,1282,772,0.828959,0.866611,0.037652,0.016794,0.029572,0.045902,0.0,78.471139,17.316693,better
+tiny or thin,roift-tversky,ROI fine-tune from BCE-Tversky,precision,1282,772,0.850034,0.819706,-0.028567,-0.01674,-0.034862,-0.022227,0.0,21.573398,75.993512,worse
+tiny or thin,roift-tversky,ROI fine-tune from BCE-Tversky,hd95,1282,772,69.127518,70.444089,1.203465,0.308705,-3.53068,5.911312,0.045355,53.609084,44.120032,no change
+scene Smoke,roift-tversky,ROI fine-tune from BCE-Tversky,iou,43,43,0.765243,0.766502,0.001259,0.001471,-0.026096,0.031486,0.995233,51.162791,48.837209,no change
+scene Smoke,roift-tversky,ROI fine-tune from BCE-Tversky,recall,43,43,0.862119,0.892212,0.030093,0.012231,0.003886,0.06052,0.000228,76.744186,20.930233,better
+scene Smoke,roift-tversky,ROI fine-tune from BCE-Tversky,precision,43,43,0.890269,0.856018,-0.034252,-0.01674,-0.054046,-0.016573,8e-06,18.604651,79.069767,worse
+scene Smoke,roift-tversky,ROI fine-tune from BCE-Tversky,hd95,43,43,56.57406,71.136192,14.562131,1.258702,-9.518672,44.354815,0.143559,58.139535,41.860465,no change
+scene Blood,roift-tversky,ROI fine-tune from BCE-Tversky,iou,360,280,0.806051,0.814716,0.008665,0.001018,-0.000771,0.018648,0.207302,50.277778,46.111111,no change
+scene Blood,roift-tversky,ROI fine-tune from BCE-Tversky,recall,360,280,0.878685,0.910915,0.03223,0.013647,0.022904,0.042997,0.0,81.111111,15.555556,better
+scene Blood,roift-tversky,ROI fine-tune from BCE-Tversky,precision,360,280,0.911279,0.888425,-0.02317,-0.013517,-0.029922,-0.016493,0.0,19.491525,77.683616,worse
+scene Blood,roift-tversky,ROI fine-tune from BCE-Tversky,hd95,360,280,55.03409,58.417617,3.484381,0.220246,-4.122183,10.901678,0.420838,52.542373,47.457627,no change
+scene Motion Blur,roift-tversky,ROI fine-tune from BCE-Tversky,iou,359,307,0.756613,0.780808,0.024195,0.004233,0.010407,0.038052,0.000763,56.824513,40.111421,better
+scene Motion Blur,roift-tversky,ROI fine-tune from BCE-Tversky,recall,359,307,0.839452,0.892934,0.053481,0.016809,0.037185,0.069637,0.0,80.222841,16.713092,better
+scene Motion Blur,roift-tversky,ROI fine-tune from BCE-Tversky,precision,359,307,0.887069,0.865417,-0.021478,-0.014208,-0.029208,-0.014137,0.0,20.903955,75.988701,worse
+scene Motion Blur,roift-tversky,ROI fine-tune from BCE-Tversky,hd95,359,307,76.829852,71.460809,-5.346301,-0.430233,-13.524892,2.202866,0.058312,45.762712,53.107345,no change
+scene Underexposure,roift-tversky,ROI fine-tune from BCE-Tversky,iou,61,54,0.738614,0.733997,-0.004617,0.004727,-0.043543,0.02394,0.292474,52.459016,44.262295,no change
+scene Underexposure,roift-tversky,ROI fine-tune from BCE-Tversky,recall,61,54,0.838367,0.8837,0.045333,0.019154,0.001362,0.087133,5e-05,75.409836,19.672131,better
+scene Underexposure,roift-tversky,ROI fine-tune from BCE-Tversky,precision,61,54,0.864294,0.830772,-0.033522,-0.019087,-0.055146,-0.015348,0.000118,25.0,75.0,worse
+scene Underexposure,roift-tversky,ROI fine-tune from BCE-Tversky,hd95,61,54,68.221625,68.334667,0.113042,0.170135,-10.779599,11.200786,0.774248,50.0,48.333333,no change
+scene Overexposure,roift-tversky,ROI fine-tune from BCE-Tversky,iou,82,73,0.761885,0.774683,0.012798,0.000211,-0.011924,0.037606,0.560922,47.560976,46.341463,no change
+scene Overexposure,roift-tversky,ROI fine-tune from BCE-Tversky,recall,82,73,0.84256,0.87545,0.032891,0.013754,0.006946,0.059949,0.0,80.487805,15.853659,better
+scene Overexposure,roift-tversky,ROI fine-tune from BCE-Tversky,precision,82,73,0.884909,0.864099,-0.021761,-0.014687,-0.039225,-0.003328,1e-06,18.75,77.5,worse
+scene Overexposure,roift-tversky,ROI fine-tune from BCE-Tversky,hd95,82,73,76.904834,62.673221,-13.955083,-0.189718,-31.703604,3.346984,0.481596,47.5,51.25,no change
+scene any degradation,roift-tversky,ROI fine-tune from BCE-Tversky,iou,850,618,0.778693,0.793139,0.014446,0.002544,0.006478,0.022056,0.001209,52.705882,43.882353,better
+scene any degradation,roift-tversky,ROI fine-tune from BCE-Tversky,recall,850,618,0.859443,0.900234,0.040792,0.014875,0.032023,0.049908,0.0,80.588235,16.352941,better
+scene any degradation,roift-tversky,ROI fine-tune from BCE-Tversky,precision,850,618,0.89524,0.872565,-0.022867,-0.014208,-0.027574,-0.018202,0.0,20.167064,76.968974,worse
+scene any degradation,roift-tversky,ROI fine-tune from BCE-Tversky,hd95,850,618,67.16304,65.235889,-1.813137,0.0,-7.022978,3.350323,0.464011,49.403341,49.880668,no change
+scene clean,roift-tversky,ROI fine-tune from BCE-Tversky,iou,2587,1201,0.819135,0.823348,0.004213,-0.000544,-0.000257,0.008598,0.772271,45.960572,48.936993,no change
+scene clean,roift-tversky,ROI fine-tune from BCE-Tversky,recall,2587,1201,0.892968,0.92049,0.027523,0.012468,0.022911,0.032154,0.0,80.054117,16.273676,better
+scene clean,roift-tversky,ROI fine-tune from BCE-Tversky,precision,2587,1201,0.90699,0.885887,-0.020537,-0.01274,-0.023751,-0.017547,0.0,17.418596,79.207532,worse
+scene clean,roift-tversky,ROI fine-tune from BCE-Tversky,hd95,2587,1201,53.218675,55.659656,2.483873,0.117444,-0.096038,5.100261,0.080969,51.078854,45.978815,no change
+tool-free frames,roift-tversky,ROI fine-tune from BCE-Tversky,iou,326,274,0.696319,0.613497,-0.082822,0.0,-0.130709,-0.034285,0.0,5.828221,14.110429,worse
+tool-free frames,roift-tversky,ROI fine-tune from BCE-Tversky,recall,326,274,,,,,,,,,,n/a
+tool-free frames,roift-tversky,ROI fine-tune from BCE-Tversky,precision,326,274,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,no change
+tool-free frames,roift-tversky,ROI fine-tune from BCE-Tversky,hd95,326,274,,,,,,,,,,n/a

@@ -1,0 +1,4 @@
+stratum,run,label,metric,matched_threshold,n_frames,mean,median,improved_pct,worsened_pct,p
+all tool frames,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,0.804856,4652,0.000427,-0.000371,45.700774,48.624248,0.640423
+size tiny,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,0.743742,600,0.003946,0.001268,50.333333,39.333333,0.002853
+thin tools,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,0.79541,1163,-0.000568,0.0,46.603611,47.549441,0.871743

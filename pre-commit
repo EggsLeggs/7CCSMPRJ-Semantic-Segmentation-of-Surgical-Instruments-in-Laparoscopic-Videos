@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+# Alert if staged files contain known secrets. Does not rewrite anything.
+
+set -uo pipefail
+
+# This hook holds the literal patterns, so skip it.
+SKIP_RE='^pre-commit$'
+
+LEAK_RE='k25072606'
+LEAK_RE+='|1JClkHlYB51NfUEUJQHj9DIahfpnEPrv2Fqupg2fazlI'
+LEAK_RE+='|(discord|discordapp)\.com/api/webhooks/[0-9]+/[A-Za-z0-9_.-]+'
+LEAK_RE+='|docs\.google\.com/spreadsheets/d/[A-Za-z0-9_-]{25,}'
+LEAK_RE+='|/Users/haydenb'
+LEAK_RE+='|hf_[A-Za-z0-9]{30,}'
+LEAK_RE+='|(ghp|gho|ghu|ghs|ghr)_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{40,}'
+LEAK_RE+='|sk-[A-Za-z0-9_-]{20,}'
+LEAK_RE+='|AIza[A-Za-z0-9_-]{30,}|ya29\.[A-Za-z0-9_.-]{20,}|AKIA[0-9A-Z]{16}'
+LEAK_RE+='|[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.iam\.gserviceaccount\.com'
+LEAK_RE+='|-----BEGIN [A-Z ]*PRIVATE KEY-----'
+
+leaked=0
+while IFS= read -r -d '' f; do
+	[[ "$f" =~ $SKIP_RE ]] && continue
+	hits=$(git show ":$f" 2>/dev/null | grep -aoE "$LEAK_RE" | sort -u) || true
+	[ -z "$hits" ] && continue
+	leaked=1
+	echo "pre-commit: secret found in $f"
+	printf '    %s\n' $hits
+done < <(git diff --cached --name-only --diff-filter=ACM -z)
+
+if [ "$leaked" -ne 0 ]; then
+	echo
+	echo "Commit aborted: take the values above out of the staged files and try again."
+	exit 1
+fi

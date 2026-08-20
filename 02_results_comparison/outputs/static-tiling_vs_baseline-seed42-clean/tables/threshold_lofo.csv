@@ -1,0 +1,5 @@
+objective,run,label,thresholds,iou_lofo,iou_at_0.50,gain
+overall IoU,baseline-seed42-clean,Baseline (seed 42),0.4/0.4/0.4/0.4/0.4,0.811231,0.810614,0.000617
+overall IoU,static-tiling,Static tiling,0.4/0.4/0.4/0.4/0.4,0.806996,0.80593,0.001065
+tiny IoU,baseline-seed42-clean,Baseline (seed 42),0.5/0.4/0.5/0.4/0.4,0.810286,0.810614,-0.000328
+tiny IoU,static-tiling,Static tiling,0.5/0.4/0.5/0.5/0.5,0.805875,0.80593,-5.5e-05

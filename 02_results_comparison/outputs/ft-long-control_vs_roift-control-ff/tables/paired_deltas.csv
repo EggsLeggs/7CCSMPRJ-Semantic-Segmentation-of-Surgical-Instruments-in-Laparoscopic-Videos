@@ -1,0 +1,65 @@
+stratum,run,label,metric,n_frames,n_videos,reference,arm_value,delta,median,ci_low,ci_high,p,improved_pct,worsened_pct,verdict
+all tool frames,ft-long-control,"Fine-tune control, 50 ep",iou,4652,1294,0.813695,0.814375,0.00068,-0.000117,-0.000407,0.001747,0.106007,39.574377,42.411866,no change
+all tool frames,ft-long-control,"Fine-tune control, 50 ep",recall,4652,1294,0.886761,0.887937,0.001176,-0.000927,-0.0,0.002319,0.0,29.363715,49.462597,no change
+all tool frames,ft-long-control,"Fine-tune control, 50 ep",precision,4652,1294,0.907571,0.906522,-0.000799,0.000821,-0.001579,-5.8e-05,0.0,48.078176,30.162866,worse
+all tool frames,ft-long-control,"Fine-tune control, 50 ep",hd95,4652,1294,56.087071,55.849489,-0.479239,0.0,-1.497557,0.504591,0.015646,42.432139,45.124864,no change
+size tiny,ft-long-control,"Fine-tune control, 50 ep",iou,600,463,0.649292,0.649776,0.000484,0.0,-0.004791,0.005659,0.760416,42.666667,42.5,no change
+size tiny,ft-long-control,"Fine-tune control, 50 ep",recall,600,463,0.772227,0.773046,0.000819,-0.000359,-0.004765,0.006685,0.02002,33.166667,45.833333,no change
+size tiny,ft-long-control,"Fine-tune control, 50 ep",precision,600,463,0.812767,0.807951,-0.003403,0.00017,-0.008075,0.000973,0.500383,44.60177,39.646018,no change
+size tiny,ft-long-control,"Fine-tune control, 50 ep",hd95,600,463,77.518235,78.952448,0.745699,0.0,-2.838681,4.827977,0.30781,41.415929,45.663717,no change
+size small,ft-long-control,"Fine-tune control, 50 ep",iou,919,663,0.783408,0.782096,-0.001311,-0.000144,-0.004384,0.00188,0.31912,41.893362,44.287269,no change
+size small,ft-long-control,"Fine-tune control, 50 ep",recall,919,663,0.876806,0.877138,0.000332,-0.000788,-0.002608,0.003452,0.000107,33.51469,48.20457,no change
+size small,ft-long-control,"Fine-tune control, 50 ep",precision,919,663,0.883319,0.88167,-0.001436,0.000694,-0.00351,0.000398,0.001588,47.634763,34.10341,no change
+size small,ft-long-control,"Fine-tune control, 50 ep",hd95,919,663,70.468146,70.330573,-0.872791,0.0,-3.589516,1.795296,0.251245,41.694169,44.114411,no change
+size med,ft-long-control,"Fine-tune control, 50 ep",iou,2337,1148,0.851089,0.851825,0.000736,-0.000171,-0.000377,0.001933,0.081624,38.339752,42.190843,no change
+size med,ft-long-control,"Fine-tune control, 50 ep",recall,2337,1148,0.913343,0.91439,0.001047,-0.001128,-8e-06,0.002129,0.0,26.700899,51.604621,no change
+size med,ft-long-control,"Fine-tune control, 50 ep",precision,2337,1148,0.926186,0.925942,-0.000244,0.000967,-0.000926,0.000448,0.0,49.764454,27.5803,no change
+size med,ft-long-control,"Fine-tune control, 50 ep",hd95,2337,1148,48.710867,48.367826,-0.343041,0.0,-1.48325,0.894345,0.140221,42.269807,45.139186,no change
+size large,ft-long-control,"Fine-tune control, 50 ep",iou,796,545,0.862797,0.86576,0.002964,-0.000161,0.001182,0.004951,0.987029,38.190955,40.829146,better
+size large,ft-long-control,"Fine-tune control, 50 ep",recall,796,545,0.906546,0.909345,0.0028,-0.000772,0.000968,0.00487,5e-06,29.522613,47.361809,better
+size large,ft-long-control,"Fine-tune control, 50 ep",precision,796,545,0.948217,0.948365,0.000148,0.000799,-0.000783,0.001144,0.0,46.105528,26.507538,no change
+size large,ft-long-control,"Fine-tune control, 50 ep",hd95,796,545,46.018212,44.719408,-1.298804,0.0,-3.2647,0.676585,0.196737,44.472362,45.854271,no change
+thin tools,ft-long-control,"Fine-tune control, 50 ep",iou,1163,709,0.716673,0.71716,0.000487,0.0,-0.002484,0.003362,0.967178,43.422184,42.304385,no change
+thin tools,ft-long-control,"Fine-tune control, 50 ep",recall,1163,709,0.826431,0.826933,0.000502,-0.000819,-0.002831,0.003731,3e-06,32.50215,48.925193,no change
+thin tools,ft-long-control,"Fine-tune control, 50 ep",precision,1163,709,0.847198,0.845506,-0.000696,0.000857,-0.003221,0.001788,0.000153,48.892826,34.100974,no change
+thin tools,ft-long-control,"Fine-tune control, 50 ep",hd95,1163,709,70.607584,70.102146,-1.145454,0.0,-3.501773,1.238539,0.009962,39.238264,47.741364,no change
+wide tools,ft-long-control,"Fine-tune control, 50 ep",iou,3489,1245,0.846035,0.84678,0.000745,-0.000186,-0.000374,0.001872,0.042571,38.291774,42.447693,no change
+wide tools,ft-long-control,"Fine-tune control, 50 ep",recall,3489,1245,0.906872,0.908272,0.0014,-0.000953,0.000303,0.002496,0.0,28.31757,49.641731,better
+wide tools,ft-long-control,"Fine-tune control, 50 ep",precision,3489,1245,0.927209,0.926399,-0.000833,0.000814,-0.001586,-0.000154,0.0,47.813579,28.883774,worse
+wide tools,ft-long-control,"Fine-tune control, 50 ep",hd95,3489,1245,51.363832,51.206516,-0.262853,0.0,-1.353944,0.835462,0.174313,43.469505,44.275029,no change
+tiny or thin,ft-long-control,"Fine-tune control, 50 ep",iou,1282,772,0.721384,0.722274,0.00089,0.0,-0.001765,0.003701,0.961465,43.291732,42.5117,no change
+tiny or thin,ft-long-control,"Fine-tune control, 50 ep",recall,1282,772,0.828959,0.830057,0.001099,-0.00073,-0.001994,0.004225,2e-06,32.371295,48.283931,no change
+tiny or thin,ft-long-control,"Fine-tune control, 50 ep",precision,1282,772,0.850034,0.847976,-0.001151,0.000791,-0.003325,0.001184,9.6e-05,48.433735,34.216867,no change
+tiny or thin,ft-long-control,"Fine-tune control, 50 ep",hd95,1282,772,69.127518,68.932221,-0.777061,0.0,-3.095235,1.290349,0.017786,39.759036,46.987952,no change
+scene Smoke,ft-long-control,"Fine-tune control, 50 ep",iou,43,43,0.765243,0.773159,0.007916,-0.000703,-0.006696,0.026873,0.476319,46.511628,46.511628,no change
+scene Smoke,ft-long-control,"Fine-tune control, 50 ep",recall,43,43,0.862119,0.870445,0.008327,-0.001391,-0.007154,0.027919,0.8758,39.534884,51.162791,no change
+scene Smoke,ft-long-control,"Fine-tune control, 50 ep",precision,43,43,0.890269,0.890305,3.5e-05,0.000209,-0.002463,0.002562,0.688768,41.860465,39.534884,no change
+scene Smoke,ft-long-control,"Fine-tune control, 50 ep",hd95,43,43,56.57406,55.449527,-1.124533,0.246211,-4.575926,1.680056,0.790512,58.139535,37.209302,no change
+scene Blood,ft-long-control,"Fine-tune control, 50 ep",iou,360,280,0.806051,0.806091,4e-05,-0.000188,-0.003102,0.002699,0.907244,42.5,43.611111,no change
+scene Blood,ft-long-control,"Fine-tune control, 50 ep",recall,360,280,0.878685,0.879847,0.001162,-0.00079,-0.000684,0.003091,0.011383,32.5,47.777778,no change
+scene Blood,ft-long-control,"Fine-tune control, 50 ep",precision,360,280,0.911279,0.91014,-0.001139,0.000585,-0.00395,0.001239,0.026501,46.045198,33.050847,no change
+scene Blood,ft-long-control,"Fine-tune control, 50 ep",hd95,360,280,55.03409,56.964812,1.930723,0.0,-1.317019,5.600874,0.293944,41.80791,47.740113,no change
+scene Motion Blur,ft-long-control,"Fine-tune control, 50 ep",iou,359,307,0.756613,0.758529,0.001916,-0.0,-0.003017,0.006921,0.880954,42.896936,42.061281,no change
+scene Motion Blur,ft-long-control,"Fine-tune control, 50 ep",recall,359,307,0.839452,0.845429,0.005977,-0.000552,0.000893,0.012011,0.333986,35.376045,46.796657,better
+scene Motion Blur,ft-long-control,"Fine-tune control, 50 ep",precision,359,307,0.887069,0.884361,-0.00239,0.000716,-0.005828,0.000663,0.040952,48.732394,34.084507,no change
+scene Motion Blur,ft-long-control,"Fine-tune control, 50 ep",hd95,359,307,76.829852,75.739721,-0.834419,0.0,-4.567741,2.909486,0.640578,48.450704,43.098592,no change
+scene Underexposure,ft-long-control,"Fine-tune control, 50 ep",iou,61,54,0.738614,0.748532,0.009918,0.002076,-0.000115,0.023084,0.272694,50.819672,44.262295,no change
+scene Underexposure,ft-long-control,"Fine-tune control, 50 ep",recall,61,54,0.838367,0.856558,0.018191,0.000303,0.002979,0.0379,0.190072,47.540984,40.983607,better
+scene Underexposure,ft-long-control,"Fine-tune control, 50 ep",precision,61,54,0.864294,0.863568,-0.000726,-0.000841,-0.004463,0.003805,0.418069,36.666667,50.0,no change
+scene Underexposure,ft-long-control,"Fine-tune control, 50 ep",hd95,61,54,68.221625,63.178749,-5.042876,-0.129817,-11.608832,0.861192,0.316037,40.0,56.666667,no change
+scene Overexposure,ft-long-control,"Fine-tune control, 50 ep",iou,82,73,0.761885,0.765567,0.003681,0.0,-0.007293,0.013165,0.889534,41.463415,43.902439,no change
+scene Overexposure,ft-long-control,"Fine-tune control, 50 ep",recall,82,73,0.84256,0.849623,0.007063,-0.000762,-0.000715,0.016061,0.354611,31.707317,45.121951,no change
+scene Overexposure,ft-long-control,"Fine-tune control, 50 ep",precision,82,73,0.884909,0.885779,0.00087,0.000789,-0.008813,0.009047,0.135792,49.382716,29.62963,no change
+scene Overexposure,ft-long-control,"Fine-tune control, 50 ep",hd95,82,73,76.904834,71.385605,-5.519229,0.0,-12.013851,-0.113416,0.258992,39.506173,48.148148,better
+scene any degradation,ft-long-control,"Fine-tune control, 50 ep",iou,850,618,0.778693,0.780497,0.001804,-0.000145,-0.000893,0.004455,0.977641,42.705882,43.764706,no change
+scene any degradation,ft-long-control,"Fine-tune control, 50 ep",recall,850,618,0.859443,0.863432,0.003989,-0.000716,0.001418,0.006675,0.012445,34.117647,47.294118,better
+scene any degradation,ft-long-control,"Fine-tune control, 50 ep",precision,850,618,0.89524,0.894084,-0.001031,0.000687,-0.002983,0.000735,0.002239,47.261905,34.047619,no change
+scene any degradation,ft-long-control,"Fine-tune control, 50 ep",hd95,850,618,67.16304,66.678953,-0.364511,0.0,-2.628353,1.92252,0.679827,45.357143,45.238095,no change
+scene clean,ft-long-control,"Fine-tune control, 50 ep",iou,2587,1201,0.819135,0.820658,0.001522,-4.5e-05,2e-06,0.003215,0.61221,39.814457,41.090066,better
+scene clean,ft-long-control,"Fine-tune control, 50 ep",recall,2587,1201,0.892968,0.894355,0.001388,-0.000877,-0.000164,0.003061,0.0,28.9138,48.859683,no change
+scene clean,ft-long-control,"Fine-tune control, 50 ep",precision,2587,1201,0.90699,0.906477,-0.000418,0.000877,-0.001446,0.000654,0.0,49.004295,29.636861,no change
+scene clean,ft-long-control,"Fine-tune control, 50 ep",hd95,2587,1201,53.218675,53.039263,-0.432791,0.0,-1.69449,0.77785,0.015766,41.390082,45.021476,no change
+tool-free frames,ft-long-control,"Fine-tune control, 50 ep",iou,326,274,0.696319,0.680982,-0.015337,0.0,-0.042042,0.012311,0.000589,2.147239,3.680982,no change
+tool-free frames,ft-long-control,"Fine-tune control, 50 ep",recall,326,274,,,,,,,,,,n/a
+tool-free frames,ft-long-control,"Fine-tune control, 50 ep",precision,326,274,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,no change
+tool-free frames,ft-long-control,"Fine-tune control, 50 ep",hd95,326,274,,,,,,,,,,n/a

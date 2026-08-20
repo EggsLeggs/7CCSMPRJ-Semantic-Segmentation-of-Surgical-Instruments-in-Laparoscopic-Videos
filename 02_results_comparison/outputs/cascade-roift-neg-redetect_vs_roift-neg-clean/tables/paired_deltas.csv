@@ -1,0 +1,65 @@
+stratum,run,label,metric,n_frames,n_videos,reference,arm_value,delta,median,ci_low,ci_high,p,improved_pct,worsened_pct,verdict
+all tool frames,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,iou,4652,1294,0.819022,0.82215,0.003128,5.5e-05,0.001743,0.004538,0.0,30.030095,24.011178,better
+all tool frames,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,recall,4652,1294,0.897223,0.912271,0.015048,0.00249,0.013442,0.01675,0.0,58.147034,0.38693,better
+all tool frames,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,precision,4652,1294,0.902813,0.891867,-0.010613,-0.001691,-0.011738,-0.009541,0.0,1.885566,54.78977,worse
+all tool frames,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,hd95,4652,1294,57.217322,59.614612,2.275418,0.0,1.309082,3.224436,0.042983,36.714348,36.302557,worse
+size tiny,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,iou,600,463,0.653616,0.664561,0.010944,0.0,0.002863,0.019437,0.898242,35.666667,38.5,better
+size tiny,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,recall,600,463,0.784486,0.826956,0.04247,0.006929,0.032963,0.052592,0.0,72.333333,2.166667,better
+size tiny,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,precision,600,463,0.799797,0.77327,-0.024977,-0.006133,-0.031644,-0.018951,0.0,7.368421,69.649123,worse
+size tiny,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,hd95,600,463,89.332336,95.931686,6.472379,0.0,2.805827,10.66296,0.338518,41.052632,37.192982,worse
+size small,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,iou,919,663,0.788216,0.788616,0.000399,9.3e-05,-0.002448,0.003496,0.067935,38.084875,32.644178,no change
+size small,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,recall,919,663,0.889563,0.9071,0.017537,0.004906,0.014974,0.020098,0.0,73.884657,0.435256,better
+size small,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,precision,919,663,0.878574,0.862372,-0.016462,-0.004056,-0.019246,-0.013953,0.0,2.188184,69.037199,worse
+size small,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,hd95,919,663,68.775546,72.824859,3.820312,0.0,1.027841,6.96416,0.765798,38.402626,38.512035,worse
+size med,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,iou,2337,1148,0.855416,0.857718,0.002302,7.3e-05,0.001102,0.003682,0.0,29.482242,21.82285,better
+size med,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,recall,2337,1148,0.92163,0.932076,0.010446,0.002254,0.009231,0.011791,0.0,57.210098,0.04279,better
+size med,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,precision,2337,1148,0.922943,0.915241,-0.007702,-0.001632,-0.008523,-0.006909,0.0,0.899358,54.346895,worse
+size med,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,hd95,2337,1148,49.430688,50.950379,1.51969,0.0,0.339217,2.684547,0.01818,35.460385,37.044968,worse
+size large,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,iou,796,545,0.872417,0.875231,0.002813,4e-05,0.001811,0.003961,8e-06,18.090452,9.547739,better
+size large,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,recall,796,545,0.919389,0.924403,0.005014,0.000131,0.003891,0.006375,0.0,32.035176,0.0,better
+size large,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,precision,796,545,0.945419,0.943278,-0.002141,-0.00011,-0.002658,-0.001692,0.0,0.503145,29.056604,worse
+size large,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,hd95,796,545,43.773315,43.483099,-0.290216,0.0,-1.055233,0.497249,0.192876,35.345912,30.943396,no change
+thin tools,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,iou,1163,709,0.720646,0.728415,0.007769,5.4e-05,0.003394,0.012632,0.002274,36.88736,30.524506,better
+thin tools,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,recall,1163,709,0.835916,0.866812,0.030896,0.005897,0.025819,0.036319,0.0,70.421324,1.289768,better
+thin tools,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,precision,1163,709,0.839713,0.820307,-0.018463,-0.004297,-0.022029,-0.015116,0.0,4.845815,65.638767,worse
+thin tools,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,hd95,1163,709,73.298362,75.612495,2.07346,0.0,-0.071784,4.253862,0.09433,37.004405,38.414097,no change
+wide tools,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,iou,3489,1245,0.851814,0.853396,0.001581,5.5e-05,0.000558,0.002768,0.0,27.744339,21.840069,better
+wide tools,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,recall,3489,1245,0.917659,0.927424,0.009765,0.001651,0.008764,0.010894,0.0,54.055603,0.085985,better
+wide tools,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,precision,3489,1245,0.923399,0.915371,-0.008052,-0.001159,-0.008888,-0.007282,0.0,0.919805,51.250359,worse
+wide tools,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,hd95,3489,1245,51.970992,54.360135,2.341305,0.0,1.257742,3.405469,0.179102,36.619718,35.613682,worse
+tiny or thin,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,iou,1282,772,0.725642,0.732348,0.006706,3.9e-05,0.002433,0.011011,0.008668,36.583463,31.513261,better
+tiny or thin,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,recall,1282,772,0.839398,0.869015,0.029617,0.005839,0.025164,0.034642,0.0,70.514821,1.326053,better
+tiny or thin,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,precision,1282,772,0.842387,0.822553,-0.018964,-0.004311,-0.022497,-0.015775,0.0,4.636291,65.947242,worse
+tiny or thin,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,hd95,1282,772,73.364127,76.462165,2.885115,0.0,0.700812,5.262409,0.171132,37.490008,38.289369,worse
+scene Smoke,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,iou,43,43,0.777821,0.779093,0.001272,0.000211,-0.003617,0.005299,0.176101,30.232558,18.604651,no change
+scene Smoke,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,recall,43,43,0.881151,0.887947,0.006796,0.000431,0.003341,0.010763,5.8e-05,46.511628,0.0,better
+scene Smoke,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,precision,43,43,0.883615,0.877657,-0.005958,-0.000707,-0.010757,-0.002375,0.000199,0.0,48.837209,worse
+scene Smoke,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,hd95,43,43,77.605606,77.714621,0.109015,0.0,-0.787441,1.47474,0.032678,25.581395,46.511628,no change
+scene Blood,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,iou,360,280,0.807143,0.813554,0.006411,9.4e-05,0.00093,0.013062,0.000952,35.0,21.666667,better
+scene Blood,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,recall,360,280,0.881776,0.899667,0.017891,0.00313,0.012689,0.024651,0.0,60.277778,0.555556,better
+scene Blood,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,precision,360,280,0.909928,0.897721,-0.012207,-0.002222,-0.016751,-0.008457,0.0,1.412429,58.19209,worse
+scene Blood,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,hd95,360,280,56.757406,59.083386,2.325979,0.0,-0.640647,5.57734,0.919274,39.548023,35.875706,no change
+scene Motion Blur,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,iou,359,307,0.772543,0.778373,0.00583,3.3e-05,0.001604,0.010562,0.023676,31.476323,24.791086,better
+scene Motion Blur,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,recall,359,307,0.863048,0.879805,0.016757,0.002864,0.012351,0.021539,0.0,57.938719,0.278552,better
+scene Motion Blur,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,precision,359,307,0.884479,0.874552,-0.010173,-0.002071,-0.013367,-0.007585,0.0,1.126761,57.746479,worse
+scene Motion Blur,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,hd95,359,307,70.559909,69.937357,-0.803484,0.0,-2.938849,1.322687,0.534444,39.71831,39.43662,no change
+scene Underexposure,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,iou,61,54,0.743757,0.748422,0.004665,-7.2e-05,-0.004798,0.015068,0.771126,27.868852,39.344262,no change
+scene Underexposure,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,recall,61,54,0.872484,0.893205,0.020721,0.006452,0.012217,0.031125,0.0,63.934426,0.0,better
+scene Underexposure,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,precision,61,54,0.84666,0.817513,-0.015522,-0.002508,-0.028064,-0.007246,0.0,1.666667,63.333333,worse
+scene Underexposure,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,hd95,61,54,72.446524,77.571887,3.62102,0.0,-3.23854,11.473552,0.822008,41.666667,43.333333,no change
+scene Overexposure,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,iou,82,73,0.76342,0.768459,0.005039,0.000102,-0.010843,0.023012,0.19949,26.829268,18.292683,no change
+scene Overexposure,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,recall,82,73,0.85013,0.869908,0.019778,0.001239,0.006866,0.039016,0.0,52.439024,0.0,better
+scene Overexposure,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,precision,82,73,0.870652,0.863068,-0.007584,-0.000239,-0.021058,0.005927,1.7e-05,7.407407,43.209877,no change
+scene Overexposure,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,hd95,82,73,72.468667,73.137521,0.668853,0.0,-7.292292,9.497454,0.233034,29.62963,44.444444,no change
+scene any degradation,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,iou,850,618,0.786845,0.792435,0.00559,8.7e-05,0.001981,0.009421,0.000117,32.235294,24.0,better
+scene any degradation,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,recall,850,618,0.872526,0.889991,0.017465,0.002814,0.014103,0.021663,0.0,58.705882,0.352941,better
+scene any degradation,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,precision,850,618,0.891991,0.879941,-0.0111,-0.002049,-0.013875,-0.008451,0.0,1.785714,57.02381,worse
+scene any degradation,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,hd95,850,618,65.674875,66.859088,0.983876,0.0,-0.857427,2.886892,0.336699,38.095238,39.047619,no change
+scene clean,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,iou,2587,1201,0.824329,0.826857,0.002528,3.6e-05,0.000864,0.004362,0.001668,28.681871,24.700425,better
+scene clean,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,recall,2587,1201,0.90313,0.917289,0.014159,0.002345,0.012134,0.01648,0.0,57.441051,0.463858,better
+scene clean,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,precision,2587,1201,0.902863,0.89261,-0.010299,-0.001737,-0.011776,-0.008875,0.0,1.792673,54.676539,worse
+scene clean,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,hd95,2587,1201,55.559767,58.411245,2.717747,0.0,1.414468,4.06706,0.683866,37.334373,35.074045,worse
+tool-free frames,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,iou,326,274,0.659509,0.607362,-0.052147,0.0,-0.076929,-0.029674,0.0,0.0,5.214724,worse
+tool-free frames,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,recall,326,274,,,,,,,,,,n/a
+tool-free frames,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,precision,326,274,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,no change
+tool-free frames,cascade-roift-neg-redetect,Cascade on ROI-tuned weights,hd95,326,274,,,,,,,,,,n/a

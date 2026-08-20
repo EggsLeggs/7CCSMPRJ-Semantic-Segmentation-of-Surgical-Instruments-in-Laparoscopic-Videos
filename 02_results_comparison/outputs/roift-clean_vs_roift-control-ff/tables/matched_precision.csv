@@ -1,0 +1,31 @@
+convention,stratum,run,label,n_frames,target_precision,matched_threshold,reference_recall,arm_recall_matched,delta_recall_matched,delta_recall_at_0.50,out_of_grid
+per-frame,all tool frames,roift-clean,"ROI fine-tune, 15 ep",4652,0.907571,0.539039,0.886761,0.889345,0.002584,0.009769,False
+per-frame,size tiny,roift-clean,"ROI fine-tune, 15 ep",600,0.812767,0.59138,0.772227,0.7565,-0.015727,0.011228,False
+per-frame,size small,roift-clean,"ROI fine-tune, 15 ep",919,0.883319,0.528825,0.876806,0.881584,0.004778,0.010735,False
+per-frame,size med,roift-clean,"ROI fine-tune, 15 ep",2337,0.926186,0.52541,0.913343,0.916992,0.003648,0.007806,False
+per-frame,size large,roift-clean,"ROI fine-tune, 15 ep",796,0.948217,0.517968,0.906546,0.91723,0.010684,0.013315,False
+per-frame,thin tools,roift-clean,"ROI fine-tune, 15 ep",1163,0.847198,0.553417,0.826431,0.820648,-0.005782,0.007566,False
+per-frame,wide tools,roift-clean,"ROI fine-tune, 15 ep",3489,0.927209,0.531119,0.906872,0.912309,0.005437,0.010503,False
+per-frame,tiny or thin,roift-clean,"ROI fine-tune, 15 ep",1282,0.850034,0.555335,0.828959,0.82417,-0.004788,0.008935,False
+per-frame,scene Smoke,roift-clean,"ROI fine-tune, 15 ep",43,0.890269,0.548371,0.862119,0.873949,0.01183,0.021188,False
+per-frame,scene Blood,roift-clean,"ROI fine-tune, 15 ep",360,0.911279,0.509833,0.878685,0.882776,0.004091,0.006044,False
+per-frame,scene Motion Blur,roift-clean,"ROI fine-tune, 15 ep",359,0.887069,0.527031,0.839452,0.859804,0.020351,0.026172,False
+per-frame,scene Underexposure,roift-clean,"ROI fine-tune, 15 ep",61,0.864294,0.565513,0.838367,0.844563,0.006196,0.023357,False
+per-frame,scene Overexposure,roift-clean,"ROI fine-tune, 15 ep",82,0.884909,0.60105,0.84256,0.831188,-0.011372,0.012433,False
+per-frame,scene any degradation,roift-clean,"ROI fine-tune, 15 ep",850,0.89524,0.52313,0.859443,0.869774,0.010332,0.015213,False
+per-frame,scene clean,roift-clean,"ROI fine-tune, 15 ep",2587,0.90699,0.534621,0.892968,0.895667,0.002699,0.008918,False
+pooled,all tool frames,roift-clean,"ROI fine-tune, 15 ep",4652,0.915181,0.543862,0.903056,0.906692,0.003636,0.010867,False
+pooled,size tiny,roift-clean,"ROI fine-tune, 15 ep",600,0.730062,0.631918,0.820791,0.794259,-0.026533,0.01146,False
+pooled,size small,roift-clean,"ROI fine-tune, 15 ep",919,0.850061,0.569054,0.877641,0.873221,-0.00442,0.010348,False
+pooled,size med,roift-clean,"ROI fine-tune, 15 ep",2337,0.919429,0.533732,0.913913,0.916567,0.002654,0.008101,False
+pooled,size large,roift-clean,"ROI fine-tune, 15 ep",796,0.947598,0.516755,0.901123,0.91373,0.012607,0.015118,False
+pooled,thin tools,roift-clean,"ROI fine-tune, 15 ep",1163,0.827013,0.578773,0.868092,0.856649,-0.011443,0.006938,False
+pooled,wide tools,roift-clean,"ROI fine-tune, 15 ep",3489,0.927664,0.534699,0.90767,0.913602,0.005931,0.011386,False
+pooled,tiny or thin,roift-clean,"ROI fine-tune, 15 ep",1282,0.826725,0.573874,0.867374,0.857941,-0.009433,0.007674,False
+pooled,scene Smoke,roift-clean,"ROI fine-tune, 15 ep",43,0.874331,0.499891,0.856804,0.89568,0.038875,0.038855,False
+pooled,scene Blood,roift-clean,"ROI fine-tune, 15 ep",360,0.918309,0.512955,0.896617,0.902127,0.00551,0.007852,False
+pooled,scene Motion Blur,roift-clean,"ROI fine-tune, 15 ep",359,0.885073,0.61768,0.850271,0.847711,-0.00256,0.024476,False
+pooled,scene Underexposure,roift-clean,"ROI fine-tune, 15 ep",61,0.865327,0.7,0.840187,0.805428,-0.034759,0.024853,True
+pooled,scene Overexposure,roift-clean,"ROI fine-tune, 15 ep",82,0.900683,0.49803,0.848928,0.8776,0.028671,0.028245,False
+pooled,scene any degradation,roift-clean,"ROI fine-tune, 15 ep",850,0.898078,0.55448,0.872389,0.878568,0.006179,0.017254,False
+pooled,scene clean,roift-clean,"ROI fine-tune, 15 ep",2587,0.915855,0.536193,0.912408,0.916902,0.004494,0.010171,False

@@ -1,0 +1,17 @@
+run,label,threshold,iou,precision,recall,iou_tiny,recall_tiny,notool_fp_px
+baseline-seed42-clean,Baseline (seed 42),0.1,0.783485,0.823475,0.941986,0.606014,0.863783,6567.027607
+baseline-seed42-clean,Baseline (seed 42),0.2,0.800507,0.854254,0.927231,0.626792,0.838386,5717.920245
+baseline-seed42-clean,Baseline (seed 42),0.3,0.808286,0.873873,0.914491,0.638354,0.819589,5153.625767
+baseline-seed42-clean,Baseline (seed 42),0.4,0.811231,0.888783,0.902018,0.643131,0.800759,4748.662577
+baseline-seed42-clean,Baseline (seed 42),0.5,0.810614,0.901515,0.888456,0.643358,0.78,4397.702454
+baseline-seed42-clean,Baseline (seed 42),0.55,0.80907,0.907114,0.881037,0.642062,0.76907,4224.365031
+baseline-seed42-clean,Baseline (seed 42),0.6,0.806605,0.912508,0.872941,0.639569,0.757466,4050.08589
+baseline-seed42-clean,Baseline (seed 42),0.65,0.803096,0.917775,0.863928,0.635811,0.744799,3879.880368
+baseline-seed42-clean,Baseline (seed 42),0.7,0.798312,0.923291,0.853695,0.630463,0.730487,3715.984663
+synaug_low,"Synthetic aug, safe [ERRONEOUS]",0.1,0.779579,0.81624,0.94552,0.608814,0.871314,5818.656442
+synaug_low,"Synthetic aug, safe [ERRONEOUS]",0.2,0.79937,0.84986,0.931398,0.633578,0.84796,4877.423313
+synaug_low,"Synthetic aug, safe [ERRONEOUS]",0.3,0.808615,0.871059,0.918631,0.645699,0.82769,4350.874233
+synaug_low,"Synthetic aug, safe [ERRONEOUS]",0.4,0.812708,0.887243,0.905859,0.652728,0.808433,3993.43865
+synaug_low,"Synthetic aug, safe [ERRONEOUS]",0.5,0.813092,0.901436,0.892146,0.655917,0.78899,3701.503067
+synaug_low,"Synthetic aug, safe [ERRONEOUS]",0.6,0.809718,0.914062,0.876025,0.653905,0.766098,3423.325153
+synaug_low,"Synthetic aug, safe [ERRONEOUS]",0.7,0.801562,0.925972,0.855703,0.645045,0.736733,3135.297546

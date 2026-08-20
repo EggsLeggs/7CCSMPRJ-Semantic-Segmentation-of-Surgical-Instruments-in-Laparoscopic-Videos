@@ -1,0 +1,31 @@
+convention,stratum,run,label,n_frames,target_precision,matched_threshold,reference_recall,arm_recall_matched,delta_recall_matched,delta_recall_at_0.50,out_of_grid
+per-frame,all tool frames,tversky-rescore-hi,BCE-Tversky (grid to 0.95),4652,0.901515,0.804856,0.888456,0.888882,0.000427,0.02098,False
+per-frame,size tiny,tversky-rescore-hi,BCE-Tversky (grid to 0.95),600,0.79139,0.743742,0.78,0.783946,0.003946,0.025486,False
+per-frame,size small,tversky-rescore-hi,BCE-Tversky (grid to 0.95),919,0.879945,0.817044,0.884734,0.881183,-0.003552,0.021871,False
+per-frame,size med,tversky-rescore-hi,BCE-Tversky (grid to 0.95),2337,0.921759,0.822343,0.912271,0.912637,0.000366,0.021056,False
+per-frame,size large,tversky-rescore-hi,BCE-Tversky (grid to 0.95),796,0.94476,0.799706,0.904584,0.90559,0.001006,0.016335,False
+per-frame,thin tools,tversky-rescore-hi,BCE-Tversky (grid to 0.95),1163,0.83983,0.79541,0.833709,0.833141,-0.000568,0.026353,False
+per-frame,wide tools,tversky-rescore-hi,BCE-Tversky (grid to 0.95),3489,0.921539,0.810464,0.906705,0.907283,0.000578,0.01919,False
+per-frame,tiny or thin,tversky-rescore-hi,BCE-Tversky (grid to 0.95),1282,0.840568,0.786081,0.835496,0.836416,0.00092,0.026196,False
+per-frame,scene Smoke,tversky-rescore-hi,BCE-Tversky (grid to 0.95),43,0.875564,0.81136,0.879004,0.86282,-0.016184,0.006723,False
+per-frame,scene Blood,tversky-rescore-hi,BCE-Tversky (grid to 0.95),360,0.900485,0.773072,0.879418,0.887917,0.008499,0.026929,False
+per-frame,scene Motion Blur,tversky-rescore-hi,BCE-Tversky (grid to 0.95),359,0.88249,0.817246,0.844804,0.853672,0.008868,0.034457,False
+per-frame,scene Underexposure,tversky-rescore-hi,BCE-Tversky (grid to 0.95),61,0.867844,0.874088,0.843001,0.819975,-0.023026,0.021539,False
+per-frame,scene Overexposure,tversky-rescore-hi,BCE-Tversky (grid to 0.95),82,0.878892,0.818259,0.845916,0.837349,-0.008568,0.014493,False
+per-frame,scene any degradation,tversky-rescore-hi,BCE-Tversky (grid to 0.95),850,0.888223,0.800795,0.861577,0.868661,0.007084,0.029459,False
+per-frame,scene clean,tversky-rescore-hi,BCE-Tversky (grid to 0.95),2587,0.901688,0.804412,0.892653,0.892093,-0.00056,0.019162,False
+pooled,all tool frames,tversky-rescore-hi,BCE-Tversky (grid to 0.95),4652,0.91009,0.82148,0.90186,0.901002,-0.000858,0.019527,False
+pooled,size tiny,tversky-rescore-hi,BCE-Tversky (grid to 0.95),600,0.714459,0.834794,0.826454,0.818151,-0.008303,0.026934,False
+pooled,size small,tversky-rescore-hi,BCE-Tversky (grid to 0.95),919,0.844001,0.778508,0.885693,0.886923,0.00123,0.021127,False
+pooled,size med,tversky-rescore-hi,BCE-Tversky (grid to 0.95),2337,0.914296,0.830271,0.912692,0.911784,-0.000908,0.020572,False
+pooled,size large,tversky-rescore-hi,BCE-Tversky (grid to 0.95),796,0.944877,0.82569,0.896684,0.895253,-0.00143,0.01687,False
+pooled,thin tools,tversky-rescore-hi,BCE-Tversky (grid to 0.95),1163,0.827062,0.846875,0.873757,0.866749,-0.007008,0.027041,False
+pooled,wide tools,tversky-rescore-hi,BCE-Tversky (grid to 0.95),3489,0.921875,0.814863,0.905569,0.905712,0.000143,0.018536,False
+pooled,tiny or thin,tversky-rescore-hi,BCE-Tversky (grid to 0.95),1282,0.824599,0.835215,0.872499,0.867588,-0.004911,0.026871,False
+pooled,scene Smoke,tversky-rescore-hi,BCE-Tversky (grid to 0.95),43,0.873838,0.87728,0.879444,0.846993,-0.032452,0.002704,False
+pooled,scene Blood,tversky-rescore-hi,BCE-Tversky (grid to 0.95),360,0.911434,0.774585,0.89926,0.902688,0.003428,0.019779,False
+pooled,scene Motion Blur,tversky-rescore-hi,BCE-Tversky (grid to 0.95),359,0.882443,0.823078,0.846275,0.85504,0.008765,0.032903,False
+pooled,scene Underexposure,tversky-rescore-hi,BCE-Tversky (grid to 0.95),61,0.87087,0.886633,0.851798,0.8403,-0.011499,0.037262,False
+pooled,scene Overexposure,tversky-rescore-hi,BCE-Tversky (grid to 0.95),82,0.897702,0.739688,0.875977,0.883764,0.007787,0.019667,False
+pooled,scene any degradation,tversky-rescore-hi,BCE-Tversky (grid to 0.95),850,0.894572,0.806043,0.874286,0.879808,0.005522,0.026404,False
+pooled,scene clean,tversky-rescore-hi,BCE-Tversky (grid to 0.95),2587,0.909921,0.821896,0.906564,0.906147,-0.000417,0.019285,False

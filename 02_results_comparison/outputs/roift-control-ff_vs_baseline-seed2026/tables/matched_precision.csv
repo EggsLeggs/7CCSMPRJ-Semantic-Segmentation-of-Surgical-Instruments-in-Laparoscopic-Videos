@@ -1,0 +1,31 @@
+convention,stratum,run,label,n_frames,target_precision,matched_threshold,reference_recall,arm_recall_matched,delta_recall_matched,delta_recall_at_0.50,out_of_grid
+per-frame,all tool frames,roift-control-ff,"Fine-tune control, 15 ep",4652,0.902842,0.459581,0.887531,0.891949,0.004418,-0.000769,False
+per-frame,size tiny,roift-control-ff,"Fine-tune control, 15 ep",600,0.794257,0.392957,0.773368,0.793282,0.019914,-0.001141,False
+per-frame,size small,roift-control-ff,"Fine-tune control, 15 ep",919,0.880317,0.479226,0.877074,0.87978,0.002705,-0.000268,False
+per-frame,size med,roift-control-ff,"Fine-tune control, 15 ep",2337,0.923057,0.470081,0.913705,0.916812,0.003107,-0.000362,False
+per-frame,size large,roift-control-ff,"Fine-tune control, 15 ep",796,0.946338,0.475937,0.90881,0.908861,5.2e-05,-0.002264,False
+per-frame,thin tools,roift-control-ff,"Fine-tune control, 15 ep",1163,0.836496,0.433387,0.824268,0.838212,0.013943,0.002162,False
+per-frame,wide tools,roift-control-ff,"Fine-tune control, 15 ep",3489,0.924416,0.472651,0.908618,0.909939,0.001321,-0.001746,False
+per-frame,tiny or thin,roift-control-ff,"Fine-tune control, 15 ep",1282,0.83897,0.429661,0.827243,0.841213,0.01397,0.001716,False
+per-frame,scene Smoke,roift-control-ff,"Fine-tune control, 15 ep",43,0.888869,0.48624,0.858389,0.864534,0.006145,0.00373,False
+per-frame,scene Blood,roift-control-ff,"Fine-tune control, 15 ep",360,0.907059,0.463877,0.878467,0.883386,0.004919,0.000219,False
+per-frame,scene Motion Blur,roift-control-ff,"Fine-tune control, 15 ep",359,0.883752,0.469271,0.843035,0.843986,0.000951,-0.003582,False
+per-frame,scene Underexposure,roift-control-ff,"Fine-tune control, 15 ep",61,0.861111,0.477375,0.836353,0.842682,0.006329,0.002014,False
+per-frame,scene Overexposure,roift-control-ff,"Fine-tune control, 15 ep",82,0.870882,0.376882,0.85541,0.859046,0.003637,-0.01285,False
+per-frame,scene any degradation,roift-control-ff,"Fine-tune control, 15 ep",850,0.89065,0.459953,0.861068,0.865128,0.00406,-0.001626,False
+per-frame,scene clean,roift-control-ff,"Fine-tune control, 15 ep",2587,0.902488,0.461697,0.893164,0.897746,0.004582,-0.000196,False
+pooled,all tool frames,roift-control-ff,"Fine-tune control, 15 ep",4652,0.909173,0.444173,0.904201,0.909355,0.005154,-0.001144,False
+pooled,size tiny,roift-control-ff,"Fine-tune control, 15 ep",600,0.681439,0.273463,0.817937,0.86163,0.043693,0.002854,False
+pooled,size small,roift-control-ff,"Fine-tune control, 15 ep",919,0.842894,0.451285,0.87767,0.884571,0.006901,-2.9e-05,False
+pooled,size med,roift-control-ff,"Fine-tune control, 15 ep",2337,0.914798,0.457019,0.914553,0.918814,0.004261,-0.00064,False
+pooled,size large,roift-control-ff,"Fine-tune control, 15 ep",796,0.945512,0.473406,0.903687,0.903692,5e-06,-0.002564,False
+pooled,thin tools,roift-control-ff,"Fine-tune control, 15 ep",1163,0.806899,0.37939,0.864041,0.887038,0.022997,0.004051,False
+pooled,wide tools,roift-control-ff,"Fine-tune control, 15 ep",3489,0.923854,0.461075,0.909501,0.911826,0.002326,-0.00183,False
+pooled,tiny or thin,roift-control-ff,"Fine-tune control, 15 ep",1282,0.806088,0.376944,0.863725,0.886607,0.022881,0.003648,False
+pooled,scene Smoke,roift-control-ff,"Fine-tune control, 15 ep",43,0.875122,0.50954,0.852993,0.854821,0.001828,0.003812,False
+pooled,scene Blood,roift-control-ff,"Fine-tune control, 15 ep",360,0.916315,0.482081,0.897457,0.898705,0.001249,-0.000839,False
+pooled,scene Motion Blur,roift-control-ff,"Fine-tune control, 15 ep",359,0.879743,0.450337,0.856843,0.857132,0.00029,-0.006572,False
+pooled,scene Underexposure,roift-control-ff,"Fine-tune control, 15 ep",61,0.847563,0.372381,0.837358,0.86455,0.027191,0.002829,False
+pooled,scene Overexposure,roift-control-ff,"Fine-tune control, 15 ep",82,0.879485,0.336499,0.864866,0.868572,0.003706,-0.015938,False
+pooled,scene any degradation,roift-control-ff,"Fine-tune control, 15 ep",850,0.892619,0.451451,0.87595,0.87877,0.00282,-0.003561,False
+pooled,scene clean,roift-control-ff,"Fine-tune control, 15 ep",2587,0.908928,0.435306,0.912715,0.919377,0.006662,-0.000307,False

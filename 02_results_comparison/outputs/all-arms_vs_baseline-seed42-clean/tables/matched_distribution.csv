@@ -1,0 +1,19 @@
+stratum,run,label,metric,matched_threshold,n_frames,mean,median,improved_pct,worsened_pct,p
+all tool frames,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,0.804856,4652,0.000427,-0.000371,45.700774,48.624248,0.640423
+all tool frames,synaug-fixed,"Synthetic aug, additive",recall,0.477435,4652,0.002739,0.001164,50.472915,43.121238,0.0
+all tool frames,static-tiling,Static tiling,recall,0.563828,4652,-0.011485,-0.009179,31.513328,64.230439,0.0
+all tool frames,cascade-redetect-clean,Cascade on baseline weights,recall,0.574396,4652,0.000867,-0.004162,38.091144,56.728289,0.0
+all tool frames,roift-control-ff,"Fine-tune control, 15 ep",recall,0.448244,4652,0.004948,0.003889,58.533964,34.759243,0.0
+all tool frames,roift-long,"ROI fine-tune, 50 ep",recall,0.495609,4652,0.011033,0.001179,50.472915,43.185727,0.0
+size tiny,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,0.743742,600,0.003946,0.001268,50.333333,39.333333,0.002853
+size tiny,synaug-fixed,"Synthetic aug, additive",recall,0.426319,600,0.013974,0.008845,61.833333,30.333333,0.0
+size tiny,static-tiling,Static tiling,recall,0.583442,600,-0.008268,-0.013378,30.333333,65.0,0.0
+size tiny,cascade-redetect-clean,Cascade on baseline weights,recall,0.607596,600,0.005381,-0.004446,35.333333,57.166667,0.002124
+size tiny,roift-control-ff,"Fine-tune control, 15 ep",recall,0.378681,600,0.016127,0.010678,67.833333,24.5,0.0
+size tiny,roift-long,"ROI fine-tune, 50 ep",recall,0.488866,600,0.012031,0.00109,50.166667,41.166667,0.017319
+thin tools,tversky-rescore-hi,BCE-Tversky (grid to 0.95),recall,0.79541,1163,-0.000568,0.0,46.603611,47.549441,0.871743
+thin tools,synaug-fixed,"Synthetic aug, additive",recall,0.472848,1163,0.004285,0.002874,53.654342,39.55288,2.4e-05
+thin tools,static-tiling,Static tiling,recall,0.575124,1163,-0.013564,-0.013845,30.696475,66.122098,0.0
+thin tools,cascade-redetect-clean,Cascade on baseline weights,recall,0.629247,1163,-0.010748,-0.013476,28.718831,67.49785,0.0
+thin tools,roift-control-ff,"Fine-tune control, 15 ep",recall,0.454139,1163,0.000833,0.003363,54.600172,39.638865,5e-05
+thin tools,roift-long,"ROI fine-tune, 50 ep",recall,0.504209,1163,0.003405,-0.000567,44.797936,48.581255,0.505875
